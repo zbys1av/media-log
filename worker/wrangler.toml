@@ -1,0 +1,14 @@
+name = "media-log-sync"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+GITHUB_OWNER = "zbys1av"
+GITHUB_REPO = "media-log"
+GITHUB_BRANCH = "main"
+GOOGLE_CLIENT_ID = "REPLACE_WITH_WEB_OAUTH_CLIENT_ID.apps.googleusercontent.com"
+ALLOWED_ORIGIN = "https://zbys1av.github.io"
+
+# Add the GitHub PAT ONLY as a Cloudflare secret:
+# npx wrangler secret put GITHUB_TOKEN
+# Optional: npx wrangler secret put GOOGLE_ALLOWED_SUB
