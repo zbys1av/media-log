@@ -22,9 +22,11 @@ async function verifyIdentity(req,env){
 }
 function endpoint(env){if(!/^[\w.-]+$/.test(env.GITHUB_OWNER||'')||!/^[\w.-]+$/.test(env.GITHUB_REPO||''))throw Error('GitHub settings missing');return 'https://api.github.com/repos/'+encodeURIComponent(env.GITHUB_OWNER)+'/'+encodeURIComponent(env.GITHUB_REPO)+'/contents/data.json';}
 async function github(env,method,body){
- if(!env.GITHUB_TOKEN)throw Error('GITHUB_TOKEN is not set in Worker Secrets');
+ const token=String(env.GITHUB_TOKEN||'').trim();
+ if(!token)throw Object.assign(new Error('Cloudflare Secret GITHUB_TOKEN is missing; update it in Worker settings'),{status:503});
+ if(/^(Bearer|token)\s/i.test(token))throw Object.assign(new Error('GITHUB_TOKEN should contain only the raw GitHub token, without Bearer/token prefix'),{status:503});
  const url=endpoint(env)+(method==='GET'?'?ref='+encodeURIComponent(env.GITHUB_BRANCH||'main'):'');
- return fetch(url,{method,headers:{authorization:'Bearer '+env.GITHUB_TOKEN,accept:'application/vnd.github+json','x-github-api-version':'2022-11-28','user-agent':'MEDIA-LOG-Cloudflare-Worker',...(body?{'content-type':'application/json'}:{})},body:body?JSON.stringify(body):undefined});
+ return fetch(url,{method,headers:{authorization:'Bearer '+token,accept:'application/vnd.github+json','x-github-api-version':'2022-11-28','user-agent':'MEDIA-LOG-Cloudflare-Worker',...(body?{'content-type':'application/json'}:{})},body:body?JSON.stringify(body):undefined});
 }
 // Safe, read-only diagnostics for denied writes; no token is returned or logged.
 async function diagnoseGithubToken(env){
@@ -43,9 +45,26 @@ async function diagnoseGithubToken(env){
  return result;
 }
 async function remote(env){
- const res=await github(env,'GET');if(res.status===404)return null;if(!res.ok)throw Error('GitHub GET '+res.status);
- const f=await res.json();if(f.type!=='file'||f.encoding!=='base64'||!f.sha)throw Error('Unexpected GitHub file');
- const data=JSON.parse(unb64(f.content));if(!Array.isArray(data?.records))throw Error('Invalid data.json');return {data,sha:f.sha};
+ // The repository is PUBLIC: reads do not need the secret write token.
+ // This prevents token rotation or expiration from breaking cloud loading.
+ const url=endpoint(env)+'?ref='+encodeURIComponent(env.GITHUB_BRANCH||'main');
+ const res=await fetch(url,{method:'GET',cache:'no-store',headers:{
+  accept:'application/vnd.github+json',
+  'x-github-api-version':'2022-11-28',
+  'user-agent':'MEDIA-LOG-Cloudflare-Worker',
+  'cache-control':'no-cache'
+ }});
+ if(res.status===404)return null;
+ if(!res.ok){
+  const body=await res.json().catch(()=>({}));
+  const reason=typeof body?.message==='string'?body.message.slice(0,160):'GitHub public read failed';
+  throw Object.assign(new Error('GitHub cloud read failed ('+res.status+'): '+reason),{status:502});
+ }
+ const f=await res.json();
+ if(f.type!=='file'||f.encoding!=='base64'||!f.sha)throw Object.assign(new Error('Unexpected GitHub data.json response'),{status:502});
+ const data=JSON.parse(unb64(f.content));
+ if(!Array.isArray(data?.records))throw Object.assign(new Error('Invalid GitHub data.json'),{status:502});
+ return {data,sha:f.sha};
 }
 export default {async fetch(req,env){
  const origin=req.headers.get('origin');const allowed=String(env.ALLOWED_ORIGIN||'').replace(/\/$/,'');
