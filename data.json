@@ -3,6 +3,46 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umvphn8u7eky0",
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "favorite": false,
+      "mark": "",
+      "title": "WARDOGS",
+      "category": "game",
+      "status": "online",
+      "releaseYear": null,
+      "posterSeason": null,
+      "date": null,
+      "startDate": null,
+      "endDate": null,
+      "bookFormat": "read",
+      "rating": null,
+      "scale": 100,
+      "genre": "",
+      "creator": "",
+      "platform": "",
+      "gameType": "",
+      "tags": [],
+      "notes": "",
+      "poster": "",
+      "posterSource": null,
+      "wishlist": false,
+      "earlyAccessDate": null,
+      "fullReleaseDate": null,
+      "accessStage": "auto",
+      "gameEvents": [],
+      "gameHistoryInitialized": true,
+      "originalTags": [],
+      "manualScale": 100
+    },
+    {
       "id": "umvp122t437zq",
       "title": "Кухня",
       "category": "tv",
@@ -63,7 +103,8 @@
             "matchedTitle": "Кухня",
             "matchedYear": "2012"
           },
-          "scale": 100
+          "scale": 100,
+          "rating": null
         },
         {
           "name": "Сезон 3",
@@ -83,7 +124,8 @@
             "matchedTitle": "Кухня",
             "matchedYear": "2012"
           },
-          "scale": 100
+          "scale": 100,
+          "rating": null
         },
         {
           "name": "Сезон 4",
@@ -103,7 +145,8 @@
             "matchedTitle": "Кухня",
             "matchedYear": "2012"
           },
-          "scale": 100
+          "scale": 100,
+          "rating": null
         },
         {
           "name": "Сезон 5",
@@ -123,7 +166,8 @@
             "matchedTitle": "Кухня",
             "matchedYear": "2012"
           },
-          "scale": 100
+          "scale": 100,
+          "rating": null
         },
         {
           "name": "Сезон 6",
@@ -143,7 +187,8 @@
             "matchedTitle": "Кухня",
             "matchedYear": "2012"
           },
-          "scale": 100
+          "scale": 100,
+          "rating": null
         }
       ],
       "details": {},
@@ -30183,8 +30228,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-10-26T11:59:57.117Z",
-    "kind": "Створено окрему копію без ігор",
-    "title": "435 записів"
+    "at": "2026-10-26T17:03:31.804Z",
+    "kind": "Відредаговано",
+    "title": "WARDOGS"
   }
 }
