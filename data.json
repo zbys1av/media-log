@@ -334,7 +334,9 @@
             "scale": 10
           },
           "scale": 100,
-          "ratingBeforeRepair": 860
+          "ratingBeforeRepair": 860,
+          "status": "done",
+          "droppedAtEpisode": null
         },
         {
           "name": "Сезон 2",
@@ -384,7 +386,9 @@
             "scale": 10
           },
           "scale": 100,
-          "ratingBeforeRepair": 250
+          "ratingBeforeRepair": 250,
+          "status": "done",
+          "droppedAtEpisode": null
         }
       ],
       "details": {},
@@ -30274,8 +30278,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-10-26T18:12:03.717Z",
-    "kind": "Оновлено оцінку",
-    "title": "WARDOGS"
+    "at": "2026-10-26T18:27:42.883Z",
+    "kind": "Відредаговано сезон",
+    "title": "Cyberpunk: Edgerunners"
   }
 }
