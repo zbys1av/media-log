@@ -44,25 +44,51 @@ async function diagnoseGithubToken(env){
  }catch{result.repoHttp='unavailable';}
  return result;
 }
+// Read with the configured GitHub token whenever available: Cloudflare's shared
+// anonymous GitHub API rate limit can otherwise break public repository reads.
+// If the token has been rotated or revoked, public data remains readable.
+async function githubRead(url,headers){
+ let last;
+ for(let attempt=0;attempt<3;attempt++){
+  try{
+   last=await fetch(url,{method:'GET',cache:'no-store',headers});
+   if(last.ok||![429,500,502,503,504].includes(last.status)||attempt===2)return last;
+  }catch(e){if(attempt===2)throw e;}
+  await new Promise(resolve=>setTimeout(resolve,300*(attempt+1)));
+ }
+ return last;
+}
 async function remote(env){
- // The repository is PUBLIC: reads do not need the secret write token.
- // This prevents token rotation or expiration from breaking cloud loading.
  const url=endpoint(env)+'?ref='+encodeURIComponent(env.GITHUB_BRANCH||'main');
- const res=await fetch(url,{method:'GET',cache:'no-store',headers:{
+ const headers={
   accept:'application/vnd.github+json',
   'x-github-api-version':'2022-11-28',
   'user-agent':'MEDIA-LOG-Cloudflare-Worker',
   'cache-control':'no-cache'
- }});
+ };
+ const token=String(env.GITHUB_TOKEN||'').trim();
+ if(token&&!/^(Bearer|token)\\s/i.test(token))headers.authorization='Bearer '+token;
+ let res;
+ try{
+  res=await githubRead(url,headers);
+  // Bad/expired PAT must not prevent anonymous reads of this public repository.
+  if(!res.ok&&[401,403,404].includes(res.status)&&headers.authorization){
+   delete headers.authorization;
+   res=await githubRead(url,headers);
+  }
+ }catch{
+  throw Object.assign(new Error('GitHub could not be reached; try again shortly'),{status:502});
+ }
  if(res.status===404)return null;
  if(!res.ok){
   const body=await res.json().catch(()=>({}));
-  const reason=typeof body?.message==='string'?body.message.slice(0,160):'GitHub public read failed';
-  throw Object.assign(new Error('GitHub cloud read failed ('+res.status+'): '+reason),{status:502});
+  const reason=typeof body?.message==='string'?body.message.slice(0,160):'GitHub returned an error';
+  throw Object.assign(new Error('GitHub read ('+res.status+'): '+reason),{status:502});
  }
- const f=await res.json();
- if(f.type!=='file'||f.encoding!=='base64'||!f.sha)throw Object.assign(new Error('Unexpected GitHub data.json response'),{status:502});
- const data=JSON.parse(unb64(f.content));
+ const f=await res.json().catch(()=>null);
+ if(f?.type!=='file'||f.encoding!=='base64'||!f.sha||!f.content)throw Object.assign(new Error('GitHub file response has an unexpected format'),{status:502});
+ let data;
+ try{data=JSON.parse(unb64(f.content));}catch{throw Object.assign(new Error('GitHub data.json could not be decoded'),{status:502});}
  if(!Array.isArray(data?.records))throw Object.assign(new Error('Invalid GitHub data.json'),{status:502});
  return {data,sha:f.sha};
 }
