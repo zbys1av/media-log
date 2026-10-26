@@ -17,13 +17,13 @@
       "title": "WARDOGS",
       "category": "game",
       "status": "online",
-      "releaseYear": null,
+      "releaseYear": 2026,
       "posterSeason": null,
-      "date": null,
+      "date": "2026-10-26",
       "startDate": null,
       "endDate": null,
       "bookFormat": "read",
-      "rating": null,
+      "rating": 71,
       "scale": 100,
       "genre": "",
       "creator": "",
@@ -37,10 +37,53 @@
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9_fzBizxKeVnRikIaXQOwrkdECxHVfd6mEoDpNtJwDA&s=10",
       "posterSource": null,
       "wishlist": false,
-      "earlyAccessDate": null,
+      "earlyAccessDate": "2026-09-10",
       "fullReleaseDate": null,
-      "accessStage": "auto",
-      "gameEvents": [],
+      "accessStage": "early",
+      "gameEvents": [
+        {
+          "id": "umvpkmtkytbc5",
+          "kind": "review",
+          "date": "2026-09-17",
+          "startDate": null,
+          "endDate": null,
+          "rating": 83,
+          "scale": 100,
+          "accessStage": "early",
+          "note": "",
+          "source": "Вручну",
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Геймплей": 85,
+              "Виконання": 69,
+              "Залученість": 91
+            },
+            "date": "2026-10-26"
+          }
+        },
+        {
+          "id": "umvpkpdgylhgl",
+          "kind": "review",
+          "date": "2026-10-26",
+          "startDate": null,
+          "endDate": null,
+          "rating": 71,
+          "scale": 100,
+          "accessStage": "auto",
+          "note": "",
+          "source": "Вручну",
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Геймплей": 78,
+              "Виконання": 62,
+              "Залученість": 68
+            },
+            "date": "2026-10-26"
+          }
+        }
+      ],
       "gameHistoryInitialized": true,
       "originalTags": [],
       "manualScale": 100
@@ -30231,8 +30274,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-10-26T17:19:29.153Z",
-    "kind": "Відредаговано",
+    "at": "2026-10-26T18:12:03.717Z",
+    "kind": "Оновлено оцінку",
     "title": "WARDOGS"
   }
 }
