@@ -919,7 +919,7 @@ function cloudRender(){if(ui.page==='settings'&&ui.settingsTab==='data'){render(
 function cloudApiRequest(path,opts={}){const url=cloudApi()+path;return fetch(url,{mode:'cors',cache:'no-store',...opts});}
 async function cloudGet(){
  if(cloudEnabled()){
-  const resp=await cloudApiRequest('/data');if(!resp.ok)throw Error('GitHub API: '+resp.status);
+  const resp=await cloudApiRequest('/data');if(!resp.ok){let detail='';try{const issue=await resp.json();detail=String(issue?.error||'').slice(0,220);}catch(e){}throw Error('GitHub API: '+resp.status+(detail?' — '+detail:''));}
   const body=await resp.json();if(!body?.data||!Array.isArray(body.data.records))throw Error('Невірний формат JSON у GitHub');
   return {data:body.data,sha:body.sha||null};
  }
