@@ -26,6 +26,22 @@ async function github(env,method,body){
  const url=endpoint(env)+(method==='GET'?'?ref='+encodeURIComponent(env.GITHUB_BRANCH||'main'):'');
  return fetch(url,{method,headers:{authorization:'Bearer '+env.GITHUB_TOKEN,accept:'application/vnd.github+json','x-github-api-version':'2022-11-28','user-agent':'MEDIA-LOG-Cloudflare-Worker',...(body?{'content-type':'application/json'}:{})},body:body?JSON.stringify(body):undefined});
 }
+// Safe, read-only diagnostics for denied writes; no token is returned or logged.
+async function diagnoseGithubToken(env){
+ const headers={authorization:'Bearer '+env.GITHUB_TOKEN,accept:'application/vnd.github+json','x-github-api-version':'2022-11-28','user-agent':'MEDIA-LOG-Cloudflare-Worker'};
+ const result={};
+ try{
+  const r=await fetch('https://api.github.com/user',{headers});
+  result.userHttp=r.status;
+  if(r.ok){const profile=await r.json();result.login=profile.login||null;}
+ }catch{result.userHttp='unavailable';}
+ try{
+  const r=await fetch('https://api.github.com/repos/'+encodeURIComponent(env.GITHUB_OWNER)+'/'+encodeURIComponent(env.GITHUB_REPO),{headers});
+  result.repoHttp=r.status;
+  if(r.ok){const repository=await r.json();result.repoPush=repository.permissions?.push===true;result.repoAdmin=repository.permissions?.admin===true;result.repoFullName=repository.full_name||null;}
+ }catch{result.repoHttp='unavailable';}
+ return result;
+}
 async function remote(env){
  const res=await github(env,'GET');if(res.status===404)return null;if(!res.ok)throw Error('GitHub GET '+res.status);
  const f=await res.json();if(f.type!=='file'||f.encoding!=='base64'||!f.sha)throw Error('Unexpected GitHub file');
@@ -50,7 +66,18 @@ export default {async fetch(req,env){
      else {const change={message:'MEDIA / LOG · cloud save ('+data.records.length+' records)',content:utf8b64(JSON.stringify(data,null,2)+'\n'),branch:env.GITHUB_BRANCH||'main',...(prev?{sha:prev.sha}:{})};
       const out=await github(env,'PUT',change);
       if(out.status===409||out.status===422)result=failure(409,'GitHub conflict');
-      else if(!out.ok){const ghError=await out.json().catch(()=>({}));const ghMsg=typeof ghError?.message==='string'?ghError.message.slice(0,200):'Check repository access and Contents: write permission';result=failure(502,'GitHub write rejected ('+out.status+'): '+ghMsg);}
+      else if(!out.ok){
+       const ghError=await out.json().catch(()=>({}));
+       const ghMsg=typeof ghError?.message==='string'?ghError.message.slice(0,200):'GitHub write was denied';
+       const required=out.headers.get('x-accepted-github-permissions')||'not returned';
+       let diag={};
+       if(out.status===403||out.status===401)diag=await diagnoseGithubToken(env);
+       // The diagnostic is visible only after valid Google sign-in, not to unauthenticated visitors.
+       result=failure(502,'GitHub write rejected ('+out.status+'): '+ghMsg
+        +' | Required: '+required
+        +' | Token user: '+(diag.login||'unknown')+' (HTTP '+(diag.userHttp||'?')+')'
+        +' | Repository: '+(diag.repoFullName||'unknown')+' (HTTP '+(diag.repoHttp||'?')+', push='+(diag.repoPush===true?'yes':diag.repoPush===false?'no':'unknown')+')');
+      }
       else {const body=await out.json();result=asJson({saved:true,sha:body.content?.sha,commit:body.commit?.sha,email:user.email});}
      }}
    }
