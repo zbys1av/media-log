@@ -50,7 +50,7 @@ export default {async fetch(req,env){
      else {const change={message:'MEDIA / LOG · cloud save ('+data.records.length+' records)',content:utf8b64(JSON.stringify(data,null,2)+'\n'),branch:env.GITHUB_BRANCH||'main',...(prev?{sha:prev.sha}:{})};
       const out=await github(env,'PUT',change);
       if(out.status===409||out.status===422)result=failure(409,'GitHub conflict');
-      else if(!out.ok)result=failure(502,'GitHub denied write ('+out.status+')');
+      else if(!out.ok){const ghError=await out.json().catch(()=>({}));const ghMsg=typeof ghError?.message==='string'?ghError.message.slice(0,200):'Check repository access and Contents: write permission';result=failure(502,'GitHub write rejected ('+out.status+'): '+ghMsg);}
       else {const body=await out.json();result=asJson({saved:true,sha:body.content?.sha,commit:body.commit?.sha,email:user.email});}
      }}
    }
