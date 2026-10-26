@@ -29,9 +29,12 @@
       "creator": "",
       "platform": "",
       "gameType": "",
-      "tags": [],
+      "tags": [
+        "PC",
+        "Steam"
+      ],
       "notes": "",
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9_fzBizxKeVnRikIaXQOwrkdECxHVfd6mEoDpNtJwDA&s=10",
       "posterSource": null,
       "wishlist": false,
       "earlyAccessDate": null,
@@ -30228,7 +30231,7 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-10-26T17:03:31.804Z",
+    "at": "2026-10-26T17:19:29.153Z",
     "kind": "Відредаговано",
     "title": "WARDOGS"
   }
