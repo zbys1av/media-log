@@ -49,7 +49,12 @@
           "source": "Перше внесення"
         }
       ],
-      "bookHistoryInitialized": true
+      "bookHistoryInitialized": true,
+      "originalTags": [
+        "Новела",
+        "фантастика"
+      ],
+      "manualScale": 100
     },
     {
       "id": "umvphn8u7eky0",
