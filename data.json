@@ -3,6 +3,55 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umvr2dq8s4m7x",
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "favorite": false,
+      "mark": "",
+      "title": "Mort",
+      "category": "book",
+      "status": "done",
+      "releaseYear": 1987,
+      "posterSeason": null,
+      "date": "2026-08-20",
+      "startDate": "2026-07-20",
+      "endDate": "2026-08-20",
+      "bookFormat": "audio",
+      "rating": 80,
+      "scale": 100,
+      "genre": "",
+      "creator": "Terry Pratchett",
+      "platform": "",
+      "gameType": "",
+      "tags": [
+        "Новела",
+        "фантастика"
+      ],
+      "notes": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTW2f8x8Xkkl3PofK0RyApoBuSMHznk_8Gswx2wdqUw&s=10",
+      "posterSource": null,
+      "wishlist": false,
+      "bookEvents": [
+        {
+          "id": "umvr2dq8ss5fn",
+          "date": "2026-08-20",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-20",
+          "rating": 80,
+          "scale": 100,
+          "note": "",
+          "source": "Перше внесення"
+        }
+      ],
+      "bookHistoryInitialized": true
+    },
+    {
       "id": "umvphn8u7eky0",
       "source": [
         "Додано вручну"
@@ -30232,6 +30281,22 @@
         "categories": [
           "tv"
         ]
+      },
+      {
+        "name": "Новела",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "book"
+        ]
+      },
+      {
+        "name": "фантастика",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "book"
+        ]
       }
     ],
     "moods": [
@@ -30278,8 +30343,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-10-26T18:27:42.883Z",
-    "kind": "Відредаговано сезон",
-    "title": "Cyberpunk: Edgerunners"
+    "at": "2026-10-27T19:14:09.053Z",
+    "kind": "Додано",
+    "title": "Mort"
   }
 }
