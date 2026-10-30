@@ -7579,9 +7579,9 @@
       "title": "Dune: Part Two",
       "category": "movie",
       "status": "done",
-      "rating": 90,
+      "rating": 84,
       "scale": 100,
-      "date": "2024-03-10",
+      "date": "2026-10-29",
       "genre": "Sci-fi/Adventure",
       "creator": "Denis Villeneuve",
       "notes": "",
@@ -7598,7 +7598,7 @@
           "scale": 5
         }
       ],
-      "rewatches": 1,
+      "rewatches": 2,
       "seasons": [],
       "details": {},
       "platform": "",
@@ -7616,6 +7616,24 @@
           "legacyRating": {
             "value": 4.5,
             "scale": 5
+          }
+        },
+        {
+          "id": "umvuifyh7p5p0",
+          "date": "2026-10-29",
+          "rating": 84,
+          "scale": 100,
+          "note": "",
+          "source": "Вручну",
+          "estimated": false,
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 74,
+              "Реалізація": 97,
+              "Враження": 85
+            },
+            "date": "2026-10-30"
           }
         }
       ],
@@ -30348,8 +30366,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-10-27T19:14:09.053Z",
-    "kind": "Додано",
-    "title": "Mort"
+    "at": "2026-10-30T05:08:03.380Z",
+    "kind": "Оновлено оцінку",
+    "title": "Dune: Part Two"
   }
 }
