@@ -147,7 +147,7 @@
       "title": "Кухня",
       "category": "tv",
       "status": "",
-      "rating": null,
+      "rating": 78,
       "scale": 100,
       "source": [
         "Додано вручну"
@@ -170,20 +170,38 @@
             {
               "id": "umvp1329nt6lz",
               "startDate": "2026-10-25",
-              "endDate": null,
-              "date": "2026-10-25",
-              "rating": null,
+              "endDate": "2026-11-01",
+              "date": "2026-11-01",
+              "rating": 78,
               "scale": 100,
               "note": "",
-              "source": "Перший перегляд"
+              "source": "Перший перегляд",
+              "rubric": {
+                "method": "3 критерії · зважене середнє",
+                "scores": {
+                  "Історія": 83,
+                  "Персонажі": 68,
+                  "Захоплення": 80
+                },
+                "date": "2026-11-01"
+              }
             }
           ],
           "posterSource": null,
-          "rating": null,
+          "rating": 78,
           "startDate": "2026-10-25",
-          "endDate": "2026-10-25",
-          "date": "2026-10-25",
-          "scale": 100
+          "endDate": "2026-11-01",
+          "date": "2026-11-01",
+          "scale": 100,
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія": 83,
+              "Персонажі": 68,
+              "Захоплення": 80
+            },
+            "date": "2026-11-01"
+          }
         },
         {
           "name": "Сезон 2",
@@ -298,7 +316,7 @@
       "favorite": false,
       "wishlist": false,
       "poster": "https://static.tvmaze.com/uploads/images/original_untouched/17/44266.jpg",
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "startDate": null,
       "endDate": null,
       "posterSource": {
@@ -30366,8 +30384,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-10-30T05:08:03.380Z",
+    "at": "2026-11-01T18:54:05.292Z",
     "kind": "Оновлено оцінку",
-    "title": "Dune: Part Two"
+    "title": "Кухня"
   }
 }
