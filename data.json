@@ -3,6 +3,51 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umvzsvmkc4n5j",
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "favorite": false,
+      "mark": "",
+      "title": "Sicario",
+      "category": "movie",
+      "status": "done",
+      "releaseYear": 2015,
+      "posterSeason": null,
+      "date": "2026-11-02",
+      "startDate": null,
+      "endDate": null,
+      "bookFormat": "read",
+      "rating": 52,
+      "scale": 100,
+      "genre": "Crime, Action",
+      "creator": "Denis Villeneuve",
+      "platform": "",
+      "gameType": "",
+      "tags": [],
+      "notes": "Дуже дивний сюжет, нічого не зрозуміло, ніби відсотків 30 сценарію хтось викинув",
+      "poster": "https://images.fineartamerica.com/images/artworkimages/medium/3/sicario-minimal-movie-poster-retro-vintage-film-poster-2015-sampadart-gallery.jpg",
+      "posterSource": null,
+      "wishlist": false,
+      "manualRating": 52,
+      "manualScale": 100,
+      "manualDate": "2026-11-02",
+      "rubric": {
+        "method": "3 критерії · зважене середнє",
+        "scores": {
+          "Історія й персонажі": 50,
+          "Реалізація": 65,
+          "Враження": 40
+        },
+        "date": "2026-11-02"
+      }
+    },
+    {
       "id": "umvr2dq8s4m7x",
       "source": [
         "Додано вручну"
@@ -2654,14 +2699,14 @@
       "rating": 80,
       "scale": 100,
       "date": "2025-08-25",
-      "genre": "Action/Sci-fi",
+      "genre": "Action, Sci-fi",
       "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
       ],
       "favorite": false,
-      "poster": "https://i.ebayimg.com/images/g/D0MAAOSwyUpctnLs/s-l1200.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
       "source": [
         "MOVIES",
         "MOVIES 1",
@@ -2755,12 +2800,7 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2025-08-25",
-      "posterSource": {
-        "provider": "eBay",
-        "source": "https://i.ebayimg.com/images/g/D0MAAOSwyUpctnLs/s-l1200.jpg",
-        "method": "Підібрано вручну за результатами вебпошуку",
-        "matchedTitle": "Avengers: Endgame"
-      }
+      "posterSource": null
     },
     {
       "id": "m30",
@@ -3002,14 +3042,14 @@
       "rating": 90,
       "scale": 100,
       "date": "2025-08-18",
-      "genre": "Family/Comedy",
+      "genre": "Family, Comedy",
       "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
       ],
       "favorite": false,
-      "poster": "https://static.wikia.nocookie.net/penguinsofmadagascar/images/f/f9/Madagascar2ver3.jpg/revision/latest?cb=20180107161430",
+      "poster": "https://image.tmdb.org/t/p/original/agRbLOHgN46TQO4YdKR462iR7To.jpg",
       "source": [
         "MOVIES"
       ],
@@ -3057,12 +3097,7 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2025-08-18",
-      "posterSource": {
-        "provider": "Madagascar Wiki",
-        "source": "https://static.wikia.nocookie.net/penguinsofmadagascar/images/f/f9/Madagascar2ver3.jpg/revision/latest?cb=20180107161430",
-        "method": "Підібрано вручну за результатами вебпошуку",
-        "matchedTitle": "Madagascar 2"
-      }
+      "posterSource": null
     },
     {
       "id": "m34",
@@ -30384,8 +30419,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-01T18:54:05.292Z",
-    "kind": "Оновлено оцінку",
-    "title": "Кухня"
+    "at": "2026-11-02T22:01:26.314Z",
+    "kind": "Відредаговано",
+    "title": "Madagascar 2"
   }
 }
