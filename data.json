@@ -48,7 +48,14 @@
       "originalTags": [],
       "directors": [
         "Denis Villeneuve"
-      ]
+      ],
+      "actors": [
+        "Emily Blunt",
+        "Josh Brolin",
+        "Benicio Del Toro"
+      ],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "umvr2dq8s4m7x",
@@ -628,7 +635,14 @@
       ],
       "directors": [
         "Lance Oppenheim"
-      ]
+      ],
+      "actors": [
+        "Robert Pattinson",
+        "Merritt Wever",
+        "Skyler Gisondo"
+      ],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m1",
@@ -641,7 +655,8 @@
       "genre": "Horror, Sci-fi",
       "notes": "",
       "tags": [
-        "Game"
+        "Game",
+        "Zombie"
       ],
       "favorite": false,
       "poster": "https://m.media-amazon.com/images/M/MV5BOGZjZWI1NTItOGUwZC00YWZkLWIxZWEtNzE2ZTIxODdjNmZmXkEyXkFqcGc@._V1_.jpg",
@@ -693,6 +708,31 @@
       "manualDate": "2026-09-19",
       "directors": [
         "Zach Cregger"
+      ],
+      "actors": [
+        "Austin Abrams",
+        "Zach Cherry",
+        "Kali Reis",
+        "Paul Walter Hauser",
+        "Will Merrick",
+        "Andrea Miltner",
+        "Karel Dobrý",
+        "Zoé Bellas",
+        "Chris Lew Kum Hoi",
+        "Griffin Newman",
+        "Jo Martin",
+        "Emily Piggford",
+        "Johnno Wilson",
+        "Isla McRae",
+        "James Beaumont",
+        "Sara Paxton",
+        "Shaun W. Loeser",
+        "Magdalena Sittova"
+      ],
+      "studios": [],
+      "authors": [
+        "Zach Cregger",
+        "Shay Hatten"
       ]
     },
     {
@@ -705,7 +745,9 @@
       "date": "2026-09-06",
       "genre": "",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Cartoon"
+      ],
       "favorite": false,
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBi-i-wadFCRJGNmUL8xfdvDQZXW8H-0UhxhfXesH4Gg&s=10",
       "source": [
@@ -762,7 +804,41 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2026-09-06"
+      "manualDate": "2026-09-06",
+      "actors": [
+        "Antonio Banderas",
+        "Salma Hayek",
+        "Harvey Guillén",
+        "Florence Pugh",
+        "Olivia Colman",
+        "Ray Winstone",
+        "Samson Kayo",
+        "John Mulaney",
+        "Wagner Moura",
+        "Da'Vine Joy Randolph",
+        "Anthony Mendez",
+        "Kevin McCann",
+        "Bernardo De Paula",
+        "Betsy Sodaro",
+        "Artemis Pebdani",
+        "Conrad Vernon",
+        "Cody Cameron",
+        "Kailey Crawford",
+        "Al Rodrigo",
+        "Bob Persichetti"
+      ],
+      "directors": [
+        "Joel Crawford",
+        "Januel P. Mercado"
+      ],
+      "studios": [
+        "Universal Pictures"
+      ],
+      "authors": [
+        "Paul Fisher",
+        "Tommy Swerdlow",
+        "Tom Wheeler"
+      ]
     },
     {
       "id": "m3",
@@ -772,13 +848,13 @@
       "rating": 70,
       "scale": 100,
       "date": "2026-09-02",
-      "genre": "Adventure/Family",
+      "genre": "Adventure, Family",
       "notes": "",
       "tags": [
         "Cartoon"
       ],
       "favorite": false,
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Offterdinger_Der_gestiefelte_Kater_%281%29.jpg/960px-Offterdinger_Der_gestiefelte_Kater_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLpT_vNovWWy69cqZ7baVObjKdcFNEgv422Nn2-38YkQ&s",
       "source": [
         "MOVIES"
       ],
@@ -840,19 +916,42 @@
         "scale": 5
       },
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2011,
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-09-02",
-      "posterSource": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Offterdinger_Der_gestiefelte_Kater_%281%29.jpg/960px-Offterdinger_Der_gestiefelte_Kater_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "provider": "Wikipedia",
-        "source": "https://en.wikipedia.org/wiki/Puss_in_Boots",
-        "matchedTitle": "Puss in Boots",
-        "matchedYear": null
-      },
+      "posterSource": null,
       "directors": [
         "Chris Miller"
+      ],
+      "actors": [
+        "Antonio Banderas",
+        "Salma Hayek",
+        "Zach Galifianakis",
+        "Billy Bob Thornton",
+        "Amy Sedaris",
+        "Constance Marie",
+        "Guillermo del Toro",
+        "Mike Mitchell",
+        "Rich Dietl",
+        "Ryan Crego",
+        "Tom Wheeler",
+        "Conrad Vernon",
+        "Tom McGrath",
+        "Bob Joles",
+        "Latifa Ouaou",
+        "Bob Persichetti",
+        "Chris Miller",
+        "Jessica Schulte",
+        "Nina Barry"
+      ],
+      "studios": [
+        "Paramount Pictures"
+      ],
+      "authors": [
+        "Tom Wheeler",
+        "Brian Lynch",
+        "William Davies"
       ]
     },
     {
@@ -860,10 +959,10 @@
       "title": "The Secret Life of Walter Mitty",
       "category": "movie",
       "status": "done",
-      "rating": 80,
+      "rating": 90,
       "scale": 100,
       "date": "2026-08-10",
-      "genre": "Adventure/Comedy",
+      "genre": "Adventure, Comedy",
       "notes": "",
       "tags": [],
       "favorite": true,
@@ -887,7 +986,7 @@
       "watchHistory": [
         {
           "date": "2026-08-10",
-          "rating": 80,
+          "rating": 90,
           "scale": 100,
           "source": "MOVIES",
           "row": 6,
@@ -896,6 +995,15 @@
           "legacyRating": {
             "value": 4,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 87,
+              "Реалізація": 87,
+              "Враження": 96
+            },
+            "date": "2026-11-03"
           }
         }
       ],
@@ -916,6 +1024,34 @@
       "posterSource": null,
       "directors": [
         "Ben Stiller"
+      ],
+      "actors": [
+        "Ben Stiller",
+        "Kristen Wiig",
+        "Jon Daly",
+        "Kathryn Hahn",
+        "Terence Bernie Hines",
+        "Adam Scott",
+        "Paul Fitzgerald",
+        "Grace Rex",
+        "Alex Anfanger",
+        "Amanda Naughton",
+        "Adrian Martinez",
+        "Nolan Carley",
+        "Joey Slotnick",
+        "Shirley MacLaine",
+        "Gary Wilmes",
+        "Marcus Antturi",
+        "Amy Stiller",
+        "Rosamund Gundmundsdottir",
+        "Stuart Cornfeld"
+      ],
+      "studios": [
+        "20th Century Studios"
+      ],
+      "authors": [
+        "Steve Conrad",
+        "James Thurber"
       ]
     },
     {
@@ -923,10 +1059,10 @@
       "title": "Spider-Man: Brand New Day",
       "category": "movie",
       "status": "done",
-      "rating": 70,
+      "rating": 71,
       "scale": 100,
       "date": "2026-07-29",
-      "genre": "Action/Adventure",
+      "genre": "Action, Adventure",
       "notes": "",
       "tags": [
         "Marvel"
@@ -952,7 +1088,7 @@
       "watchHistory": [
         {
           "date": "2026-07-29",
-          "rating": 70,
+          "rating": 71,
           "scale": 100,
           "source": "MOVIES",
           "row": 7,
@@ -961,6 +1097,15 @@
           "legacyRating": {
             "value": 3.5,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 68,
+              "Реалізація": 85,
+              "Враження": 60
+            },
+            "date": "2026-11-03"
           }
         }
       ],
@@ -983,6 +1128,39 @@
       "posterSource": null,
       "directors": [
         "Destin Daniel Cretton"
+      ],
+      "actors": [
+        "Tom Holland",
+        "Zendaya",
+        "Mark Ruffalo",
+        "Jon Bernthal",
+        "Jacob Batalon",
+        "Sadie Sink",
+        "Florence Pugh",
+        "Liza Colón-Zayas",
+        "Tramell Tillman",
+        "Marisa Tomei",
+        "Naomi Watts",
+        "Michael Mando",
+        "Keith David",
+        "Marvin Jones III",
+        "Olivia Booth-Ford",
+        "Pat Kiernan",
+        "Dean Meminger",
+        "Cheryl Wills",
+        "Taryn Marie Butler",
+        "Johnny Myers",
+        "Billy Clements",
+        "Zabryna Guevara",
+        "Nina Galano"
+      ],
+      "studios": [
+        "Sony Pictures Releasing"
+      ],
+      "authors": [
+        "Chris McKenna",
+        "Erik Sommers",
+        "Stan Lee"
       ]
     },
     {
@@ -1055,10 +1233,10 @@
       "title": "The Odyssey",
       "category": "movie",
       "status": "done",
-      "rating": 90,
+      "rating": 92,
       "scale": 100,
       "date": "2026-07-21",
-      "genre": "Action/Fantasy",
+      "genre": "Action, Fantasy",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1082,7 +1260,7 @@
       "watchHistory": [
         {
           "date": "2026-07-21",
-          "rating": 90,
+          "rating": 92,
           "scale": 100,
           "source": "MOVIES",
           "row": 9,
@@ -1091,6 +1269,15 @@
           "legacyRating": {
             "value": 4.5,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 85,
+              "Реалізація": 98,
+              "Враження": 94
+            },
+            "date": "2026-11-03"
           }
         }
       ],
@@ -1113,7 +1300,41 @@
         "source": "https://cdn.posteritati.com/posters/000/000/079/359/the-odyssey-md-web.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Odyssey"
-      }
+      },
+      "actors": [
+        "Matt Damon",
+        "Robert Pattinson",
+        "Corey Hawkins",
+        "Jarreth J. Merz",
+        "Niko Nicotera",
+        "Tom Holland",
+        "Elliot Page",
+        "Shiloh Fernandez",
+        "Rafi Gavron",
+        "Anne Hathaway",
+        "Elyes Gabel",
+        "Iddo Goldberg",
+        "Jamie Harris",
+        "John Ales",
+        "Raimy Lang",
+        "Mason Cufari",
+        "John Leguizamo",
+        "Mia Goth",
+        "Ryan Hurst",
+        "Sawyer",
+        "Nod",
+        "Kate Fuglei",
+        "Benny Safdie",
+        "Travis Scott"
+      ],
+      "directors": [
+        "Christopher Nolan"
+      ],
+      "studios": [],
+      "authors": [
+        "Christopher Nolan",
+        "Homer"
+      ]
     },
     {
       "id": "m8",
@@ -1123,13 +1344,13 @@
       "rating": 60,
       "scale": 100,
       "date": "2026-06-15",
-      "genre": "Family/Sport",
+      "genre": "Family, Sport",
       "notes": "",
       "tags": [
         "Cartoon"
       ],
       "favorite": false,
-      "poster": "https://i.ebayimg.com/images/g/IgQAAOSwqttkdGl7/s-l1200.jpg",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWhpR-8YhtkPTpsqpAD8Mayn9cZjlxbVpgqnZDYM1TEg&s=10",
       "source": [
         "MOVIES"
       ],
@@ -1195,12 +1416,37 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-06-15",
-      "posterSource": {
-        "provider": "eBay",
-        "source": "https://i.ebayimg.com/images/g/IgQAAOSwqttkdGl7/s-l1200.jpg",
-        "method": "Підібрано вручну за результатами вебпошуку",
-        "matchedTitle": "Cars 3"
-      }
+      "posterSource": null,
+      "actors": [
+        "Owen Wilson",
+        "Cristela Alonzo",
+        "Chris Cooper",
+        "Nathan Fillion",
+        "Larry the Cable Guy",
+        "Armie Hammer",
+        "Ray Magliozzi",
+        "Tony Shalhoub",
+        "Bonnie Hunt",
+        "Lea DeLaria",
+        "Kerry Washington",
+        "Bob Costas",
+        "Margo Martindale",
+        "Darrell Waltrip",
+        "Isiah Whitlock Jr.",
+        "Bob Peterson",
+        "Guido Quaroni"
+      ],
+      "directors": [
+        "Brian Fee"
+      ],
+      "studios": [
+        "Walt Disney Studios Motion Pictures"
+      ],
+      "authors": [
+        "Brian Fee",
+        "Ben Queen",
+        "Eyal Podell"
+      ]
     },
     {
       "id": "m9",
@@ -2003,7 +2249,7 @@
       "title": "Chainsaw Man - The Movie: Reze Arc",
       "category": "movie",
       "status": "done",
-      "rating": 100,
+      "rating": 95,
       "scale": 100,
       "date": "2025-11-08",
       "genre": "Animation/Horror",
@@ -2033,7 +2279,7 @@
       "watchHistory": [
         {
           "date": "2025-11-08",
-          "rating": 100,
+          "rating": 95,
           "scale": 100,
           "source": "MOVIES",
           "row": 22,
@@ -2042,6 +2288,15 @@
           "legacyRating": {
             "value": 5,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 93,
+              "Реалізація": 95,
+              "Враження": 97
+            },
+            "date": "2026-11-03"
           }
         }
       ],
@@ -7633,7 +7888,7 @@
       "rating": 84,
       "scale": 100,
       "date": "2026-10-29",
-      "genre": "Sci-fi/Adventure",
+      "genre": "Sci-fi, Adventure",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7709,7 +7964,23 @@
       },
       "directors": [
         "Denis Villeneuve"
-      ]
+      ],
+      "actors": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson",
+        "Javier Bardem",
+        "Josh Brolin",
+        "Austin Butler",
+        "Florence Pugh",
+        "Dave Bautista",
+        "Christopher Walken",
+        "Léa Seydoux",
+        "Stellan Skarsgård",
+        "Charlotte Rampling"
+      ],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m99",
@@ -7827,7 +8098,25 @@
       },
       "directors": [
         "Denis Villeneuve"
-      ]
+      ],
+      "actors": [
+        "Timothée Chalamet",
+        "Rebecca Ferguson",
+        "Oscar Isaac",
+        "Jason Momoa",
+        "Stellan Skarsgård",
+        "Stephen McKinley Henderson",
+        "Josh Brolin",
+        "Javier Bardem",
+        "Sharon Duncan-Brewster",
+        "Chang Chen",
+        "Dave Bautista",
+        "David Dastmalchian",
+        "Zendaya",
+        "Charlotte Rampling"
+      ],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m100",
@@ -30421,6 +30710,14 @@
         "categories": [
           "book"
         ]
+      },
+      {
+        "name": "Zombie",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie"
+        ]
       }
     ],
     "moods": [
@@ -30467,8 +30764,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-02T22:01:26.314Z",
-    "kind": "Відредаговано",
-    "title": "Madagascar 2"
+    "at": "2026-11-03T10:34:14.939Z",
+    "kind": "Оновлено оцінку",
+    "title": "Chainsaw Man - The Movie: Reze Arc"
   }
 }
