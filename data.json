@@ -26,7 +26,6 @@
       "rating": 52,
       "scale": 100,
       "genre": "Crime, Action",
-      "creator": "Denis Villeneuve",
       "platform": "",
       "gameType": "",
       "tags": [],
@@ -46,7 +45,10 @@
         },
         "date": "2026-11-02"
       },
-      "originalTags": []
+      "originalTags": [],
+      "directors": [
+        "Denis Villeneuve"
+      ]
     },
     {
       "id": "umvr2dq8s4m7x",
@@ -209,7 +211,6 @@
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/276/691646.jpg",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [
@@ -256,7 +257,6 @@
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/276/691649.jpg",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [],
@@ -277,7 +277,6 @@
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/277/692966.jpg",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [],
@@ -298,7 +297,6 @@
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/277/692967.jpg",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [],
@@ -319,7 +317,6 @@
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/277/692970.jpg",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [],
@@ -340,7 +337,6 @@
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/277/692973.jpg",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [],
@@ -399,7 +395,6 @@
           "releaseYear": 2022,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXaNd0kK0WzqAllZKNSlRuK4G199fDQbsPfh44qyKb_A&s=10",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [
@@ -461,7 +456,6 @@
           "releaseYear": 2026,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgtEL60BTksoHg1drZHIgM1yU0TbwCmc--l8PG6jOGLw&s=10",
           "genre": "",
-          "creator": "",
           "notes": "",
           "episodes": [],
           "viewings": [
@@ -562,7 +556,6 @@
       "rating": null,
       "scale": 100,
       "genre": "",
-      "creator": "",
       "platform": "",
       "gameType": "",
       "tags": [],
@@ -618,7 +611,6 @@
       "rating": 77,
       "scale": 100,
       "genre": "Psychological Thriller",
-      "creator": "Lance Oppenheim",
       "platform": "",
       "gameType": "",
       "tags": [
@@ -633,6 +625,9 @@
       "manualDate": "2026-10-24",
       "originalTags": [
         "A24"
+      ],
+      "directors": [
+        "Lance Oppenheim"
       ]
     },
     {
@@ -644,7 +639,6 @@
       "scale": 100,
       "date": "2026-09-19",
       "genre": "Horror, Sci-fi",
-      "creator": "Zach Cregger",
       "notes": "",
       "tags": [
         "Game"
@@ -696,7 +690,10 @@
       "releaseYear": 2026,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2026-09-19"
+      "manualDate": "2026-09-19",
+      "directors": [
+        "Zach Cregger"
+      ]
     },
     {
       "id": "m2",
@@ -707,7 +704,6 @@
       "scale": 100,
       "date": "2026-09-06",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -777,7 +773,6 @@
       "scale": 100,
       "date": "2026-09-02",
       "genre": "Adventure/Family",
-      "creator": "Chris Miller",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -855,7 +850,10 @@
         "source": "https://en.wikipedia.org/wiki/Puss_in_Boots",
         "matchedTitle": "Puss in Boots",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Chris Miller"
+      ]
     },
     {
       "id": "m4",
@@ -866,7 +864,6 @@
       "scale": 100,
       "date": "2026-08-10",
       "genre": "Adventure/Comedy",
-      "creator": "Ben Stiller",
       "notes": "",
       "tags": [],
       "favorite": true,
@@ -916,7 +913,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-08-10",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Ben Stiller"
+      ]
     },
     {
       "id": "m5",
@@ -927,7 +927,6 @@
       "scale": 100,
       "date": "2026-07-29",
       "genre": "Action/Adventure",
-      "creator": "Destin Daniel Cretton",
       "notes": "",
       "tags": [
         "Marvel"
@@ -981,7 +980,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-07-29",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Destin Daniel Cretton"
+      ]
     },
     {
       "id": "m6",
@@ -992,7 +994,6 @@
       "scale": 100,
       "date": "2026-07-27",
       "genre": "Comedy/Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1058,7 +1059,6 @@
       "scale": 100,
       "date": "2026-07-21",
       "genre": "Action/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1124,7 +1124,6 @@
       "scale": 100,
       "date": "2026-06-15",
       "genre": "Family/Sport",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -1212,7 +1211,6 @@
       "scale": 100,
       "date": "2026-06-14",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1273,7 +1271,6 @@
       "scale": 100,
       "date": "2026-06-06",
       "genre": "Sci-fi, Horror",
-      "creator": "Kane Parsons",
       "notes": "",
       "tags": [
         "A24"
@@ -1325,7 +1322,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-06-06",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Kane Parsons"
+      ]
     },
     {
       "id": "m11",
@@ -1336,7 +1336,6 @@
       "scale": 100,
       "date": "2026-06-07",
       "genre": "Family/Sport",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -1424,7 +1423,6 @@
       "scale": 100,
       "date": "2026-06-05",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -1494,7 +1492,6 @@
       "scale": 100,
       "date": "2026-04-26",
       "genre": "Action/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -1574,7 +1571,6 @@
       "scale": 100,
       "date": "2026-04-18",
       "genre": "Romance",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1640,7 +1636,6 @@
       "scale": 100,
       "date": "2026-04-13",
       "genre": "Family/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -1710,7 +1705,6 @@
       "scale": 100,
       "date": "2026-02-21",
       "genre": "Horror/Drama",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1776,7 +1770,6 @@
       "scale": 100,
       "date": "2026-01-31",
       "genre": "Sci-fi/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1842,7 +1835,6 @@
       "scale": 100,
       "date": "2026-01-20",
       "genre": "Family/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -1950,7 +1942,6 @@
       "scale": 100,
       "date": "2025-12-20",
       "genre": "Action/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -2016,7 +2007,6 @@
       "scale": 100,
       "date": "2025-11-08",
       "genre": "Animation/Horror",
-      "creator": "Tatsuya Yoshihara",
       "notes": "",
       "tags": [
         "Anime",
@@ -2071,7 +2061,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2025-11-08",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Tatsuya Yoshihara"
+      ]
     },
     {
       "id": "m21",
@@ -2082,7 +2075,6 @@
       "scale": 100,
       "date": "2025-10-15",
       "genre": "Action/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -2152,7 +2144,6 @@
       "scale": 100,
       "date": "2025-10-04",
       "genre": "Drama/Action Thriller",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -2218,7 +2209,6 @@
       "scale": 100,
       "date": "2025-09-14",
       "genre": "Documentary",
-      "creator": "",
       "notes": "",
       "tags": [
         "Documentary"
@@ -2286,7 +2276,6 @@
       "scale": 100,
       "date": "2025-09-10",
       "genre": "Sci-fi/Adventure",
-      "creator": "Christopher Nolan",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -2373,7 +2362,10 @@
         "source": "https://filmartgallery.com/cdn/shop/files/Interstellar-Vintage-Movie-Poster-Original_aa5dfd9a_5000x.jpg?v=1762744326",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Interstellar"
-      }
+      },
+      "directors": [
+        "Christopher Nolan"
+      ]
     },
     {
       "id": "m25",
@@ -2384,7 +2376,6 @@
       "scale": 100,
       "date": "2025-09-09",
       "genre": "Action/Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -2454,7 +2445,6 @@
       "scale": 100,
       "date": "2025-09-04",
       "genre": "Comedy/Drama",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -2520,7 +2510,6 @@
       "scale": 100,
       "date": "2025-08-27",
       "genre": "Action/Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -2631,7 +2620,6 @@
       "scale": 100,
       "date": "2025-08-26",
       "genre": "Action/Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -2701,7 +2689,6 @@
       "scale": 100,
       "date": "2025-08-25",
       "genre": "Action, Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -2812,7 +2799,6 @@
       "scale": 100,
       "date": "2025-08-24",
       "genre": "Action/Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -2882,7 +2868,6 @@
       "scale": 100,
       "date": "2025-08-19",
       "genre": "Comedy/Drama",
-      "creator": "Olivier Nakache, Éric Toledano",
       "notes": "",
       "tags": [],
       "favorite": true,
@@ -2963,7 +2948,11 @@
         "source": "https://i0.wp.com/www.heyuguys.com/images/2012/09/Untouchable-Poster.jpg?fit=1382%2C2048&ssl=1",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Intouchables"
-      }
+      },
+      "directors": [
+        "Olivier Nakache",
+        "Éric Toledano"
+      ]
     },
     {
       "id": "m32",
@@ -2974,7 +2963,6 @@
       "scale": 100,
       "date": "2025-08-18",
       "genre": "Family/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -3044,7 +3032,6 @@
       "scale": 100,
       "date": "2025-08-18",
       "genre": "Family, Comedy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -3109,7 +3096,6 @@
       "scale": 100,
       "date": "2025-08-18",
       "genre": "Family/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -3179,7 +3165,6 @@
       "scale": 100,
       "date": "2025-08-10",
       "genre": "Action/Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -3249,7 +3234,6 @@
       "scale": 100,
       "date": "2025-08-09",
       "genre": "Comedy/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -3315,7 +3299,6 @@
       "scale": 100,
       "date": "2025-08-09",
       "genre": "Family/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -3385,7 +3368,6 @@
       "scale": 100,
       "date": "2025-08-08",
       "genre": "Comedy/Sci-fi",
-      "creator": "Peter Weir",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -3472,7 +3454,10 @@
         "source": "https://pastposters.com/cdn/shop/files/truman-show-cinema-one-sheet-movie-poster-_1.jpg?v=1746702024",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Truman Show"
-      }
+      },
+      "directors": [
+        "Peter Weir"
+      ]
     },
     {
       "id": "m39",
@@ -3483,7 +3468,6 @@
       "scale": 100,
       "date": "2025-08-08",
       "genre": "Family/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -3553,7 +3537,6 @@
       "scale": 100,
       "date": "2025-08-08",
       "genre": "Adventure/Animation",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -3623,7 +3606,6 @@
       "scale": 100,
       "date": "2025-07-19",
       "genre": "Comedy/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -3689,7 +3671,6 @@
       "scale": 100,
       "date": "2025-07-17",
       "genre": "Western/Thriller",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -3760,7 +3741,6 @@
       "scale": 100,
       "date": "2025-06-21",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -3826,7 +3806,6 @@
       "scale": 100,
       "date": "2025-06-21",
       "genre": "Action/Adventure",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -3892,7 +3871,6 @@
       "scale": 100,
       "date": "2025-05-24",
       "genre": "Horror, Comedy",
-      "creator": "Quentin Dupieux",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -3942,7 +3920,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2025-05-24",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Quentin Dupieux"
+      ]
     },
     {
       "id": "m46",
@@ -3953,7 +3934,6 @@
       "scale": 100,
       "date": "2025-05-24",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4023,7 +4003,6 @@
       "scale": 100,
       "date": "2025-01-06",
       "genre": "Adventure/Fantasy",
-      "creator": "Peter Jackson",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -4083,7 +4062,10 @@
         "source": "https://www-images.theonering.org/torwp/wp-content/uploads/2014/10/Hobbit_BOTFA_Intl_poster.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Hobbit: The Battle of the Five Armies"
-      }
+      },
+      "directors": [
+        "Peter Jackson"
+      ]
     },
     {
       "id": "m48",
@@ -4094,7 +4076,6 @@
       "scale": 100,
       "date": "2025-01-04",
       "genre": "Fantasy/Adventure",
-      "creator": "Peter Jackson",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -4154,7 +4135,10 @@
         "source": "https://i.ebayimg.com/images/g/-WsAAOSwfEFnCYwY/s-l1200.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Hobbit: The Desolation of Smaug"
-      }
+      },
+      "directors": [
+        "Peter Jackson"
+      ]
     },
     {
       "id": "m49",
@@ -4165,7 +4149,6 @@
       "scale": 100,
       "date": "2025-01-04",
       "genre": "Horror/Thriller",
-      "creator": "Colm Hogan",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4220,7 +4203,10 @@
         "source": "https://images.amcsvod.io/0632abfc25168624_boxart.jpg?auto=format%2Ccompress&crop=edges&fit=crop&h=900&w=600",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Oddity"
-      }
+      },
+      "directors": [
+        "Colm Hogan"
+      ]
     },
     {
       "id": "m50",
@@ -4231,7 +4217,6 @@
       "scale": 100,
       "date": "2025-01-04",
       "genre": "Thriller/Crime",
-      "creator": "Kim Tae-joon",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4280,7 +4265,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2025-01-04"
+      "manualDate": "2025-01-04",
+      "directors": [
+        "Kim Tae-joon"
+      ]
     },
     {
       "id": "m51",
@@ -4291,7 +4279,6 @@
       "scale": 100,
       "date": "2025-01-03",
       "genre": "Family/Comedy",
-      "creator": "Scott Mosier, Yarrow Cheney",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4364,7 +4351,11 @@
         "source": "https://www.newdvdreleasedates.com/images/posters/large/how-the-grinch-stole-christmas-2018.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Grinch"
-      }
+      },
+      "directors": [
+        "Scott Mosier",
+        "Yarrow Cheney"
+      ]
     },
     {
       "id": "m52",
@@ -4375,7 +4366,6 @@
       "scale": 100,
       "date": "2025-01-03",
       "genre": "Fantasy/Adventure",
-      "creator": "Peter Jackson",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -4435,7 +4425,10 @@
         "source": "https://i.ebayimg.com/00/s/MTYwMFgxMTI3/z/KdMAAOSwYsBnCYSC/%24_57.JPG?set_id=880000500F",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Hobbit: An Unexpected Journey"
-      }
+      },
+      "directors": [
+        "Peter Jackson"
+      ]
     },
     {
       "id": "m53",
@@ -4446,7 +4439,6 @@
       "scale": 100,
       "date": "2024-12-31",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4512,7 +4504,6 @@
       "scale": 100,
       "date": "2024-12-31",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4558,7 +4549,6 @@
       "scale": 100,
       "date": "2024-12-30",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4604,7 +4594,6 @@
       "scale": 100,
       "date": "2024-12-29",
       "genre": "Action/Horror",
-      "creator": "Yeon Sang-ho",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4690,7 +4679,10 @@
         "source": "https://m.media-amazon.com/images/M/MV5BZTMyMjJhMDYtZTQzMC00MjcxLTkyYjQtN2RlZThlYmM3NjczXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Train to Busan"
-      }
+      },
+      "directors": [
+        "Yeon Sang-ho"
+      ]
     },
     {
       "id": "m57",
@@ -4701,7 +4693,6 @@
       "scale": 100,
       "date": "2024-11-24",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4767,7 +4758,6 @@
       "scale": 100,
       "date": "2024-11-24",
       "genre": "Family/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4845,7 +4835,6 @@
       "scale": 100,
       "date": "2024-11-24",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4911,7 +4900,6 @@
       "scale": 100,
       "date": "2024-11-24",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -4957,7 +4945,6 @@
       "scale": 100,
       "date": "2024-11-24",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5003,7 +4990,6 @@
       "scale": 100,
       "date": "2024-11-24",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5049,7 +5035,6 @@
       "scale": 100,
       "date": "2024-11-10",
       "genre": "Family/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5117,7 +5102,6 @@
       "scale": 100,
       "date": "2024-11-10",
       "genre": "War/Action",
-      "creator": "Alex Garland",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5166,7 +5150,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-11-10"
+      "manualDate": "2024-11-10",
+      "directors": [
+        "Alex Garland"
+      ]
     },
     {
       "id": "m65",
@@ -5177,7 +5164,6 @@
       "scale": 100,
       "date": "2024-10-20",
       "genre": "Family/Musical",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -5247,7 +5233,6 @@
       "scale": 100,
       "date": "2024-10-20",
       "genre": "Family/Fantasy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5313,7 +5298,6 @@
       "scale": 100,
       "date": "2024-10-13",
       "genre": "Family/Fantasy",
-      "creator": "Byron Howard, Jared Bush",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -5390,7 +5374,11 @@
         "source": "https://artofthemovies.co.uk/cdn/shop/files/Encanto-520198.jpg?v=1736971721&width=1445",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Encanto"
-      }
+      },
+      "directors": [
+        "Byron Howard",
+        "Jared Bush"
+      ]
     },
     {
       "id": "m68",
@@ -5401,7 +5389,6 @@
       "scale": 100,
       "date": "2024-10-13",
       "genre": "Family/Musical",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -5471,7 +5458,6 @@
       "scale": 100,
       "date": "2024-10-13",
       "genre": "Mystery/Crime",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5543,7 +5529,6 @@
       "scale": 100,
       "date": "2024-10-13",
       "genre": "Horror/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5610,7 +5595,6 @@
       "scale": 100,
       "date": "2024-10-13",
       "genre": "Family/Musical",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -5680,7 +5664,6 @@
       "scale": 100,
       "date": "2024-10-13",
       "genre": "Family/Fantasy",
-      "creator": "Tim Burton, Mike Johnson",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -5771,7 +5754,11 @@
         "source": "https://image.tmdb.org/t/p/original/rpGv0ih9XZC6397aDJKxWVl7k3P.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Corpse Bride"
-      }
+      },
+      "directors": [
+        "Tim Burton",
+        "Mike Johnson"
+      ]
     },
     {
       "id": "m73",
@@ -5782,7 +5769,6 @@
       "scale": 100,
       "date": "2024-10-12",
       "genre": "Thriller/Crime",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5842,7 +5828,6 @@
       "scale": 100,
       "date": "2024-10-07",
       "genre": "Horror/Mystery",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5909,7 +5894,6 @@
       "scale": 100,
       "date": "2024-10-07",
       "genre": "Horror/Sci-fi",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -5969,7 +5953,6 @@
       "scale": 100,
       "date": "2024-09-01",
       "genre": "Sci-fi/Action",
-      "creator": "Denis Villeneuve",
       "notes": "",
       "tags": [],
       "favorite": true,
@@ -6064,7 +6047,10 @@
         "source": "https://famousmovieposters.co.uk/cdn/shop/files/blade_runner_2049_teaser_BM17151_B.jpg?v=1742842750",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Blade Runner 2049"
-      }
+      },
+      "directors": [
+        "Denis Villeneuve"
+      ]
     },
     {
       "id": "m77",
@@ -6075,7 +6061,6 @@
       "scale": 100,
       "date": "2024-09-01",
       "genre": "Thriller/Drama",
-      "creator": "Bong Joon-ho",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6183,7 +6168,10 @@
         "source": "https://hips.hearstapps.com/hmg-prod/images/parasite-pelicula-poster-1559286150.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Parasite"
-      }
+      },
+      "directors": [
+        "Bong Joon-ho"
+      ]
     },
     {
       "id": "m78",
@@ -6194,7 +6182,6 @@
       "scale": 100,
       "date": "2024-09-01",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -6282,7 +6269,6 @@
       "scale": 100,
       "date": "2024-09-01",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6342,7 +6328,6 @@
       "scale": 100,
       "date": "2024-08-27",
       "genre": "Horror/Slasher",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6402,7 +6387,6 @@
       "scale": 100,
       "date": "2024-08-26",
       "genre": "Action/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6468,7 +6452,6 @@
       "scale": 100,
       "date": "2024-08-26",
       "genre": "Horror/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6534,7 +6517,6 @@
       "scale": 100,
       "date": "2024-08-26",
       "genre": "Action/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6600,7 +6582,6 @@
       "scale": 100,
       "date": "2024-08-26",
       "genre": "Action/Comedy",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6666,7 +6647,6 @@
       "scale": 100,
       "date": "2024-08-26",
       "genre": "Horror/Slasher",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6726,7 +6706,6 @@
       "scale": 100,
       "date": "2024-08-25",
       "genre": "Comedy/Action",
-      "creator": "Paul Feig",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6807,7 +6786,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-08-25"
+      "manualDate": "2024-08-25",
+      "directors": [
+        "Paul Feig"
+      ]
     },
     {
       "id": "m87",
@@ -6818,7 +6800,6 @@
       "scale": 100,
       "date": "2024-07-15",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6884,7 +6865,6 @@
       "scale": 100,
       "date": "2024-07-15",
       "genre": "Adventure/Action",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -6944,7 +6924,6 @@
       "scale": 100,
       "date": "2024-07-15",
       "genre": "Adventure/Action",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7004,7 +6983,6 @@
       "scale": 100,
       "date": "2024-06-01",
       "genre": "Adventure/Action",
-      "creator": "Gore Verbinski",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7085,7 +7063,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-06-01"
+      "manualDate": "2024-06-01",
+      "directors": [
+        "Gore Verbinski"
+      ]
     },
     {
       "id": "m91",
@@ -7096,7 +7077,6 @@
       "scale": 100,
       "date": "2024-06-01",
       "genre": "Adventure/Action",
-      "creator": "Gore Verbinski",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7183,7 +7163,10 @@
         "source": "https://famousmovieposters.co.uk/cdn/shop/files/pirates_of_the_caribbean_advance_intl_WC45488_B.jpg?v=1742838192",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Pirates of the Caribbean: The Curse of the Black Pearl"
-      }
+      },
+      "directors": [
+        "Gore Verbinski"
+      ]
     },
     {
       "id": "m92",
@@ -7194,7 +7177,6 @@
       "scale": 100,
       "date": "2024-06-01",
       "genre": "Horror/Thriller",
-      "creator": "Matt Bettinelli-Olpin, Tyler Gillett",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7275,7 +7257,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-06-01"
+      "manualDate": "2024-06-01",
+      "directors": [
+        "Matt Bettinelli-Olpin",
+        "Tyler Gillett"
+      ]
     },
     {
       "id": "m93",
@@ -7286,7 +7272,6 @@
       "scale": 100,
       "date": "2024-04-22",
       "genre": "Family/Comedy",
-      "creator": "Mike Mitchell",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7341,7 +7326,10 @@
         "source": "https://media.services.cinergy.ch/media/box1600/7f3e585ec20656c64d1fa6dc181e775bb6b93844.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Shrek Forever After"
-      }
+      },
+      "directors": [
+        "Mike Mitchell"
+      ]
     },
     {
       "id": "m94",
@@ -7352,7 +7340,6 @@
       "scale": 100,
       "date": "2024-04-21",
       "genre": "Comedy/Drama",
-      "creator": "David Frankel",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7440,7 +7427,10 @@
         "source": "https://m.media-amazon.com/images/M/MV5BOWM3NTI3YWEtYjJmMy00M2U5LWI1NzEtZWM3ZDY2ZWNjOGRiXkEyXkFqcGc%40._V1_.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Devil Wears Prada"
-      }
+      },
+      "directors": [
+        "David Frankel"
+      ]
     },
     {
       "id": "m95",
@@ -7451,7 +7441,6 @@
       "scale": 100,
       "date": "2024-04-14",
       "genre": "Horror/Crime",
-      "creator": "Danny Philippou, Michael Philippou",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7500,7 +7489,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-04-14"
+      "manualDate": "2024-04-14",
+      "directors": [
+        "Danny Philippou",
+        "Michael Philippou"
+      ]
     },
     {
       "id": "m96",
@@ -7511,7 +7504,6 @@
       "scale": 100,
       "date": "2024-03-31",
       "genre": "Comedy/Drama",
-      "creator": "Larry Charles",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7560,7 +7552,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-03-31"
+      "manualDate": "2024-03-31",
+      "directors": [
+        "Larry Charles"
+      ]
     },
     {
       "id": "m97",
@@ -7571,7 +7566,6 @@
       "scale": 100,
       "date": "2024-03-17",
       "genre": "Action/Adventure",
-      "creator": "Francis Lawrence",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7626,7 +7620,10 @@
         "source": "https://resizing.flixster.com/cli2xj07iMBQ-KDgwpiVxGPlt0I%3D/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2I4MDI3YjY5LTY1OGEtNDgzYi1iMzIxLWE1MWRkMTdlMzU1Ni5qcGc%3D",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "The Hunger Games: The Ballad of Songbirds & Snakes"
-      }
+      },
+      "directors": [
+        "Francis Lawrence"
+      ]
     },
     {
       "id": "m98",
@@ -7637,7 +7634,6 @@
       "scale": 100,
       "date": "2026-10-29",
       "genre": "Sci-fi/Adventure",
-      "creator": "Denis Villeneuve",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7710,7 +7706,10 @@
         "source": "https://img.vogue.co.kr/vogue/2023/08/style_64eda8473141b.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Dune: Part Two"
-      }
+      },
+      "directors": [
+        "Denis Villeneuve"
+      ]
     },
     {
       "id": "m99",
@@ -7721,7 +7720,6 @@
       "scale": 100,
       "date": "2026-10-17",
       "genre": "Sci-fi, Adventure",
-      "creator": "Denis Villeneuve",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7826,7 +7824,10 @@
         "source": "https://artofthemovies.co.uk/cdn/shop/files/IMG_1533_1024x1024%402x.jpg?v=1762436586",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Dune: Part One"
-      }
+      },
+      "directors": [
+        "Denis Villeneuve"
+      ]
     },
     {
       "id": "m100",
@@ -7837,7 +7838,6 @@
       "scale": 100,
       "date": "2024-01-27",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -7902,7 +7902,6 @@
       "scale": 100,
       "date": "2024-01-21",
       "genre": "Comedy/Romance",
-      "creator": "Dennis Dugan",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7951,7 +7950,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-01-21"
+      "manualDate": "2024-01-21",
+      "directors": [
+        "Dennis Dugan"
+      ]
     },
     {
       "id": "m102",
@@ -7962,7 +7964,6 @@
       "scale": 100,
       "date": "2024-01-21",
       "genre": "Family/Adventure",
-      "creator": "Gábor Csupó",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8011,7 +8012,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-01-21"
+      "manualDate": "2024-01-21",
+      "directors": [
+        "Gábor Csupó"
+      ]
     },
     {
       "id": "m103",
@@ -8022,7 +8026,6 @@
       "scale": 100,
       "date": "2024-01-13",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8082,7 +8085,6 @@
       "scale": 100,
       "date": "2024-01-07",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8142,7 +8144,6 @@
       "scale": 100,
       "date": "2024-01-01",
       "genre": "Family/Fantasy",
-      "creator": "Tim Burton",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8238,7 +8239,10 @@
         "source": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
         "matchedTitle": "Charlie and the Chocolate Factory",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Tim Burton"
+      ]
     },
     {
       "id": "m106",
@@ -8249,7 +8253,6 @@
       "scale": 100,
       "date": "2023-12-26",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8310,7 +8313,6 @@
       "scale": 100,
       "date": "2023-12-18",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8371,7 +8373,6 @@
       "scale": 100,
       "date": "2023-12-11",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8432,7 +8433,6 @@
       "scale": 100,
       "date": "2023-11-28",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -8496,7 +8496,6 @@
       "scale": 100,
       "date": "2023-11-27",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8557,7 +8556,6 @@
       "scale": 100,
       "date": "2023-11-27",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8617,7 +8615,6 @@
       "scale": 100,
       "date": "2023-11-20",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8677,7 +8674,6 @@
       "scale": 100,
       "date": "2023-11-18",
       "genre": "Fantasy/Adventure",
-      "creator": "Tim Burton",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8758,7 +8754,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-11-18"
+      "manualDate": "2023-11-18",
+      "directors": [
+        "Tim Burton"
+      ]
     },
     {
       "id": "m114",
@@ -8769,7 +8768,6 @@
       "scale": 100,
       "date": "2023-11-17",
       "genre": "Horror/Thriller",
-      "creator": "Ari Aster",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8850,7 +8848,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-11-17"
+      "manualDate": "2023-11-17",
+      "directors": [
+        "Ari Aster"
+      ]
     },
     {
       "id": "m115",
@@ -8861,7 +8862,6 @@
       "scale": 100,
       "date": "2023-10-15",
       "genre": "Drama/Action",
-      "creator": "Ridley Scott",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8925,7 +8925,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-10-15"
+      "manualDate": "2023-10-15",
+      "directors": [
+        "Ridley Scott"
+      ]
     },
     {
       "id": "m116",
@@ -8936,7 +8939,6 @@
       "scale": 100,
       "date": "2023-10-10",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -8996,7 +8998,6 @@
       "scale": 100,
       "date": "2023-10-07",
       "genre": "Fantasy/Mystery",
-      "creator": "Rusty Cundieff",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9045,7 +9046,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-10-07"
+      "manualDate": "2023-10-07",
+      "directors": [
+        "Rusty Cundieff"
+      ]
     },
     {
       "id": "m118",
@@ -9056,7 +9060,6 @@
       "scale": 100,
       "date": "2023-09-25",
       "genre": "Comedy/Action",
-      "creator": "Shane Black",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9117,7 +9120,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-25"
+      "manualDate": "2023-09-25",
+      "directors": [
+        "Shane Black"
+      ]
     },
     {
       "id": "m120",
@@ -9128,7 +9134,6 @@
       "scale": 100,
       "date": "2023-09-11",
       "genre": "Horror/Found footage",
-      "creator": "John Erick Dowdle",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9177,7 +9182,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-11"
+      "manualDate": "2023-09-11",
+      "directors": [
+        "John Erick Dowdle"
+      ]
     },
     {
       "id": "m121",
@@ -9188,7 +9196,6 @@
       "scale": 100,
       "date": "2023-09-11",
       "genre": "Comedy/Family",
-      "creator": "Andrew Adamson, Conrad Vernon, Kelly Asbury",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -9241,7 +9248,12 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-11"
+      "manualDate": "2023-09-11",
+      "directors": [
+        "Andrew Adamson",
+        "Conrad Vernon",
+        "Kelly Asbury"
+      ]
     },
     {
       "id": "m122",
@@ -9252,7 +9264,6 @@
       "scale": 100,
       "date": "2023-09-11",
       "genre": "Comedy/Fantasy",
-      "creator": "Andrew Adamson, Vicky Jenson",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -9313,7 +9324,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-11"
+      "manualDate": "2023-09-11",
+      "directors": [
+        "Andrew Adamson",
+        "Vicky Jenson"
+      ]
     },
     {
       "id": "m123",
@@ -9324,7 +9339,6 @@
       "scale": 100,
       "date": "2023-09-06",
       "genre": "Melodrama/Drama",
-      "creator": "Bill Condon",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9373,7 +9387,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-06"
+      "manualDate": "2023-09-06",
+      "directors": [
+        "Bill Condon"
+      ]
     },
     {
       "id": "m124",
@@ -9384,7 +9401,6 @@
       "scale": 100,
       "date": "2023-09-04",
       "genre": "Horror/Comedy",
-      "creator": "Taika Waititi, Jemaine Clement",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9451,7 +9467,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-04"
+      "manualDate": "2023-09-04",
+      "directors": [
+        "Taika Waititi",
+        "Jemaine Clement"
+      ]
     },
     {
       "id": "m125",
@@ -9462,7 +9482,6 @@
       "scale": 100,
       "date": "2023-09-04",
       "genre": "Melodrama/Drama",
-      "creator": "David Slade",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9511,7 +9530,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-04"
+      "manualDate": "2023-09-04",
+      "directors": [
+        "David Slade"
+      ]
     },
     {
       "id": "m126",
@@ -9522,7 +9544,6 @@
       "scale": 100,
       "date": "2023-09-04",
       "genre": "Melodrama/Drama",
-      "creator": "Bill Condon",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9571,7 +9592,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-04"
+      "manualDate": "2023-09-04",
+      "directors": [
+        "Bill Condon"
+      ]
     },
     {
       "id": "m127",
@@ -9582,7 +9606,6 @@
       "scale": 100,
       "date": "2023-09-02",
       "genre": "Melodrama/Drama",
-      "creator": "Chris Weitz",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9631,7 +9654,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-09-02"
+      "manualDate": "2023-09-02",
+      "directors": [
+        "Chris Weitz"
+      ]
     },
     {
       "id": "m128",
@@ -9642,7 +9668,6 @@
       "scale": 100,
       "date": "2023-08-30",
       "genre": "Melodrama/Drama",
-      "creator": "Catherine Hardwicke",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9698,7 +9723,10 @@
         "source": "https://en.wikipedia.org/wiki/Twilight",
         "matchedTitle": "Twilight",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Catherine Hardwicke"
+      ]
     },
     {
       "id": "m129",
@@ -9709,7 +9737,6 @@
       "scale": 100,
       "date": "2023-08-28",
       "genre": "Adventure/Animation",
-      "creator": "Bibo Bergeron, Don Paul, Jeffrey Katzenberg",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9758,7 +9785,12 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-28"
+      "manualDate": "2023-08-28",
+      "directors": [
+        "Bibo Bergeron",
+        "Don Paul",
+        "Jeffrey Katzenberg"
+      ]
     },
     {
       "id": "m130",
@@ -9769,7 +9801,6 @@
       "scale": 100,
       "date": "2023-08-23",
       "genre": "Drama/Fantasy",
-      "creator": "Felix Fuchssteiner, Katharina Schöde",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -9818,7 +9849,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-23"
+      "manualDate": "2023-08-23",
+      "directors": [
+        "Felix Fuchssteiner",
+        "Katharina Schöde"
+      ]
     },
     {
       "id": "m131",
@@ -9829,7 +9864,6 @@
       "scale": 100,
       "date": "2023-08-21",
       "genre": "Adventure/Sci-fi",
-      "creator": "John Musker, Ron Clements",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -9882,7 +9916,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-21"
+      "manualDate": "2023-08-21",
+      "directors": [
+        "John Musker",
+        "Ron Clements"
+      ]
     },
     {
       "id": "m132",
@@ -9893,7 +9931,6 @@
       "scale": 100,
       "date": "2023-08-21",
       "genre": "Adventure/Fantasy",
-      "creator": "Tim Johnson, Patrick Gilmore",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -9946,7 +9983,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-21"
+      "manualDate": "2023-08-21",
+      "directors": [
+        "Tim Johnson",
+        "Patrick Gilmore"
+      ]
     },
     {
       "id": "m133",
@@ -9957,7 +9998,6 @@
       "scale": 100,
       "date": "2023-08-21",
       "genre": "Drama/Fantasy",
-      "creator": "Felix Fuchssteiner",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10006,7 +10046,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-21"
+      "manualDate": "2023-08-21",
+      "directors": [
+        "Felix Fuchssteiner"
+      ]
     },
     {
       "id": "m134",
@@ -10017,7 +10060,6 @@
       "scale": 100,
       "date": "2023-08-16",
       "genre": "Drama, Family",
-      "creator": "Jon Favreau",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -10071,7 +10113,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2023-08-16",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Jon Favreau"
+      ]
     },
     {
       "id": "m135",
@@ -10082,7 +10127,6 @@
       "scale": 100,
       "date": "2023-08-14",
       "genre": "Action/Sci-fi",
-      "creator": "Francis Lawrence",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10131,7 +10175,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-14"
+      "manualDate": "2023-08-14",
+      "directors": [
+        "Francis Lawrence"
+      ]
     },
     {
       "id": "m136",
@@ -10142,7 +10189,6 @@
       "scale": 100,
       "date": "2023-08-07",
       "genre": "Drama/Romance",
-      "creator": "Luca Guadagnino",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10223,7 +10269,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-07"
+      "manualDate": "2023-08-07",
+      "directors": [
+        "Luca Guadagnino"
+      ]
     },
     {
       "id": "m137",
@@ -10234,7 +10283,6 @@
       "scale": 100,
       "date": "2023-08-04",
       "genre": "Sci-fi/Action",
-      "creator": "James Cameron",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10298,7 +10346,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-08-04"
+      "manualDate": "2023-08-04",
+      "directors": [
+        "James Cameron"
+      ]
     },
     {
       "id": "m138",
@@ -10309,7 +10360,6 @@
       "scale": 100,
       "date": "2023-08-01",
       "genre": "Drama, Thriller",
-      "creator": "Christopher Nolan",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10374,7 +10424,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2023-08-01",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Christopher Nolan"
+      ]
     },
     {
       "id": "m139",
@@ -10385,7 +10438,6 @@
       "scale": 100,
       "date": "2023-07-31",
       "genre": "Horror/Thriller",
-      "creator": "Mark Mylod",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -10454,7 +10506,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-07-31"
+      "manualDate": "2023-07-31",
+      "directors": [
+        "Mark Mylod"
+      ]
     },
     {
       "id": "m140",
@@ -10465,7 +10520,6 @@
       "scale": 100,
       "date": "2023-07-31",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10526,7 +10580,6 @@
       "scale": 100,
       "date": "2023-07-30",
       "genre": "Comedy/Drama",
-      "creator": "Greta Gerwig",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10597,7 +10650,10 @@
         "source": "https://en.wikipedia.org/wiki/Barbie",
         "matchedTitle": "Barbie",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Greta Gerwig"
+      ]
     },
     {
       "id": "m142",
@@ -10608,7 +10664,6 @@
       "scale": 100,
       "date": "2023-07-22",
       "genre": "",
-      "creator": "Jon S. Baird",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10679,7 +10734,10 @@
         "source": "https://en.wikipedia.org/wiki/Tetris",
         "matchedTitle": "Tetris",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Jon S. Baird"
+      ]
     },
     {
       "id": "m143",
@@ -10690,7 +10748,6 @@
       "scale": 100,
       "date": "2023-07-10",
       "genre": "Sci-fi/Action",
-      "creator": "Andrew Niccol",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10754,7 +10811,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-07-10"
+      "manualDate": "2023-07-10",
+      "directors": [
+        "Andrew Niccol"
+      ]
     },
     {
       "id": "m144",
@@ -10765,7 +10825,6 @@
       "scale": 100,
       "date": "2023-06-26",
       "genre": "Action/Sci-fi",
-      "creator": "Francis Lawrence",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10815,7 +10874,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-06-26"
+      "manualDate": "2023-06-26",
+      "directors": [
+        "Francis Lawrence"
+      ]
     },
     {
       "id": "m145",
@@ -10826,7 +10888,6 @@
       "scale": 100,
       "date": "2023-06-26",
       "genre": "Sci-fi/Adventure",
-      "creator": "Francis Lawrence",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10876,7 +10937,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-06-26"
+      "manualDate": "2023-06-26",
+      "directors": [
+        "Francis Lawrence"
+      ]
     },
     {
       "id": "m146",
@@ -10887,7 +10951,6 @@
       "scale": 100,
       "date": "2023-06-25",
       "genre": "Action/Neo-noir",
-      "creator": "Chad Stahelski",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10937,7 +11000,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-06-25"
+      "manualDate": "2023-06-25",
+      "directors": [
+        "Chad Stahelski"
+      ]
     },
     {
       "id": "m147",
@@ -10948,7 +11014,6 @@
       "scale": 100,
       "date": "2023-06-18",
       "genre": "Action/Sci-fi",
-      "creator": "Francis Lawrence, Gary Ross",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -10998,7 +11063,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-06-18"
+      "manualDate": "2023-06-18",
+      "directors": [
+        "Francis Lawrence",
+        "Gary Ross"
+      ]
     },
     {
       "id": "m148",
@@ -11009,7 +11078,6 @@
       "scale": 100,
       "date": "2023-06-18",
       "genre": "Sci-fi/Action",
-      "creator": "Robert Schwentke",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11059,7 +11127,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-06-18"
+      "manualDate": "2023-06-18",
+      "directors": [
+        "Robert Schwentke"
+      ]
     },
     {
       "id": "m149",
@@ -11070,7 +11141,6 @@
       "scale": 100,
       "date": "2023-06-11",
       "genre": "Sci-fi/Action",
-      "creator": "Neil Burger",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11164,7 +11234,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-06-11"
+      "manualDate": "2023-06-11",
+      "directors": [
+        "Neil Burger"
+      ]
     },
     {
       "id": "m150",
@@ -11175,7 +11248,6 @@
       "scale": 100,
       "date": "2023-06-10",
       "genre": "Adventure/Fantasy",
-      "creator": "John Francis Daley, Jonathan Goldstein",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11239,7 +11311,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-06-10"
+      "manualDate": "2023-06-10",
+      "directors": [
+        "John Francis Daley",
+        "Jonathan Goldstein"
+      ]
     },
     {
       "id": "m151",
@@ -11250,7 +11326,6 @@
       "scale": 100,
       "date": "2023-05-31",
       "genre": "Horror/Sci-fi",
-      "creator": "Gerard Johnstone",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11314,7 +11389,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-05-31"
+      "manualDate": "2023-05-31",
+      "directors": [
+        "Gerard Johnstone"
+      ]
     },
     {
       "id": "m152",
@@ -11325,7 +11403,6 @@
       "scale": 100,
       "date": "2023-05-30",
       "genre": "Family, Adventure",
-      "creator": "Andrew Stanton",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -11401,7 +11478,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2023-05-30",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Andrew Stanton"
+      ]
     },
     {
       "id": "m153",
@@ -11412,7 +11492,6 @@
       "scale": 100,
       "date": "2023-05-30",
       "genre": "Drama, Music",
-      "creator": "Damien Chazelle",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11487,7 +11566,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2023-05-30",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Damien Chazelle"
+      ]
     },
     {
       "id": "m154",
@@ -11498,7 +11580,6 @@
       "scale": 100,
       "date": "2023-05-30",
       "genre": "Action/Adventure",
-      "creator": "Scott Derrickson",
       "notes": "",
       "tags": [
         "Marvel"
@@ -11574,7 +11655,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-05-30"
+      "manualDate": "2023-05-30",
+      "directors": [
+        "Scott Derrickson"
+      ]
     },
     {
       "id": "m155",
@@ -11585,7 +11669,6 @@
       "scale": 100,
       "date": "2023-05-30",
       "genre": "Family/Comedy",
-      "creator": "Pete Docter",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -11660,7 +11743,10 @@
         "source": "https://en.wikipedia.org/wiki/Soul",
         "matchedTitle": "Soul",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Pete Docter"
+      ]
     },
     {
       "id": "m156",
@@ -11671,7 +11757,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Drama, Mystery",
-      "creator": "Robert Eggers",
       "notes": "",
       "tags": [
         "A24"
@@ -11741,7 +11826,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2023-04-25",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Robert Eggers"
+      ]
     },
     {
       "id": "m157",
@@ -11752,7 +11840,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Family/Adventure",
-      "creator": "Peggy Holmes, Roberts Gannaway",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11816,7 +11903,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-04-25"
+      "manualDate": "2023-04-25",
+      "directors": [
+        "Peggy Holmes",
+        "Roberts Gannaway"
+      ]
     },
     {
       "id": "m158",
@@ -11827,7 +11918,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Family/Adventure",
-      "creator": "Klay Hall",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11891,7 +11981,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-04-25"
+      "manualDate": "2023-04-25",
+      "directors": [
+        "Klay Hall"
+      ]
     },
     {
       "id": "m159",
@@ -11902,7 +11995,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Family/Adventure",
-      "creator": "Bradley Raymond",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -11973,7 +12065,10 @@
         "source": "https://en.wikipedia.org/wiki/Tinker_Bell",
         "matchedTitle": "Tinker Bell",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Bradley Raymond"
+      ]
     },
     {
       "id": "m160",
@@ -11984,7 +12079,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Horror/Thriller",
-      "creator": "Leigh Whannell",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12063,7 +12157,10 @@
         "source": "https://en.wikipedia.org/wiki/The_Invisible_Man",
         "matchedTitle": "The Invisible Man",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Leigh Whannell"
+      ]
     },
     {
       "id": "m161",
@@ -12074,7 +12171,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Horror/Thriller",
-      "creator": "Diederik Van Rooijen",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12138,7 +12234,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-04-25"
+      "manualDate": "2023-04-25",
+      "directors": [
+        "Diederik Van Rooijen"
+      ]
     },
     {
       "id": "m162",
@@ -12149,7 +12248,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Thriller/Action",
-      "creator": "Ariel Schulman, Henry Joost",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12220,7 +12318,11 @@
         "source": "https://en.wikipedia.org/wiki/Nerve",
         "matchedTitle": "Nerve",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Ariel Schulman",
+        "Henry Joost"
+      ]
     },
     {
       "id": "m163",
@@ -12231,7 +12333,6 @@
       "scale": 100,
       "date": "2023-04-25",
       "genre": "Thriller/Horror",
-      "creator": "Adam Robitel",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12295,7 +12396,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-04-25"
+      "manualDate": "2023-04-25",
+      "directors": [
+        "Adam Robitel"
+      ]
     },
     {
       "id": "m164",
@@ -12306,7 +12410,6 @@
       "scale": 100,
       "date": "2023-02-19",
       "genre": "Adventure/Fantasy",
-      "creator": "James Bobin",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12370,7 +12473,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-02-19"
+      "manualDate": "2023-02-19",
+      "directors": [
+        "James Bobin"
+      ]
     },
     {
       "id": "m165",
@@ -12381,7 +12487,6 @@
       "scale": 100,
       "date": "2023-02-19",
       "genre": "Fantasy/Family",
-      "creator": "Tim Burton",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12445,7 +12550,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-02-19"
+      "manualDate": "2023-02-19",
+      "directors": [
+        "Tim Burton"
+      ]
     },
     {
       "id": "m166",
@@ -12456,7 +12564,6 @@
       "scale": 100,
       "date": "2023-02-05",
       "genre": "Adventure/Action",
-      "creator": "Joss Whedon",
       "notes": "",
       "tags": [
         "Marvel"
@@ -12532,7 +12639,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-02-05"
+      "manualDate": "2023-02-05",
+      "directors": [
+        "Joss Whedon"
+      ]
     },
     {
       "id": "m167",
@@ -12543,7 +12653,6 @@
       "scale": 100,
       "date": "2023-02-05",
       "genre": "Action/Fantasy",
-      "creator": "Kenneth Branagh",
       "notes": "",
       "tags": [
         "Marvel"
@@ -12618,7 +12727,10 @@
         "source": "https://en.wikipedia.org/wiki/Thor",
         "matchedTitle": "Thor",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Kenneth Branagh"
+      ]
     },
     {
       "id": "m168",
@@ -12629,7 +12741,6 @@
       "scale": 100,
       "date": "2023-01-29",
       "genre": "Action/Sci-fi",
-      "creator": "Jon Favreau",
       "notes": "",
       "tags": [
         "Marvel"
@@ -12705,7 +12816,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-01-29"
+      "manualDate": "2023-01-29",
+      "directors": [
+        "Jon Favreau"
+      ]
     },
     {
       "id": "m169",
@@ -12716,7 +12830,6 @@
       "scale": 100,
       "date": "2023-01-29",
       "genre": "Action/Adventure",
-      "creator": "Jon Favreau",
       "notes": "",
       "tags": [
         "Marvel"
@@ -12792,7 +12905,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-01-29"
+      "manualDate": "2023-01-29",
+      "directors": [
+        "Jon Favreau"
+      ]
     },
     {
       "id": "m170",
@@ -12803,7 +12919,6 @@
       "scale": 100,
       "date": "2023-01-24",
       "genre": "Drama, Comedy",
-      "creator": "Damien Chazelle",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12868,7 +12983,10 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2023-01-24",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Damien Chazelle"
+      ]
     },
     {
       "id": "m171",
@@ -12879,7 +12997,6 @@
       "scale": 100,
       "date": null,
       "genre": "Drama, Adventure",
-      "creator": "Sean Penn",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -12951,7 +13068,10 @@
       "posterSeason": null,
       "manualRating": 100,
       "manualDate": null,
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Sean Penn"
+      ]
     },
     {
       "id": "m172",
@@ -12962,7 +13082,6 @@
       "scale": 100,
       "date": null,
       "genre": "Drama",
-      "creator": "Gabriele Muccino",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13034,7 +13153,10 @@
       "posterSeason": null,
       "manualRating": 100,
       "manualDate": null,
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Gabriele Muccino"
+      ]
     },
     {
       "id": "m173",
@@ -13045,7 +13167,6 @@
       "scale": 100,
       "date": null,
       "genre": "Crime, Thriller",
-      "creator": "Antoine Fuqua",
       "notes": "",
       "tags": [
         "Netflix"
@@ -13111,7 +13232,10 @@
       "posterSeason": null,
       "manualRating": 100,
       "manualDate": null,
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Antoine Fuqua"
+      ]
     },
     {
       "id": "m174",
@@ -13122,7 +13246,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller, Sci-fi",
-      "creator": "Galder Gaztelu-Urrutia",
       "notes": "",
       "tags": [
         "Netflix"
@@ -13188,7 +13311,10 @@
       "posterSeason": null,
       "manualRating": 90,
       "manualDate": null,
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Galder Gaztelu-Urrutia"
+      ]
     },
     {
       "id": "m175",
@@ -13199,7 +13325,6 @@
       "scale": 100,
       "date": null,
       "genre": "Romance, Drama",
-      "creator": "Baz Luhrmann",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13263,7 +13388,10 @@
       "posterSeason": null,
       "manualRating": 90,
       "manualDate": null,
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Baz Luhrmann"
+      ]
     },
     {
       "id": "m176",
@@ -13274,7 +13402,6 @@
       "scale": 100,
       "date": null,
       "genre": "Crime, Mystery",
-      "creator": "David Fincher",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13338,7 +13465,10 @@
       "posterSeason": null,
       "manualRating": 90,
       "manualDate": null,
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "David Fincher"
+      ]
     },
     {
       "id": "m177",
@@ -13349,7 +13479,6 @@
       "scale": 100,
       "date": "2019-10-01",
       "genre": "Crime, Drama",
-      "creator": "Todd Phillips",
       "notes": "",
       "tags": [
         "DC"
@@ -13415,7 +13544,10 @@
       "posterSeason": null,
       "manualRating": 90,
       "manualDate": "2019-10-01",
-      "posterSource": null
+      "posterSource": null,
+      "directors": [
+        "Todd Phillips"
+      ]
     },
     {
       "id": "m178",
@@ -13426,7 +13558,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Action",
-      "creator": "Duncan Jones",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13500,7 +13631,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Duncan Jones"
+      ]
     },
     {
       "id": "m179",
@@ -13511,7 +13645,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Action",
-      "creator": "Wes Ball",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13590,7 +13723,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Wes Ball"
+      ]
     },
     {
       "id": "m180",
@@ -13601,7 +13737,6 @@
       "scale": 100,
       "date": null,
       "genre": "Horror/Fantasy",
-      "creator": "Jaco Bouwer",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13671,7 +13806,10 @@
         "source": "https://en.wikipedia.org/wiki/Gaia",
         "matchedTitle": "Gaia",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Jaco Bouwer"
+      ]
     },
     {
       "id": "m181",
@@ -13682,7 +13820,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13756,7 +13893,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller/Crime",
-      "creator": "Dan Gilroy",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13819,7 +13955,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Dan Gilroy"
+      ]
     },
     {
       "id": "m183",
@@ -13830,7 +13969,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller/Crime",
-      "creator": "Denis Villeneuve",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13893,7 +14031,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Denis Villeneuve"
+      ]
     },
     {
       "id": "m184",
@@ -13904,7 +14045,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller/Drama",
-      "creator": "David Fincher",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -13975,7 +14115,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "David Fincher"
+      ]
     },
     {
       "id": "m185",
@@ -13986,7 +14129,6 @@
       "scale": 100,
       "date": null,
       "genre": "Western/Drama",
-      "creator": "Alejandro González Iñárritu",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14049,7 +14191,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Alejandro González Iñárritu"
+      ]
     },
     {
       "id": "m186",
@@ -14060,7 +14205,6 @@
       "scale": 100,
       "date": null,
       "genre": "Mystery/Comedy",
-      "creator": "Rian Johnson",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14123,7 +14267,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Rian Johnson"
+      ]
     },
     {
       "id": "m187",
@@ -14134,7 +14281,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Adventure",
-      "creator": "Daniel Kwan, Daniel Scheinert",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14197,7 +14343,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Daniel Kwan",
+        "Daniel Scheinert"
+      ]
     },
     {
       "id": "m188",
@@ -14208,7 +14358,6 @@
       "scale": 100,
       "date": null,
       "genre": "Fantasy/Adventure",
-      "creator": "Brad Silberling",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14271,7 +14420,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Brad Silberling"
+      ]
     },
     {
       "id": "m189",
@@ -14282,7 +14434,6 @@
       "scale": 100,
       "date": null,
       "genre": "War/Action",
-      "creator": "David Ayer",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14345,7 +14496,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "David Ayer"
+      ]
     },
     {
       "id": "m190",
@@ -14356,7 +14510,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi",
-      "creator": "Neill Blomkamp",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14419,7 +14572,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Neill Blomkamp"
+      ]
     },
     {
       "id": "m191",
@@ -14430,7 +14586,6 @@
       "scale": 100,
       "date": "2022-04-01",
       "genre": "Action/Adventure",
-      "creator": "Matt Reeves",
       "notes": "",
       "tags": [
         "DC"
@@ -14508,7 +14663,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2022-04-01"
+      "manualDate": "2022-04-01",
+      "directors": [
+        "Matt Reeves"
+      ]
     },
     {
       "id": "m192",
@@ -14519,7 +14677,6 @@
       "scale": 100,
       "date": null,
       "genre": "Crime/Comedy",
-      "creator": "Guy Ritchie",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14582,7 +14739,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Guy Ritchie"
+      ]
     },
     {
       "id": "m193",
@@ -14593,7 +14753,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller/Horror",
-      "creator": "Damien Macé, Alexis Wajsbrot",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14656,7 +14815,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Damien Macé",
+        "Alexis Wajsbrot"
+      ]
     },
     {
       "id": "m194",
@@ -14667,7 +14830,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Action",
-      "creator": "Steven Spielberg",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14738,7 +14900,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Steven Spielberg"
+      ]
     },
     {
       "id": "m195",
@@ -14749,7 +14914,6 @@
       "scale": 100,
       "date": null,
       "genre": "Romance/Drama",
-      "creator": "Thea Sharrock",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14812,7 +14976,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Thea Sharrock"
+      ]
     },
     {
       "id": "m196",
@@ -14823,7 +14990,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14904,7 +15070,6 @@
       "scale": 100,
       "date": null,
       "genre": "Horror/Mystery",
-      "creator": "Evan Spiliotopoulos",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -14967,7 +15132,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Evan Spiliotopoulos"
+      ]
     },
     {
       "id": "m198",
@@ -14978,7 +15146,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15033,7 +15200,6 @@
       "scale": 100,
       "date": null,
       "genre": "Action/Adventure",
-      "creator": "Sam Raimi",
       "notes": "В загальному все що тут класне - графіка",
       "tags": [
         "Marvel"
@@ -15103,7 +15269,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Sam Raimi"
+      ]
     },
     {
       "id": "m200",
@@ -15114,7 +15283,6 @@
       "scale": 100,
       "date": null,
       "genre": "Comedy/Crime",
-      "creator": "Todd Phillips",
       "notes": "Взагалі не схоже на попередні частини, фільм користується іменем попередніх частин",
       "tags": [],
       "favorite": false,
@@ -15188,7 +15356,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Todd Phillips"
+      ]
     },
     {
       "id": "m201",
@@ -15199,7 +15370,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Action",
-      "creator": "Wes Ball",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15262,7 +15432,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Wes Ball"
+      ]
     },
     {
       "id": "m202",
@@ -15273,7 +15446,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Action",
-      "creator": "Wes Ball",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15344,7 +15516,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Wes Ball"
+      ]
     },
     {
       "id": "m203",
@@ -15355,7 +15530,6 @@
       "scale": 100,
       "date": null,
       "genre": "Comedy/Buddy",
-      "creator": "Todd Phillips",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15426,7 +15600,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Todd Phillips"
+      ]
     },
     {
       "id": "m204",
@@ -15437,7 +15614,6 @@
       "scale": 100,
       "date": "2021-08-05",
       "genre": "Action/Adventure",
-      "creator": "James Gunn",
       "notes": "",
       "tags": [
         "DC"
@@ -15515,7 +15691,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2021-08-05"
+      "manualDate": "2021-08-05",
+      "directors": [
+        "James Gunn"
+      ]
     },
     {
       "id": "m205",
@@ -15526,7 +15705,6 @@
       "scale": 100,
       "date": null,
       "genre": "Comedy",
-      "creator": "Todd Phillips",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15597,7 +15775,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Todd Phillips"
+      ]
     },
     {
       "id": "m206",
@@ -15608,7 +15789,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Horror",
-      "creator": "Toby Meakins",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15671,7 +15851,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Toby Meakins"
+      ]
     },
     {
       "id": "m207",
@@ -15682,7 +15865,6 @@
       "scale": 100,
       "date": null,
       "genre": "Comedy/Adventure",
-      "creator": "Wes Anderson",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15745,7 +15927,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Wes Anderson"
+      ]
     },
     {
       "id": "m208",
@@ -15756,7 +15941,6 @@
       "scale": 100,
       "date": null,
       "genre": "Adventure/Drama",
-      "creator": "Robert Zemeckis",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15819,7 +16003,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Robert Zemeckis"
+      ]
     },
     {
       "id": "m209",
@@ -15830,7 +16017,6 @@
       "scale": 100,
       "date": null,
       "genre": "Disaster/Fantasy",
-      "creator": "Adam McKay",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15893,7 +16079,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 60,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Adam McKay"
+      ]
     },
     {
       "id": "m210",
@@ -15904,7 +16093,6 @@
       "scale": 100,
       "date": null,
       "genre": "Action/Crime",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -15989,7 +16177,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller",
-      "creator": "Matthias Schweighöfer",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16052,7 +16239,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 40,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Matthias Schweighöfer"
+      ]
     },
     {
       "id": "m212",
@@ -16063,7 +16253,6 @@
       "scale": 100,
       "date": null,
       "genre": "Action/Comedy",
-      "creator": "Rawson Marshall Thurber",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16126,7 +16315,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": 40,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Rawson Marshall Thurber"
+      ]
     },
     {
       "id": "m213",
@@ -16137,7 +16329,6 @@
       "scale": 100,
       "date": null,
       "genre": "Drama/Crime",
-      "creator": "Frank Darabont",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -16180,7 +16371,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Frank Darabont"
+      ]
     },
     {
       "id": "m214",
@@ -16191,7 +16385,6 @@
       "scale": 100,
       "date": null,
       "genre": "Crime/Drama",
-      "creator": "Steven Spielberg",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16229,7 +16422,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Steven Spielberg"
+      ]
     },
     {
       "id": "m215",
@@ -16240,7 +16436,6 @@
       "scale": 100,
       "date": null,
       "genre": "Drama/Drama",
-      "creator": "Lasse Hallström",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16286,7 +16481,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Lasse Hallström"
+      ]
     },
     {
       "id": "m216",
@@ -16297,7 +16495,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller/Mystery",
-      "creator": "Martin Scorsese",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16343,7 +16540,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Martin Scorsese"
+      ]
     },
     {
       "id": "m217",
@@ -16354,7 +16554,6 @@
       "scale": 100,
       "date": null,
       "genre": "Action/Sci-fi",
-      "creator": "Christopher Nolan",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16400,7 +16599,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Christopher Nolan"
+      ]
     },
     {
       "id": "m218",
@@ -16411,7 +16613,6 @@
       "scale": 100,
       "date": null,
       "genre": "Comedy/Drama",
-      "creator": "Martin Scorsese",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16449,7 +16650,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Martin Scorsese"
+      ]
     },
     {
       "id": "m219",
@@ -16460,7 +16664,6 @@
       "scale": 100,
       "date": null,
       "genre": "War/Drama",
-      "creator": "Mel Gibson",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16506,7 +16709,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Mel Gibson"
+      ]
     },
     {
       "id": "m220",
@@ -16517,7 +16723,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Romance",
-      "creator": "Morten Tyldum",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16571,7 +16776,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Morten Tyldum"
+      ]
     },
     {
       "id": "m221",
@@ -16582,7 +16790,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Comedy",
-      "creator": "Robert Zemeckis",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16620,7 +16827,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Robert Zemeckis"
+      ]
     },
     {
       "id": "m222",
@@ -16631,7 +16841,6 @@
       "scale": 100,
       "date": "2018-12-01",
       "genre": "Action, Adventure",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel",
@@ -16698,7 +16907,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16747,7 +16955,6 @@
       "scale": 100,
       "date": null,
       "genre": "War/Drama",
-      "creator": "Sam Mendes",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16792,7 +16999,10 @@
         "source": "https://en.wikipedia.org/wiki/1917",
         "matchedTitle": "1917",
         "matchedYear": null
-      }
+      },
+      "directors": [
+        "Sam Mendes"
+      ]
     },
     {
       "id": "m225",
@@ -16803,7 +17013,6 @@
       "scale": 100,
       "date": null,
       "genre": "Crime/Drama",
-      "creator": "Quentin Tarantino",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16841,7 +17050,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Quentin Tarantino"
+      ]
     },
     {
       "id": "m226",
@@ -16852,7 +17064,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller/Mystery",
-      "creator": "Christopher Nolan",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16890,7 +17101,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Christopher Nolan"
+      ]
     },
     {
       "id": "m227",
@@ -16901,7 +17115,6 @@
       "scale": 100,
       "date": null,
       "genre": "Romance/Sci-fi",
-      "creator": "Spike Jonze",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16939,7 +17152,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Spike Jonze"
+      ]
     },
     {
       "id": "m228",
@@ -16950,7 +17166,6 @@
       "scale": 100,
       "date": null,
       "genre": "Comedy/Drama",
-      "creator": "Quentin Tarantino",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -16988,7 +17203,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Quentin Tarantino"
+      ]
     },
     {
       "id": "m229",
@@ -16999,7 +17217,6 @@
       "scale": 100,
       "date": null,
       "genre": "Documentary",
-      "creator": "Jeff Orlowski",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17037,7 +17254,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Jeff Orlowski"
+      ]
     },
     {
       "id": "m230",
@@ -17048,7 +17268,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17097,7 +17316,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Thriller",
-      "creator": "Alex Garland",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17143,7 +17361,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Alex Garland"
+      ]
     },
     {
       "id": "m232",
@@ -17154,7 +17375,6 @@
       "scale": 100,
       "date": null,
       "genre": "Fantasy/Adventure",
-      "creator": "Peter Jackson",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17192,7 +17412,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Peter Jackson"
+      ]
     },
     {
       "id": "m233",
@@ -17203,7 +17426,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -17268,7 +17490,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -17332,7 +17553,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon",
@@ -17398,7 +17618,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon",
@@ -17464,7 +17683,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "DC"
@@ -17529,7 +17747,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -17579,7 +17796,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -17643,7 +17859,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -17707,7 +17922,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17756,7 +17970,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17805,7 +18018,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17854,7 +18066,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17903,7 +18114,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -17952,7 +18162,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18001,7 +18210,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18057,7 +18265,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -18111,7 +18318,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18160,7 +18366,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18209,7 +18414,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18258,7 +18462,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18307,7 +18510,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18356,7 +18558,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18405,7 +18606,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18454,7 +18654,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18503,7 +18702,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18552,7 +18750,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18608,7 +18805,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18657,7 +18853,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18706,7 +18901,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18755,7 +18949,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18804,7 +18997,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18853,7 +19045,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18902,7 +19093,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -18951,7 +19141,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19000,7 +19189,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19049,7 +19237,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19098,7 +19285,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19147,7 +19333,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19196,7 +19381,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19245,7 +19429,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19294,7 +19477,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19343,7 +19525,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19392,7 +19573,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19441,7 +19621,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19490,7 +19669,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19539,7 +19717,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19588,7 +19765,6 @@
       "scale": 100,
       "date": null,
       "genre": "Western/Drama",
-      "creator": "Ethan Coen, Joel Coen",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19626,7 +19802,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Ethan Coen",
+        "Joel Coen"
+      ]
     },
     {
       "id": "m281",
@@ -19637,7 +19817,6 @@
       "scale": 100,
       "date": null,
       "genre": "Crime/Drama",
-      "creator": "Charlie McDowell",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19675,7 +19854,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Charlie McDowell"
+      ]
     },
     {
       "id": "m282",
@@ -19686,7 +19868,6 @@
       "scale": 100,
       "date": null,
       "genre": "Fantasy/Adventure",
-      "creator": "Peter Jackson",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19724,7 +19905,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Peter Jackson"
+      ]
     },
     {
       "id": "m283",
@@ -19735,7 +19919,6 @@
       "scale": 100,
       "date": null,
       "genre": "Action/Crime",
-      "creator": "Nicolas Winding Refn",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19773,7 +19956,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Nicolas Winding Refn"
+      ]
     },
     {
       "id": "m284",
@@ -19784,7 +19970,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19833,7 +20018,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19882,7 +20066,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19931,7 +20114,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -19980,7 +20162,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20029,7 +20210,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20078,7 +20258,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20127,7 +20306,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20176,7 +20354,6 @@
       "scale": 100,
       "date": null,
       "genre": "Sci-fi/Adventure",
-      "creator": "Shawn Levy",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20214,7 +20391,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Shawn Levy"
+      ]
     },
     {
       "id": "m293",
@@ -20225,7 +20405,6 @@
       "scale": 100,
       "date": null,
       "genre": "Fantasy/Adventure",
-      "creator": "Peter Jackson",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20263,7 +20442,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Peter Jackson"
+      ]
     },
     {
       "id": "m294",
@@ -20274,7 +20456,6 @@
       "scale": 100,
       "date": null,
       "genre": "Horror/Thriller",
-      "creator": "M. Night Shyamalan",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20312,7 +20493,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "M. Night Shyamalan"
+      ]
     },
     {
       "id": "m295",
@@ -20323,7 +20507,6 @@
       "scale": 100,
       "date": null,
       "genre": "Thriller/Drama",
-      "creator": "David Cronenberg",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -20361,7 +20544,10 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "David Cronenberg"
+      ]
     },
     {
       "id": "m296",
@@ -20372,7 +20558,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -20437,7 +20622,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "DC"
@@ -20501,7 +20685,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "DC"
@@ -20565,7 +20748,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "DC"
@@ -20629,7 +20811,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -20693,7 +20874,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -20757,7 +20937,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -20821,7 +21000,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -20885,7 +21063,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -20949,7 +21126,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -21020,7 +21196,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21069,7 +21244,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21118,7 +21292,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21167,7 +21340,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21223,7 +21395,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21272,7 +21443,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21321,7 +21491,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21370,7 +21539,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21426,7 +21594,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21475,7 +21642,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21524,7 +21690,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21573,7 +21738,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21622,7 +21786,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21671,7 +21834,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21720,7 +21882,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21769,7 +21930,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21818,7 +21978,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21867,7 +22026,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21916,7 +22074,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -21965,7 +22122,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22014,7 +22170,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22063,7 +22218,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22119,7 +22273,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22168,7 +22321,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22224,7 +22376,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22280,7 +22431,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22329,7 +22479,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22378,7 +22527,6 @@
       "scale": 100,
       "date": "2023-07-30",
       "genre": "Comedy/Horror",
-      "creator": "Taika Waititi, Jemaine Clement",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22436,7 +22584,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2023-07-30"
+      "manualDate": "2023-07-30",
+      "directors": [
+        "Taika Waititi",
+        "Jemaine Clement"
+      ]
     },
     {
       "id": "m335",
@@ -22447,7 +22599,6 @@
       "scale": 100,
       "date": null,
       "genre": "Comedy/Drama",
-      "creator": "Olivier Nakache, Éric Toledano",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22508,7 +22659,11 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": null
+      "manualDate": null,
+      "directors": [
+        "Olivier Nakache",
+        "Éric Toledano"
+      ]
     },
     {
       "id": "m336",
@@ -22519,7 +22674,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22574,7 +22728,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -22622,7 +22775,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -22684,7 +22836,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -22746,7 +22897,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Marvel"
@@ -22807,7 +22957,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -22868,7 +23017,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -22929,7 +23077,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -22997,7 +23144,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -23065,7 +23211,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -23126,7 +23271,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -23187,7 +23331,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -23248,7 +23391,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -23309,7 +23451,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -23370,7 +23511,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -23431,7 +23571,6 @@
       "scale": 100,
       "date": "2026-09-21",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -23523,7 +23662,6 @@
           "status": "done",
           "droppedAtEpisode": null,
           "genre": "",
-          "creator": "",
           "notes": "",
           "startDate": null,
           "endDate": "2026-09-12"
@@ -23579,7 +23717,6 @@
           "status": "done",
           "droppedAtEpisode": null,
           "genre": "",
-          "creator": "",
           "notes": ""
         }
       ],
@@ -23615,7 +23752,6 @@
       "scale": 100,
       "date": "2026-09-01",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -23661,7 +23797,6 @@
           "status": "done",
           "droppedAtEpisode": null,
           "genre": "",
-          "creator": "",
           "notes": ""
         }
       ],
@@ -23697,7 +23832,6 @@
       "scale": 100,
       "date": "2026-08-10",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -23765,7 +23899,6 @@
       "scale": 100,
       "date": "2026-07-09",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -23937,7 +24070,6 @@
       "scale": 100,
       "date": "2026-05-14",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -23983,7 +24115,6 @@
           "status": "done",
           "droppedAtEpisode": null,
           "genre": "",
-          "creator": "",
           "notes": ""
         }
       ],
@@ -24019,7 +24150,6 @@
       "scale": 100,
       "date": "2026-04-20",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -24773,7 +24903,6 @@
       "scale": 100,
       "date": "2025-11-12",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -24867,7 +24996,6 @@
       "scale": 100,
       "date": "2025-10-16",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -24979,7 +25107,6 @@
       "scale": 100,
       "date": "2025-10-05",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -25061,7 +25188,6 @@
       "scale": 100,
       "date": "2025-09-29",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -25159,7 +25285,6 @@
       "scale": 100,
       "date": "2025-09-26",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -25330,7 +25455,6 @@
       "scale": 100,
       "date": "2025-07-14",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -25603,7 +25727,6 @@
       "scale": 100,
       "date": "2025-07-10",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -25708,7 +25831,6 @@
       "scale": 100,
       "date": "2025-06-30",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -25918,7 +26040,6 @@
       "scale": 100,
       "date": "2025-06-21",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -26083,7 +26204,6 @@
           "releaseYear": null,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLnhJQG1rTlEkDpCDFIU_gefS8Mlf10X2-_LSsFYxnEg&s=10",
           "genre": "",
-          "creator": "",
           "notes": "",
           "posterSource": null
         }
@@ -26122,7 +26242,6 @@
       "scale": 100,
       "date": "2025-05-25",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -26194,7 +26313,6 @@
       "scale": 100,
       "date": "2025-02-22",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -26395,7 +26513,6 @@
       "scale": 100,
       "date": "2025-02-25",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -26514,7 +26631,6 @@
       "scale": 100,
       "date": "2025-02-28",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -26641,7 +26757,6 @@
       "scale": 100,
       "date": "2025-12-06",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -26730,7 +26845,6 @@
       "scale": 100,
       "date": "2024-10-19",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Cartoon",
@@ -26888,7 +27002,6 @@
           "releaseYear": null,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2MSyly9loIor-5eIb0IiCWMIiVpv6Xhsb0PEMHyajQ&s=10",
           "genre": "",
-          "creator": "",
           "notes": "",
           "posterSource": null
         }
@@ -26925,7 +27038,6 @@
       "scale": 100,
       "date": "2024-08-10",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -26972,7 +27084,6 @@
           "releaseYear": null,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8wu9AfQ9qMs21uStLjs2IDZJB8SVmvhYviu1sPFl6QQ&s=10",
           "genre": "",
-          "creator": "",
           "notes": "",
           "posterSource": null
         },
@@ -26994,7 +27105,6 @@
           "releaseYear": null,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdHVAYuVoJK__8w6qHnLRDwgqSvJnFevCtuJvOrMStw&s=10",
           "genre": "",
-          "creator": "",
           "notes": "",
           "posterSource": null
         }
@@ -27029,7 +27139,6 @@
       "scale": 100,
       "date": "2024-06-15",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -27089,7 +27198,6 @@
       "scale": 100,
       "date": "2024-06-17",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -27165,7 +27273,6 @@
       "scale": 100,
       "date": "2024-06-19",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -27258,7 +27365,6 @@
       "scale": 100,
       "date": "2024-03-26",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -27398,7 +27504,6 @@
       "scale": 100,
       "date": "2024-03-27",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -27445,7 +27550,6 @@
           "releaseYear": null,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyMiN1Vkjl5ilTf8mDlOOBt70kC-yeHNPa2lfBM2wc1w&s=10",
           "genre": "",
-          "creator": "",
           "notes": "",
           "posterSource": null
         }
@@ -27480,7 +27584,6 @@
       "scale": 100,
       "date": "2024-03-28",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -27540,7 +27643,6 @@
       "scale": 100,
       "date": "2024-03-29",
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Anime"
@@ -27658,7 +27760,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга"
@@ -27698,7 +27799,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга"
@@ -27738,7 +27838,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга"
@@ -27778,7 +27877,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга",
@@ -27823,7 +27921,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга"
@@ -27863,7 +27960,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга"
@@ -27903,7 +27999,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга"
@@ -27943,7 +28038,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28003,7 +28097,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28063,7 +28156,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28106,7 +28198,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28146,7 +28237,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28206,7 +28296,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28246,7 +28335,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28306,7 +28394,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28346,7 +28433,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28406,7 +28492,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28446,7 +28531,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28506,7 +28590,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28553,7 +28636,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28613,7 +28695,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28653,7 +28734,6 @@
       "scale": 100,
       "date": "2026-09-09",
       "genre": "",
-      "creator": "",
       "notes": "Фігня для \"мужикоу\" з района. Не знаю за що всім людям воно подобається...",
       "tags": [],
       "favorite": false,
@@ -28696,7 +28776,6 @@
           "status": "done",
           "droppedAtEpisode": null,
           "genre": "",
-          "creator": "",
           "notes": ""
         }
       ],
@@ -28731,7 +28810,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28791,7 +28869,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28831,7 +28908,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28871,7 +28947,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28931,7 +29006,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -28971,7 +29045,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29014,7 +29087,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29054,7 +29126,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29097,7 +29168,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29144,7 +29214,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29184,7 +29253,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29224,7 +29292,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29264,7 +29331,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29304,7 +29370,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29344,7 +29409,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29384,7 +29448,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29424,7 +29487,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29464,7 +29526,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29504,7 +29565,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29544,7 +29604,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29584,7 +29643,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29624,7 +29682,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29664,7 +29721,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29704,7 +29760,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29744,7 +29799,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29784,7 +29838,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29824,7 +29877,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29864,7 +29916,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29904,7 +29955,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29944,7 +29994,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -29984,7 +30033,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
@@ -30024,7 +30072,6 @@
       "scale": 100,
       "date": null,
       "genre": "",
-      "creator": "",
       "notes": "",
       "tags": [
         "Черга (архів)"
