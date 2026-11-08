@@ -1685,13 +1685,13 @@
     },
     {
       "id": "m16",
-      "title": "Speak No Evil (2022)",
+      "title": "Speak No Evil",
       "category": "movie",
       "status": "done",
-      "rating": 60,
+      "rating": 62,
       "scale": 100,
       "date": "2026-02-21",
-      "genre": "Horror/Drama",
+      "genre": "Horror, Drama",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -1715,7 +1715,7 @@
       "watchHistory": [
         {
           "date": "2026-02-21",
-          "rating": 60,
+          "rating": 62,
           "scale": 100,
           "source": "MOVIES",
           "row": 18,
@@ -1724,6 +1724,15 @@
           "legacyRating": {
             "value": 3,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 61,
+              "Реалізація": 70,
+              "Враження": 55
+            },
+            "date": "2026-11-08"
           }
         }
       ],
@@ -1737,7 +1746,7 @@
         "scale": 5
       },
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2022,
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-02-21",
@@ -1746,19 +1755,26 @@
         "source": "https://de.web.img3.acsta.net/pictures/23/09/01/11/28/4603461.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Speak No Evil (2022)"
-      }
+      },
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m17",
       "title": "Mickey 17",
       "category": "movie",
       "status": "done",
-      "rating": 70,
+      "rating": 69,
       "scale": 100,
       "date": "2026-01-31",
-      "genre": "Sci-fi/Comedy",
+      "genre": "Sci-fi, Comedy",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Space",
+        "Future"
+      ],
       "favorite": false,
       "poster": "https://cdn.mos.cms.futurecdn.net/arkA67QtEJZskZQgacnLEK-1200-80.jpg",
       "source": [
@@ -1780,7 +1796,7 @@
       "watchHistory": [
         {
           "date": "2026-01-31",
-          "rating": 70,
+          "rating": 69,
           "scale": 100,
           "source": "MOVIES",
           "row": 19,
@@ -1789,6 +1805,15 @@
           "legacyRating": {
             "value": 3.5,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 70,
+              "Реалізація": 71,
+              "Враження": 65
+            },
+            "date": "2026-11-08"
           }
         }
       ],
@@ -1802,7 +1827,7 @@
         "scale": 5
       },
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2025,
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-01-31",
@@ -1811,7 +1836,20 @@
         "source": "https://cdn.mos.cms.futurecdn.net/arkA67QtEJZskZQgacnLEK-1200-80.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Mickey 17"
-      }
+      },
+      "actors": [
+        "Robert Pattinson",
+        "Steven Yeun",
+        "Michael Monroe"
+      ],
+      "directors": [
+        "Bong Joon Ho"
+      ],
+      "studios": [],
+      "authors": [
+        "Bong Joon Ho",
+        "Edward Ashton"
+      ]
     },
     {
       "id": "m18",
@@ -1990,7 +2028,7 @@
       "title": "Chainsaw Man - The Movie: Reze Arc",
       "category": "movie",
       "status": "done",
-      "rating": 100,
+      "rating": 94,
       "scale": 100,
       "date": "2025-11-08",
       "genre": "Animation/Horror",
@@ -2020,7 +2058,7 @@
       "watchHistory": [
         {
           "date": "2025-11-08",
-          "rating": 100,
+          "rating": 94,
           "scale": 100,
           "source": "MOVIES",
           "row": 22,
@@ -2029,6 +2067,15 @@
           "legacyRating": {
             "value": 5,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 93,
+              "Реалізація": 98,
+              "Враження": 92
+            },
+            "date": "2026-11-08"
           }
         }
       ],
@@ -2259,7 +2306,7 @@
       "title": "Interstellar",
       "category": "movie",
       "status": "done",
-      "rating": 100,
+      "rating": 96,
       "scale": 100,
       "date": "2025-09-10",
       "genre": "Sci-fi/Adventure",
@@ -2309,16 +2356,17 @@
       "mark": "",
       "watchHistory": [
         {
-          "date": null,
-          "rating": null,
+          "date": "2020-02-08",
+          "rating": 90,
           "scale": 100,
           "source": "Архів (без дати)",
-          "estimated": true,
-          "id": "m24-v1"
+          "estimated": false,
+          "id": "m24-v1",
+          "note": ""
         },
         {
           "date": "2025-09-10",
-          "rating": 100,
+          "rating": 96,
           "scale": 100,
           "source": "MOVIES",
           "row": 26,
@@ -2327,6 +2375,15 @@
           "legacyRating": {
             "value": 5,
             "scale": 5
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 95,
+              "Реалізація": 98,
+              "Враження": 94
+            },
+            "date": "2026-11-08"
           }
         }
       ],
@@ -2856,7 +2913,7 @@
       "title": "The Intouchables",
       "category": "movie",
       "status": "done",
-      "rating": 100,
+      "rating": 94,
       "scale": 100,
       "date": "2025-08-19",
       "genre": "Comedy/Drama",
@@ -2887,16 +2944,17 @@
       "mark": "",
       "watchHistory": [
         {
-          "date": null,
-          "rating": null,
+          "date": "2019-06-08",
+          "rating": 80,
           "scale": 100,
           "source": "Архів (без дати)",
-          "estimated": true,
-          "id": "m31-v1"
+          "estimated": false,
+          "id": "m31-v1",
+          "note": ""
         },
         {
           "date": "2025-08-04",
-          "rating": 100,
+          "rating": 91,
           "scale": 100,
           "source": "MOVIES",
           "row": 45,
@@ -2905,11 +2963,12 @@
           "legacyRating": {
             "value": 5,
             "scale": 5
-          }
+          },
+          "note": "Стрім zubaref"
         },
         {
           "date": "2025-08-19",
-          "rating": 100,
+          "rating": 94,
           "scale": 100,
           "source": "MOVIES",
           "row": 35,
@@ -2918,7 +2977,17 @@
           "legacyRating": {
             "value": 5,
             "scale": 5
-          }
+          },
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 92,
+              "Реалізація": 90,
+              "Враження": 100
+            },
+            "date": "2026-11-08"
+          },
+          "note": "стрім lebiga"
         }
       ],
       "wishlist": false,
@@ -2989,7 +3058,8 @@
           "legacyRating": {
             "value": 4.5,
             "scale": 5
-          }
+          },
+          "note": "Переглядав на стрімі Lebiga"
         }
       ],
       "wishlist": false,
@@ -3017,19 +3087,19 @@
     },
     {
       "id": "m33",
-      "title": "Madagascar 2",
+      "title": "Madagascar: Escape 2 Africa",
       "category": "movie",
       "status": "done",
       "rating": 90,
       "scale": 100,
       "date": "2025-08-18",
-      "genre": "Family/Comedy",
+      "genre": "Family, Comedy",
       "notes": "",
       "tags": [
         "Cartoon"
       ],
       "favorite": false,
-      "poster": "https://static.wikia.nocookie.net/penguinsofmadagascar/images/f/f9/Madagascar2ver3.jpg/revision/latest?cb=20180107161430",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTApO3RcoEX3RRBVffr2TpSfxsdlBKNA92h44QK9kinow&s=10",
       "source": [
         "MOVIES"
       ],
@@ -3077,12 +3147,11 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2025-08-18",
-      "posterSource": {
-        "provider": "Madagascar Wiki",
-        "source": "https://static.wikia.nocookie.net/penguinsofmadagascar/images/f/f9/Madagascar2ver3.jpg/revision/latest?cb=20180107161430",
-        "method": "Підібрано вручну за результатами вебпошуку",
-        "matchedTitle": "Madagascar 2"
-      }
+      "posterSource": null,
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m34",
@@ -3295,13 +3364,13 @@
       "rating": 70,
       "scale": 100,
       "date": "2025-08-09",
-      "genre": "Family/Fantasy",
+      "genre": "Family, Fantasy",
       "notes": "",
       "tags": [
         "Cartoon"
       ],
       "favorite": false,
-      "poster": "https://www.impawards.com/2019/posters/how_to_train_your_dragon_the_hidden_world.jpg",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWt0g7KH_TSC5O9OTFhPtfVyfi5EegA7C7BLuwbPVrWQ&s=10",
       "source": [
         "MOVIES"
       ],
@@ -3349,12 +3418,11 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2025-08-09",
-      "posterSource": {
-        "provider": "IMP Awards",
-        "source": "https://www.impawards.com/2019/posters/how_to_train_your_dragon_the_hidden_world.jpg",
-        "method": "Підібрано вручну за результатами вебпошуку",
-        "matchedTitle": "How to Train Your Dragon: The Hidden World"
-      }
+      "posterSource": null,
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m38",
@@ -3527,13 +3595,13 @@
     },
     {
       "id": "m40",
-      "title": "Madagascar 3",
+      "title": "Madagascar 3: Europe's Most Wanted",
       "category": "movie",
       "status": "done",
       "rating": 80,
       "scale": 100,
       "date": "2025-08-08",
-      "genre": "Adventure/Animation",
+      "genre": "Adventure, Animation",
       "notes": "",
       "tags": [
         "Cartoon"
@@ -3592,7 +3660,11 @@
         "source": "https://3.bp.blogspot.com/-7DXjkyjDrvI/T9B8eQBhQqI/AAAAAAAAA7s/qUiQdlepkqU/s1600/MAD3_Intl_Payoff_1_Sheet-104.jpg",
         "method": "Підібрано вручну за результатами вебпошуку",
         "matchedTitle": "Madagascar 3"
-      }
+      },
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m41",
@@ -3669,9 +3741,7 @@
       "date": "2025-07-17",
       "genre": "Western/Thriller",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://filmartgallery.com/cdn/shop/files/The-Hateful-Eight-Vintage-Movie-Poster-Original_0f15a2a9_5000x.jpg?v=1771953621",
       "source": [
@@ -3999,13 +4069,11 @@
       "rating": 80,
       "scale": 100,
       "date": "2025-01-06",
-      "genre": "Adventure/Fantasy",
+      "genre": "Adventure, Fantasy",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
-      "poster": "https://www-images.theonering.org/torwp/wp-content/uploads/2014/10/Hobbit_BOTFA_Intl_poster.jpg",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZHckmzxjZfCJD1EOKyxDWGUQmKTm3RM3rg26zJcjaA&s=10",
       "source": [
         "MOVIES",
         "QUIE 0.5"
@@ -4054,15 +4122,13 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2025-01-06",
-      "posterSource": {
-        "provider": "TheOneRing.net",
-        "source": "https://www-images.theonering.org/torwp/wp-content/uploads/2014/10/Hobbit_BOTFA_Intl_poster.jpg",
-        "method": "Підібрано вручну за результатами вебпошуку",
-        "matchedTitle": "The Hobbit: The Battle of the Five Armies"
-      },
+      "posterSource": null,
       "directors": [
         "Peter Jackson"
-      ]
+      ],
+      "actors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m48",
@@ -4072,11 +4138,9 @@
       "rating": 80,
       "scale": 100,
       "date": "2025-01-04",
-      "genre": "Fantasy/Adventure",
+      "genre": "Fantasy, Adventure",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://i.ebayimg.com/images/g/-WsAAOSwfEFnCYwY/s-l1200.jpg",
       "source": [
@@ -4135,7 +4199,10 @@
       },
       "directors": [
         "Peter Jackson"
-      ]
+      ],
+      "actors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m49",
@@ -4362,11 +4429,9 @@
       "rating": 80,
       "scale": 100,
       "date": "2025-01-03",
-      "genre": "Fantasy/Adventure",
+      "genre": "Fantasy, Adventure",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://i.ebayimg.com/00/s/MTYwMFgxMTI3/z/KdMAAOSwYsBnCYSC/%24_57.JPG?set_id=880000500F",
       "source": [
@@ -4425,7 +4490,10 @@
       },
       "directors": [
         "Peter Jackson"
-      ]
+      ],
+      "actors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m53",
@@ -7836,9 +7904,7 @@
       "date": "2024-01-27",
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -10454,9 +10520,7 @@
       "date": "2023-07-31",
       "genre": "Horror/Thriller",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -16345,9 +16409,7 @@
       "date": null,
       "genre": "Drama/Crime",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -18281,9 +18343,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -26773,9 +26833,7 @@
       "date": "2025-12-06",
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://images.ctfassets.net/4cd45et68cgf/3WBC9O4NhLJq4Q4TMh3H1c/67b8f1cbbe20bd6e24189ee194b78bfe/471486_TCM_Vertical_sRGB.jpg",
       "source": [
@@ -27289,9 +27347,7 @@
       "date": "2024-06-19",
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://cdn.cinemagay.it/cinemagay/2016/04/office-the.jpg",
       "source": [
@@ -27776,9 +27832,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -27809,17 +27863,17 @@
       "id": "m541",
       "title": "Project Hail Mary",
       "category": "movie",
-      "status": "",
-      "rating": null,
+      "status": "done",
+      "rating": 76,
       "scale": 100,
-      "date": null,
-      "genre": "",
+      "date": "2026-04-01",
+      "genre": "Sci-fi, Adventure",
       "notes": "",
       "tags": [
-        "Черга"
+        "Space"
       ],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHenQUQoSCyuXyu8wds0WW6C5HpLCp76q_tHFZgqtSMg&s=10",
       "source": [
         "QUIE"
       ],
@@ -27831,7 +27885,7 @@
       "gameType": "",
       "mark": "",
       "watchHistory": [],
-      "wishlist": true,
+      "wishlist": false,
       "startDate": null,
       "endDate": null,
       "bookFormat": "read",
@@ -27839,10 +27893,39 @@
         "Черга"
       ],
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2026,
       "posterSeason": null,
-      "manualRating": null,
-      "manualDate": null
+      "manualRating": 76,
+      "manualDate": "2026-04-01",
+      "actors": [
+        "Ryan Gosling",
+        "Sandra Hüller",
+        "James Ortiz",
+        "Lionel Boyce",
+        "Milana Vayntrub",
+        "Ken Leung",
+        "Priya Kansara",
+        "Mia Soteriou"
+      ],
+      "directors": [
+        "Phil Lord",
+        "Chris Miller"
+      ],
+      "studios": [],
+      "authors": [
+        "Drew Goddard",
+        "Andy Weir"
+      ],
+      "posterSource": null,
+      "rubric": {
+        "method": "3 критерії · зважене середнє",
+        "scores": {
+          "Історія й персонажі": 78,
+          "Реалізація": 80,
+          "Враження": 70
+        },
+        "date": "2026-11-08"
+      }
     },
     {
       "id": "m542",
@@ -27854,9 +27937,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -27894,7 +27975,6 @@
       "genre": "",
       "notes": "",
       "tags": [
-        "Черга",
         "Anime"
       ],
       "favorite": false,
@@ -27937,9 +28017,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -27976,9 +28054,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28015,9 +28091,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28054,9 +28128,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://hypeabis.id/assets/content/20220115145517_2630473604237291492239715076727787008546077n.jpg",
       "source": [
@@ -28113,9 +28185,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://tr.web.img3.acsta.net/pictures/22/03/16/14/03/2332803.jpg",
       "source": [
@@ -28172,9 +28242,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://flxt.tmsimg.com/assets/p21660048_b_v13_ac.jpg",
       "source": [
@@ -28214,9 +28282,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28253,9 +28319,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://media.senscritique.com/media/000020593453/0/tokyo_vice.png",
       "source": [
@@ -28312,9 +28376,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28351,9 +28413,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://image.tmdb.org/t/p/original/matO9b040ibkviZV5mmDdKpQMEV.jpg",
       "source": [
@@ -28410,9 +28470,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28449,9 +28507,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://www.impawards.com/tv/posters/better_call_saul_ver5_xlg.jpg",
       "source": [
@@ -28508,9 +28564,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28547,9 +28601,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://i0.wp.com/cdn.collider.com/wp-content/uploads/2017/07/ozark-poster.jpg",
       "source": [
@@ -28606,9 +28658,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_du_Antipape_Beno%C3%AEt_XIII_par_Joan_Reixach_XV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": [
@@ -28652,9 +28702,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://images.justwatch.com/poster/306348297/s718/season-1.jpg",
       "source": [
@@ -28711,9 +28759,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28826,9 +28872,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://cdn1.naekranie.pl/media/cache/amp/2014/12/Sherlock-poster.jpg",
       "source": [
@@ -28885,9 +28929,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28924,9 +28966,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -28963,9 +29003,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://i5.walmartimages.com/seo/Friends-TV-Show-Poster-Print-The-Gang-Chilling-On-Couch-At-The-Central-Perk-Cafe-Poster-Poster-Strip-Set_50fad3fa-6a2b-4c59-95a1-b86196484e44.de08bb554a52877b590ce20530139c42.jpeg",
       "source": [
@@ -29022,9 +29060,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29061,9 +29097,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://www.crew-united.com/Media/Images/1416/1416229/1416229.entity.jpg",
       "source": [
@@ -29094,45 +29128,6 @@
       }
     },
     {
-      "id": "m568",
-      "title": "The Prestige",
-      "category": "movie",
-      "status": "",
-      "rating": null,
-      "scale": 100,
-      "date": null,
-      "genre": "",
-      "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
-      "favorite": false,
-      "poster": "",
-      "source": [
-        "QUIE 0.5"
-      ],
-      "history": [],
-      "rewatches": 0,
-      "seasons": [],
-      "details": {},
-      "platform": "",
-      "gameType": "",
-      "mark": "",
-      "watchHistory": [],
-      "wishlist": true,
-      "startDate": null,
-      "endDate": null,
-      "bookFormat": "read",
-      "originalTags": [
-        "Черга (архів)"
-      ],
-      "manualScale": 100,
-      "releaseYear": null,
-      "posterSeason": null,
-      "manualRating": null,
-      "manualDate": null
-    },
-    {
       "id": "m569",
       "title": "Mind Hunter",
       "category": "tv",
@@ -29142,9 +29137,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://assets.lls.fr/pages/48882873/PHI.T.11.ArtDetour.AfficheMindhunter_retoucheok.webp",
       "source": [
@@ -29184,9 +29177,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gladiators_from_the_Zliten_mosaic_3.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "source": [
@@ -29230,9 +29221,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29269,9 +29258,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29308,9 +29295,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29347,9 +29332,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29386,9 +29369,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29425,9 +29406,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29464,9 +29443,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29503,9 +29480,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29542,9 +29517,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29581,9 +29554,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29620,9 +29591,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29659,9 +29628,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29698,9 +29665,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29737,9 +29702,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29776,9 +29739,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29815,9 +29776,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29854,9 +29813,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29893,9 +29850,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29932,9 +29887,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -29971,9 +29924,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -30010,9 +29961,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -30049,9 +29998,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -30088,9 +30035,7 @@
       "date": null,
       "genre": "",
       "notes": "",
-      "tags": [
-        "Черга (архів)"
-      ],
+      "tags": [],
       "favorite": false,
       "poster": "",
       "source": [
@@ -30384,28 +30329,6 @@
         ]
       },
       {
-        "name": "Черга (архів)",
-        "color": "#9aa6b5",
-        "group": "custom",
-        "categories": [
-          "movie",
-          "tv",
-          "game",
-          "book"
-        ]
-      },
-      {
-        "name": "Черга",
-        "color": "#9aa6b5",
-        "group": "custom",
-        "categories": [
-          "movie",
-          "tv",
-          "game",
-          "book"
-        ]
-      },
-      {
         "name": "Pixar",
         "color": "#e6cea4",
         "group": "custom",
@@ -30435,6 +30358,22 @@
         "group": "custom",
         "categories": [
           "book"
+        ]
+      },
+      {
+        "name": "Space",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie"
+        ]
+      },
+      {
+        "name": "Future",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie"
         ]
       }
     ],
@@ -30482,8 +30421,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-06T22:14:14.971Z",
-    "kind": "Оновлено оцінку",
-    "title": "Harry Potter and the Goblet of Fire"
+    "at": "2026-11-08T07:17:11.600Z",
+    "kind": "Видалено тег",
+    "title": "Черга (архів)"
   }
 }
