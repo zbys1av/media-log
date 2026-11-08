@@ -200,7 +200,7 @@
       "title": "Кухня",
       "category": "tv",
       "status": "",
-      "rating": null,
+      "rating": 78,
       "scale": 100,
       "source": [
         "Додано вручну"
@@ -210,9 +210,9 @@
       "rewatches": 0,
       "seasons": [
         {
-          "name": "Сезон 1",
-          "releaseYear": null,
-          "status": "watching",
+          "name": "Season 1",
+          "releaseYear": 2012,
+          "status": "done",
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/276/691646.jpg",
           "genre": "",
@@ -222,31 +222,63 @@
             {
               "id": "umvp1329nt6lz",
               "startDate": "2026-10-25",
-              "endDate": null,
-              "date": "2026-10-25",
-              "rating": null,
+              "endDate": "2026-11-01",
+              "date": "2026-11-01",
+              "rating": 86,
               "scale": 100,
               "note": "",
-              "source": "Перший перегляд"
+              "source": "Перший перегляд",
+              "rubric": {
+                "method": "3 критерії · зважене середнє",
+                "scores": {
+                  "Історія": 87,
+                  "Персонажі": 85,
+                  "Захоплення": 85
+                },
+                "date": "2026-11-08"
+              }
             }
           ],
           "posterSource": null,
-          "rating": null,
+          "rating": 86,
           "startDate": "2026-10-25",
-          "endDate": "2026-10-25",
-          "date": "2026-10-25",
-          "scale": 100
+          "endDate": "2026-11-01",
+          "date": "2026-11-01",
+          "scale": 100,
+          "directors": [],
+          "studios": [],
+          "authors": [],
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія": 87,
+              "Персонажі": 85,
+              "Захоплення": 85
+            },
+            "date": "2026-11-08"
+          }
         },
         {
-          "name": "Сезон 2",
-          "releaseYear": null,
-          "status": "planned",
+          "name": "Season 2",
+          "releaseYear": 2013,
+          "status": "done",
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/276/691649.jpg",
           "genre": "",
           "notes": "",
           "episodes": [],
-          "viewings": [],
+          "viewings": [
+            {
+              "startDate": "2026-11-01",
+              "endDate": "2026-11-08",
+              "date": "2026-11-08",
+              "rating": 70,
+              "scale": 100,
+              "note": "",
+              "source": "Попередній перегляд сезону",
+              "id": "umw7n5eodt6zx"
+            }
+          ],
           "posterSource": {
             "url": "https://static.tvmaze.com/uploads/images/original_untouched/276/691649.jpg",
             "provider": "TVmaze",
@@ -255,7 +287,13 @@
             "matchedYear": "2012"
           },
           "scale": 100,
-          "rating": null
+          "rating": 70,
+          "directors": [],
+          "studios": [],
+          "authors": [],
+          "startDate": "2026-11-01",
+          "endDate": "2026-11-08",
+          "date": "2026-11-08"
         },
         {
           "name": "Сезон 3",
@@ -345,7 +383,7 @@
       "favorite": false,
       "wishlist": false,
       "poster": "https://static.tvmaze.com/uploads/images/original_untouched/17/44266.jpg",
-      "date": "2026-10-25",
+      "date": "2026-11-08",
       "startDate": null,
       "endDate": null,
       "posterSource": {
@@ -439,7 +477,7 @@
           "droppedAtEpisode": null
         },
         {
-          "name": "Сезон 2",
+          "name": "Season 2",
           "releaseYear": 2026,
           "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgtEL60BTksoHg1drZHIgM1yU0TbwCmc--l8PG6jOGLw&s=10",
           "genre": "",
@@ -487,7 +525,10 @@
           "scale": 100,
           "ratingBeforeRepair": 250,
           "status": "done",
-          "droppedAtEpisode": null
+          "droppedAtEpisode": null,
+          "directors": [],
+          "studios": [],
+          "authors": []
         }
       ],
       "details": {},
@@ -30421,8 +30462,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-08T07:17:11.600Z",
-    "kind": "Видалено тег",
-    "title": "Черга (архів)"
+    "at": "2026-11-08T09:41:23.100Z",
+    "kind": "Відредаговано сезон",
+    "title": "Cyberpunk: Edgerunners"
   }
 }
