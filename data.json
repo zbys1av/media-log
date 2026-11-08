@@ -3,6 +3,118 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umw7ped03p2jv",
+      "title": "Nocturne",
+      "category": "tv",
+      "status": "",
+      "rating": null,
+      "scale": 100,
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [
+        {
+          "directors": [
+            "Joe Chappelle",
+            "Allen Coulter",
+            "Logan Kibens",
+            "Timothy",
+            "Van Patten",
+            "Anu Menon",
+            "Øystein Karlsen"
+          ],
+          "studios": [],
+          "authors": [],
+          "name": "Season 1",
+          "releaseYear": 2026,
+          "status": "",
+          "droppedAtEpisode": null,
+          "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX95UTN3kvD6da_2hkACHDosRIGouogyMSsEN9bUrYLA&s=10",
+          "genre": "Crime, Thriller",
+          "notes": "",
+          "episodes": [],
+          "viewings": [],
+          "posterSource": null,
+          "rating": null,
+          "scale": 100
+        }
+      ],
+      "details": {},
+      "tags": [
+        "Apple TV"
+      ],
+      "favorite": false,
+      "wishlist": true,
+      "poster": "",
+      "date": null,
+      "startDate": null,
+      "endDate": null,
+      "directors": [],
+      "studios": [],
+      "authors": [],
+      "actors": [
+        "Liev Schreiber",
+        "Zazie Beetz",
+        "Stephen Graham",
+        "Landon Valentin",
+        "Chrissy Met",
+        "Bill Camp",
+        "Rory Culkin",
+        "Gary Carr",
+        "Michael Camp",
+        "Anne Windsland",
+        "Poorna Jagannatha",
+        "Nathan Hollabaugh",
+        "Chris Blunt"
+      ],
+      "releaseYear": null,
+      "posterSeason": null,
+      "originalTags": [
+        "Apple TV"
+      ],
+      "manualScale": 100,
+      "bookFormat": "read"
+    },
+    {
+      "id": "umw7payny02le",
+      "title": "Nocturne",
+      "category": "tv",
+      "status": "",
+      "rating": null,
+      "scale": 100,
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "tags": [
+        "Apple TV"
+      ],
+      "favorite": false,
+      "wishlist": false,
+      "poster": "",
+      "date": null,
+      "startDate": null,
+      "endDate": null,
+      "directors": [],
+      "studios": [],
+      "authors": [],
+      "actors": [],
+      "releaseYear": null,
+      "posterSeason": null,
+      "originalTags": [
+        "Apple TV"
+      ],
+      "manualScale": 100,
+      "bookFormat": "read"
+    },
+    {
       "id": "umw5iykrcn0bk",
       "source": [
         "Додано вручну"
@@ -15,7 +127,23 @@
       "favorite": false,
       "mark": "",
       "actors": [
-        "Leonardo DiCaprio"
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Elliot Page",
+        "Tom Hardy",
+        "Ken Watanabe",
+        "Dileep Rao",
+        "Cillian Murphy",
+        "Tom Berenger",
+        "Marion Cotillard",
+        "Pete Postlethwaite",
+        "Michael Caine",
+        "Lukas Haas",
+        "Tai-Li Lee",
+        "Claire Geare",
+        "Magnus Nolan",
+        "Taylor Geare",
+        "Johnathan Geare"
       ],
       "directors": [
         "Christopher Nolan"
@@ -296,15 +424,26 @@
           "date": "2026-11-08"
         },
         {
-          "name": "Сезон 3",
-          "releaseYear": null,
-          "status": "planned",
+          "name": "Season 3",
+          "releaseYear": 2014,
+          "status": "watching",
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/277/692966.jpg",
           "genre": "",
           "notes": "",
           "episodes": [],
-          "viewings": [],
+          "viewings": [
+            {
+              "id": "umw7srhzoq28v",
+              "startDate": "2026-11-08",
+              "endDate": null,
+              "date": "2026-11-08",
+              "rating": null,
+              "scale": 100,
+              "note": "",
+              "source": "Повторний перегляд"
+            }
+          ],
           "posterSource": {
             "url": "https://static.tvmaze.com/uploads/images/original_untouched/277/692966.jpg",
             "provider": "TVmaze",
@@ -313,7 +452,14 @@
             "matchedYear": "2012"
           },
           "scale": 100,
-          "rating": null
+          "rating": null,
+          "startDate": "2026-11-08",
+          "endDate": "2026-11-08",
+          "date": "2026-11-08",
+          "directors": [],
+          "studios": [],
+          "authors": [],
+          "actors": []
         },
         {
           "name": "Сезон 4",
@@ -30416,6 +30562,14 @@
         "categories": [
           "movie"
         ]
+      },
+      {
+        "name": "Apple TV",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "tv"
+        ]
       }
     ],
     "moods": [
@@ -30462,8 +30616,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-08T09:41:23.100Z",
-    "kind": "Відредаговано сезон",
-    "title": "Cyberpunk: Edgerunners"
+    "at": "2026-11-08T12:22:01.671Z",
+    "kind": "Відредаговано",
+    "title": "Inception"
   }
 }
