@@ -23,6 +23,13 @@
     const d = new Date(s + 'T00:00:00Z');
     return Number.isFinite(d.getTime()) && d.toISOString().slice(0,10) === s ? s : '';
   }
+  function queuedRecord(r, seasonIndex=null) {
+    return !!(r.wishlist || r.status === 'planned' || (r.category === 'tv' && (seasonIndex == null
+      ? (r.seasons || []).some(s => s.status === 'planned') : r.seasons?.[seasonIndex]?.status === 'planned')));
+  }
+  function seasonWatched(s) {
+    return !!s && (s.status === 'done' || score(s) != null || (s.viewings || []).some(v => score(v) != null || validDate(v.endDate || v.date)));
+  }
   function records(raw) {
     return (raw || []).map((r, index) => {
       const seasons = r.category === 'tv' && Array.isArray(r.seasons) ? r.seasons : [];
@@ -35,7 +42,7 @@
         ...Object.fromEntries(['directors','studios','authors'].map(role=>[role,
           ['movie','tv'].includes(r.category)?tokens([r,...seasons].flatMap(row=>role==='directors'?[row.directors,row.creator]:[row[role]]), /[,;|]+/):[]])),
         tags:tokens([r.tags || []], /[,]+/),
-        favorite:!!r.favorite, wishlist:!!r.wishlist || r.status === 'planned' || seasons.some(s => s.status === 'planned'),
+        favorite:!!r.favorite, wishlist:queuedRecord(r),
         year:releaseYears.length ? Math.min(...releaseYears) : null, raw:r};
       if(r.category==='book')item.authors=tokens([r.creator], /[,;|]+/);
       item.search = key([item.title,...features.flatMap(field => item[field])].join(' '));
@@ -213,7 +220,7 @@
 
   function predictor(items, compare = affinity(items)) {
     const trained=items.map(r=>{const scores=opinions(r);return {r,scores,success:scores.length?scores.filter(s=>s>=80).length/scores.length:0};}).filter(x=>x.scores.length);
-    return target => {
+    return (target, seasonIndex=null) => {
       // Exclude the target, including its own seasons/reviews: no self-prediction.
       const pool=trained.filter(x=>x.r.id!==target.id),same=pool.filter(x=>x.r.category===target.category);
       const global=(pool.reduce((s,x)=>s+x.success,0)+1)/(pool.length+2);
@@ -225,11 +232,18 @@
       }
       matches.sort((a,b)=>b.weight-a.weight);
       const evidence=matches.reduce((s,x)=>s+x.weight,0), effective=evidence?evidence*evidence/matches.reduce((s,x)=>s+x.weight*x.weight,0):0;
-      const chance=pool.length>=5?Math.round(100*(baseline*8+matches.reduce((s,x)=>s+x.weight*x.success,0))/(8+evidence)):null;
+      // One bounded vote per previously watched season; never reuse the series average.
+      const series=seasonIndex==null?null:items.find(r=>r.id===target.id && r.category==='tv');
+      const previous=(series?.raw.seasons || []).slice(0,seasonIndex).filter(s=>s.status!=='planned' && seasonWatched(s)).map(s=>{
+        if(score(s)!=null)return score(s);
+        return (s.viewings || []).map((v,i)=>({v,i})).filter(x=>score(x.v)!=null).sort((a,b)=>String(a.v.endDate||a.v.date||a.v.startDate||'').localeCompare(String(b.v.endDate||b.v.date||b.v.startDate||''))||a.i-b.i).map(x=>score(x.v)).at(-1);
+      }).filter(n=>n!=null);
+      const seasonWeight=3*previous.length/(previous.length+2),seasonSuccess=previous.length?previous.filter(n=>n>=80).length/previous.length:0;
+      const chance=pool.length>=5||previous.length?Math.round(100*(baseline*8+matches.reduce((s,x)=>s+x.weight*x.success,0)+seasonWeight*seasonSuccess)/(8+evidence+seasonWeight)):null;
       const strength=effective>=15&&evidence>=15?'середня':effective>=5&&evidence>=5?'обмежена':'низька';
-      return {chance,personalized:matches.length>0,baseline:Math.round(baseline*100),strength,matches,trained:pool.length,sameCategory:same.length,
+      return {chance,personalized:matches.length>0||previous.length>0,previousSeasons:previous.length,seasonWeight,baseline:Math.round(baseline*100),strength,matches,trained:pool.length,sameCategory:same.length,
         ratingCount:pool.reduce((s,x)=>s+x.scores.length,0),effective,reason:pool.length<5?'Потрібно щонайменше 5 оцінених творів':!matches.length?'Немає спільних ознак з оціненими творами':''};
     };
   }
-  return {categories,key,score,validDate,records,filter,groups,genrePairs,events,journeys,graph,layout,opinions,features,eligible,affinity,related,predictor};
+  return {categories,key,score,validDate,queuedRecord,seasonWatched,records,filter,groups,genrePairs,events,journeys,graph,layout,opinions,features,eligible,affinity,related,predictor};
 });
