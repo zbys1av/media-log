@@ -39,7 +39,8 @@
       "wishlist": false,
       "manualRating": null,
       "manualScale": 100,
-      "manualDate": null
+      "manualDate": null,
+      "originalTags": []
     },
     {
       "id": "umw8zv29coud4",
@@ -4586,11 +4587,13 @@
       "rating": 50,
       "scale": 100,
       "date": "2025-01-04",
-      "genre": "Thriller/Crime",
+      "genre": "Thriller, Crime",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Netflix"
+      ],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBcIIqnAvIr_Nr0mFHktXFEu1f-7V4djViFpWJ2ZijFw&s=10",
       "source": [
         "MOVIES"
       ],
@@ -4638,7 +4641,11 @@
       "manualDate": "2025-01-04",
       "directors": [
         "Kim Tae-joon"
-      ]
+      ],
+      "actors": [],
+      "studios": [],
+      "authors": [],
+      "posterSource": null
     },
     {
       "id": "m51",
@@ -9784,14 +9791,16 @@
       "title": "What We Do in the Shadows",
       "category": "movie",
       "status": "done",
-      "rating": 80,
+      "rating": 78,
       "scale": 100,
-      "date": "2023-09-04",
-      "genre": "Horror/Comedy",
+      "date": "2026-11-09",
+      "genre": "Horror, Comedy",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Vampires"
+      ],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CuEe_1Lz3EQy62tsUgxl8VlFmR13h3csNJxKPx3gUA&s=10",
       "source": [
         "MOVIES"
       ],
@@ -9807,7 +9816,7 @@
           "scale": 5
         }
       ],
-      "rewatches": 2,
+      "rewatches": 3,
       "seasons": [],
       "details": {},
       "platform": "",
@@ -9839,6 +9848,24 @@
             "value": 4,
             "scale": 5
           }
+        },
+        {
+          "id": "umw9ntdqz9vn9",
+          "date": "2026-11-09",
+          "rating": 78,
+          "scale": 100,
+          "note": "",
+          "source": "Вручну",
+          "estimated": false,
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 70,
+              "Реалізація": 75,
+              "Враження": 90
+            },
+            "date": "2026-11-09"
+          }
         }
       ],
       "wishlist": false,
@@ -9858,7 +9885,26 @@
       "directors": [
         "Taika Waititi",
         "Jemaine Clement"
-      ]
+      ],
+      "actors": [
+        "Jemaine Clemer",
+        "Taika Waititi",
+        "Jonny Brug",
+        "Cori Gonzalez-Macuer",
+        "Stu Rutherford",
+        "Ben Fransham",
+        "Jackie van Beek",
+        "Elena Stejko",
+        "Jason Hoyte",
+        "Karen O'Leary",
+        "Mike Minogue"
+      ],
+      "studios": [],
+      "authors": [
+        "Jemaine Clement",
+        "Taika Waititi"
+      ],
+      "posterSource": null
     },
     {
       "id": "m125",
@@ -22900,78 +22946,6 @@
       "manualDate": null
     },
     {
-      "id": "m333",
-      "title": "What We Do in the Shadow",
-      "category": "movie",
-      "status": "done",
-      "rating": 79.7,
-      "scale": 100,
-      "date": "2023-07-30",
-      "genre": "Comedy/Horror",
-      "notes": "",
-      "tags": [],
-      "favorite": false,
-      "poster": "",
-      "source": [
-        "MOVIES 1"
-      ],
-      "history": [
-        {
-          "source": "MOVIES 1",
-          "rating": 7.97,
-          "scale": 10
-        }
-      ],
-      "rewatches": 1,
-      "seasons": [],
-      "details": {
-        "filmCriteria": {
-          "Сюжет": 85,
-          "Акторська гра": 70,
-          "Персонажі": 88,
-          "Операторська робота / монтаж": 77,
-          "Темп": 93,
-          "Фінал": 65
-        }
-      },
-      "platform": "",
-      "gameType": "",
-      "mark": "",
-      "watchHistory": [
-        {
-          "date": "2023-07-30",
-          "rating": 79.7,
-          "scale": 100,
-          "source": "MOVIES 1",
-          "row": 9,
-          "estimated": false,
-          "id": "m333-v1",
-          "legacyRating": {
-            "value": 7.97,
-            "scale": 10
-          }
-        }
-      ],
-      "wishlist": false,
-      "startDate": null,
-      "endDate": null,
-      "bookFormat": "read",
-      "originalTags": [],
-      "legacyRating": {
-        "value": 7.97,
-        "scale": 10
-      },
-      "manualScale": 100,
-      "releaseYear": null,
-      "posterSeason": null,
-      "manualRating": null,
-      "manualDate": "2023-07-30",
-      "directors": [
-        "Taika Waititi",
-        "Jemaine Clement"
-      ]
-    },
-    {
       "id": "m335",
       "title": "Intouchables (1+1)",
       "category": "movie",
@@ -30689,6 +30663,14 @@
         "categories": [
           "tv"
         ]
+      },
+      {
+        "name": "Vampires",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie"
+        ]
       }
     ],
     "moods": [
@@ -30735,8 +30717,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-09T08:24:41.783Z",
-    "kind": "Додано",
-    "title": "Оставление"
+    "at": "2026-11-09T19:44:48.412Z",
+    "kind": "Відредаговано",
+    "title": "Unlocked"
   }
 }
