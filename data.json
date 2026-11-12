@@ -374,11 +374,11 @@
       "status": "online",
       "releaseYear": 2026,
       "posterSeason": null,
-      "date": "2026-10-26",
+      "date": "2026-11-12",
       "startDate": null,
       "endDate": null,
       "bookFormat": "read",
-      "rating": 71,
+      "rating": 60,
       "scale": 100,
       "genre": "",
       "creator": "",
@@ -436,6 +436,27 @@
               "Залученість": 68
             },
             "date": "2026-10-26"
+          }
+        },
+        {
+          "id": "umwdqvqdfzq5j",
+          "kind": "review",
+          "date": "2026-11-12",
+          "startDate": null,
+          "endDate": null,
+          "rating": 60,
+          "scale": 100,
+          "accessStage": "auto",
+          "note": "разраби - молодці, розуміння балансу просто ноль, кожна нова механіка і зміна гірша за попередню",
+          "source": "Вручну",
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Геймплей": 60,
+              "Виконання": 70,
+              "Залученість": 50
+            },
+            "date": "2026-11-12"
           }
         }
       ],
@@ -1066,13 +1087,13 @@
       "rating": 70,
       "scale": 100,
       "date": "2026-09-02",
-      "genre": "Adventure/Family",
+      "genre": "Adventure, Family",
       "notes": "",
       "tags": [
         "Cartoon"
       ],
       "favorite": false,
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Offterdinger_Der_gestiefelte_Kater_%281%29.jpg/960px-Offterdinger_Der_gestiefelte_Kater_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhg4g8f2RAQRAxRmvevJGQez3k2IKUly151CTgoaqy3Q&s=10",
       "source": [
         "MOVIES"
       ],
@@ -1138,16 +1159,13 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2026-09-02",
-      "posterSource": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Offterdinger_Der_gestiefelte_Kater_%281%29.jpg/960px-Offterdinger_Der_gestiefelte_Kater_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "provider": "Wikipedia",
-        "source": "https://en.wikipedia.org/wiki/Puss_in_Boots",
-        "matchedTitle": "Puss in Boots",
-        "matchedYear": null
-      },
+      "posterSource": null,
       "directors": [
         "Chris Miller"
-      ]
+      ],
+      "actors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m4",
@@ -4820,7 +4838,7 @@
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "https://pics.filmaffinity.com/Heretic_Hereje-653464529-large.jpg",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwuox80_hOKNctuyGY6izK6jybQln_3xcaJ9Z03Z68ng&s=10",
       "source": [
         "MOVIES"
       ],
@@ -4866,12 +4884,11 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2024-12-31",
-      "posterSource": {
-        "provider": "FilmAffinity",
-        "source": "https://pics.filmaffinity.com/Heretic_Hereje-653464529-large.jpg",
-        "method": "Підібрано вручну за результатами вебпошуку",
-        "matchedTitle": "Heretic"
-      }
+      "posterSource": null,
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": []
     },
     {
       "id": "m54",
@@ -5409,14 +5426,14 @@
       "title": "Harry Potter and the Philosopher's Stone",
       "category": "movie",
       "status": "done",
-      "rating": 80,
+      "rating": 70,
       "scale": 100,
-      "date": "2024-11-10",
-      "genre": "Family/Fantasy",
+      "date": "2026-10-19",
+      "genre": "Family, Fantasy",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5JcybilYAP7YkoQ__zEK5XzVkuzaBHsPV1A-WZWckwg&s=10",
       "source": [
         "MOVIES"
       ],
@@ -5427,7 +5444,7 @@
           "scale": 5
         }
       ],
-      "rewatches": 2,
+      "rewatches": 3,
       "seasons": [],
       "details": {},
       "platform": "",
@@ -5454,6 +5471,24 @@
             "value": 4,
             "scale": 5
           }
+        },
+        {
+          "id": "umwdv0wgi1qth",
+          "date": "2026-10-19",
+          "rating": 70,
+          "scale": 100,
+          "note": "",
+          "source": "Вручну",
+          "estimated": false,
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 70,
+              "Реалізація": 74,
+              "Враження": 65
+            },
+            "date": "2026-11-12"
+          }
         }
       ],
       "wishlist": false,
@@ -5469,7 +5504,12 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-11-10"
+      "manualDate": "2024-11-10",
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": [],
+      "posterSource": null
     },
     {
       "id": "m64",
@@ -5479,11 +5519,11 @@
       "rating": 80,
       "scale": 100,
       "date": "2024-11-10",
-      "genre": "War/Action",
+      "genre": "War, Action",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQfx2RxqvBCrWIspQssjWwAdD-e4Eqat29J8pihq7OkQ&s=10",
       "source": [
         "MOVIES"
       ],
@@ -5531,7 +5571,11 @@
       "manualDate": "2024-11-10",
       "directors": [
         "Alex Garland"
-      ]
+      ],
+      "actors": [],
+      "studios": [],
+      "authors": [],
+      "posterSource": null
     },
     {
       "id": "m65",
@@ -5835,11 +5879,11 @@
       "rating": 80,
       "scale": 100,
       "date": "2024-10-13",
-      "genre": "Mystery/Crime",
+      "genre": "Mystery, Crime",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV9EocO8ADw02uhuQNsHSI9Vqi_G96nrRwhJfuePLGzQ&s=10",
       "source": [
         "MOVIES",
         "MOVIES 1",
@@ -5896,7 +5940,71 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-10-13"
+      "manualDate": "2024-10-13",
+      "actors": [
+        "Paapa Essiedu",
+        "Yassine Zeroual",
+        "Asan N'Jie",
+        "Michael Rouse",
+        "Kenneth Branagh",
+        "Elliot Levey",
+        "David Annen",
+        "Joseph Long",
+        "Andy Apollo",
+        "Hadley Fraser",
+        "Daisy Ridley",
+        "Leslie Odom Jr.",
+        "Ziad Abaza",
+        "Nari Blair-Mangat",
+        "Luke Brady",
+        "Miltos Yerolemou",
+        "Tom Bateman",
+        "Kathryn Wilder",
+        "Gerard Horan",
+        "Manuel Garcia-Rulfo",
+        "Penélope Cruz",
+        "Richard Clifford",
+        "Josh Gad",
+        "Johnny Depp",
+        "Derek Jacobi",
+        "Sid Sagar",
+        "Sergei Polunin",
+        "Adam Garcia",
+        "Lucy Boynton",
+        "Marwan Kenzari",
+        "Michelle Pfeiffer",
+        "Harry Lister Smith",
+        "Darryl Clark",
+        "Anoushka Lucas",
+        "Matthew Hawksley",
+        "Crispin Letts",
+        "Yasmin Harrison",
+        "Kate Tydman",
+        "Judi Dench",
+        "Olivia Colman",
+        "Willem Dafoe",
+        "Pip Jordan",
+        "Chris Porter",
+        "Jack Riddiford",
+        "Joshua Lacey",
+        "Phil Dunster",
+        "Miranda Raison",
+        "Ansu Kabia",
+        "Hayat Kamille",
+        "Rami Nasr",
+        "Todd Boyce",
+        "Irfan Shamji",
+        "Tom Hanson"
+      ],
+      "directors": [
+        "Kenneth Branagh"
+      ],
+      "studios": [],
+      "authors": [
+        "Michael Green",
+        "Agatha Christie"
+      ],
+      "posterSource": null
     },
     {
       "id": "m70",
@@ -5906,11 +6014,11 @@
       "rating": 80,
       "scale": 100,
       "date": "2024-10-13",
-      "genre": "Horror/Comedy",
+      "genre": "Horror, Comedy",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dark_Shadows_%28original_television_series%29_logo.svg/960px-Dark_Shadows_%28original_television_series%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrt8hbsaxlRyb6kDU0NTdk4ajafUHVz2wsO3tUVpcHg&s=10",
       "source": [
         "MOVIES"
       ],
@@ -5956,13 +6064,63 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2024-10-13",
-      "posterSource": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Dark_Shadows_%28original_television_series%29_logo.svg/960px-Dark_Shadows_%28original_television_series%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "provider": "Wikipedia",
-        "source": "https://en.wikipedia.org/wiki/Dark_Shadows",
-        "matchedTitle": "Dark Shadows",
-        "matchedYear": null
-      }
+      "posterSource": null,
+      "actors": [
+        "Johnny Depp",
+        "Michelle Pfeiffer",
+        "Helena Bonham Carter",
+        "Eva Green",
+        "Jackie Earle Haley",
+        "Jonny Lee Miller",
+        "Bella Heathcote",
+        "Chloë Grace Moretz",
+        "Gulliver McGrath",
+        "Ray Shirley",
+        "Christopher Lee",
+        "Alice Cooper",
+        "Ivan Kaye",
+        "Susanna Cappellaro",
+        "Josephine Butler",
+        "William Hope",
+        "Shane Rimmer",
+        "Michael Shannon",
+        "Harry Taylor",
+        "Glen Mexted",
+        "Guy Flanagan",
+        "Nigel Whitmey",
+        "Philip Bulcock",
+        "Sophie Kennedy Clark",
+        "Hannah Murray",
+        "Victoria Bewick",
+        "Sean Mahon",
+        "Alexia Osborne",
+        "Richard Hollis",
+        "Felicity Brangan",
+        "Michael Anthony Brown",
+        "Charlotte Spencer",
+        "Gabriel Freilich",
+        "Justin Tracy",
+        "Thomas Grube",
+        "Jeff Mash",
+        "Raffey Cassidy",
+        "Jonathan Frid",
+        "Kathryn Leigh Scott",
+        "Lara Parker",
+        "David Selby",
+        "Janine Craig",
+        "Adelle Young",
+        "Dominika van Santen",
+        "Josephine McGrail"
+      ],
+      "directors": [
+        "Tim Burton"
+      ],
+      "studios": [],
+      "authors": [
+        "Seth Grahame-Smith",
+        "John August",
+        "Dan Curtis"
+      ]
     },
     {
       "id": "m71",
@@ -6139,65 +6297,6 @@
       ]
     },
     {
-      "id": "m73",
-      "title": "The Guilt",
-      "category": "movie",
-      "status": "done",
-      "rating": 80,
-      "scale": 100,
-      "date": "2024-10-12",
-      "genre": "Thriller/Crime",
-      "notes": "",
-      "tags": [],
-      "favorite": false,
-      "poster": "",
-      "source": [
-        "MOVIES"
-      ],
-      "history": [
-        {
-          "source": "MOVIES",
-          "rating": 4,
-          "scale": 5
-        }
-      ],
-      "rewatches": 1,
-      "seasons": [],
-      "details": {},
-      "platform": "",
-      "gameType": "",
-      "mark": "",
-      "watchHistory": [
-        {
-          "date": "2024-10-12",
-          "rating": 80,
-          "scale": 100,
-          "source": "MOVIES",
-          "row": 79,
-          "estimated": false,
-          "id": "m73-v1",
-          "legacyRating": {
-            "value": 4,
-            "scale": 5
-          }
-        }
-      ],
-      "wishlist": false,
-      "startDate": null,
-      "endDate": null,
-      "bookFormat": "read",
-      "originalTags": [],
-      "legacyRating": {
-        "value": 4,
-        "scale": 5
-      },
-      "manualScale": 100,
-      "releaseYear": null,
-      "posterSeason": null,
-      "manualRating": null,
-      "manualDate": "2024-10-12"
-    },
-    {
       "id": "m74",
       "title": "Smile",
       "category": "movie",
@@ -6205,11 +6304,11 @@
       "rating": 70,
       "scale": 100,
       "date": "2024-10-07",
-      "genre": "Horror/Mystery",
+      "genre": "Horror, Mystery",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg/960px-Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ17WKzIcmgONZoBFg1-zm5U_Z4xQMOpnHiA7-QFgJWw&s=10",
       "source": [
         "MOVIES"
       ],
@@ -6255,13 +6354,40 @@
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2024-10-07",
-      "posterSource": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg/960px-Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "provider": "Wikipedia",
-        "source": "https://en.wikipedia.org/wiki/Smile",
-        "matchedTitle": "Smile",
-        "matchedYear": null
-      }
+      "posterSource": null,
+      "actors": [
+        "Sosie Bacon",
+        "Kyle Gallner",
+        "Jessie T. Usher",
+        "Robin Weigert",
+        "Caitlin Stasey",
+        "Kal Penn",
+        "Rob Morgan",
+        "Gillian Zinser",
+        "Judy Reyes",
+        "Jack Sochet",
+        "Nick Arapoglou",
+        "Perry Strong",
+        "Matthew Lamb",
+        "Dora Kiss",
+        "Meghan Brown Pratt",
+        "Jared Johnston",
+        "Ura Yoana Sánchez",
+        "Vanessa Cozart",
+        "Shu Q",
+        "Shevy Gutierrez",
+        "Sara Kapner",
+        "Steven Strickland",
+        "Kevin Keppy",
+        "Marti Matulis"
+      ],
+      "directors": [
+        "Parker Finn"
+      ],
+      "studios": [],
+      "authors": [
+        "Parker Finn"
+      ]
     },
     {
       "id": "m75",
@@ -6271,11 +6397,11 @@
       "rating": 70,
       "scale": 100,
       "date": "2024-10-07",
-      "genre": "Horror/Sci-fi",
+      "genre": "Horror, Sci-fi",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeytBKPTEm90lbXojDElQkNu1tkbDlQZ76u3gqdtwZZQ&s=10",
       "source": [
         "MOVIES"
       ],
@@ -6320,7 +6446,49 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-10-07"
+      "manualDate": "2024-10-07",
+      "actors": [
+        "Keri Russell",
+        "Josh Hamilton",
+        "Dakota Goyo",
+        "Kadan Rockett",
+        "J.K. Simmons",
+        "LJ Benet",
+        "Rich Hutchman",
+        "Myndy Crist",
+        "Annie Thurman",
+        "Jake Brennan",
+        "Ron Ostrow",
+        "Tom Costello",
+        "Marion Kerr",
+        "Alyvia Alyn Lind",
+        "Josh Stamberg",
+        "Tiffany Jeneen",
+        "Brian Stepanek",
+        "Judith Moreland",
+        "Adam Schneider",
+        "Jessica Borden",
+        "Kenneth Meseroll",
+        "Trevor St. John",
+        "Andy Umberger",
+        "Michael Patrick McGill",
+        "Josh Wingate",
+        "Alexandra Anthony",
+        "Scott Anthony",
+        "Dexter the Cat",
+        "Roscoe the Cat",
+        "Salem the Cat",
+        "Elizabeth Khouri",
+        "Sal Velez Jr."
+      ],
+      "directors": [
+        "Scott Stewart"
+      ],
+      "studios": [],
+      "authors": [
+        "Scott Stewart"
+      ],
+      "posterSource": null
     },
     {
       "id": "m76",
@@ -7451,10 +7619,10 @@
       "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
       "category": "movie",
       "status": "done",
-      "rating": 80,
+      "rating": 75,
       "scale": 100,
-      "date": "2024-06-01",
-      "genre": "Adventure/Action",
+      "date": "2026-11-12",
+      "genre": "Adventure, Action",
       "notes": "",
       "tags": [],
       "favorite": false,
@@ -7486,7 +7654,7 @@
           "scale": 5
         }
       ],
-      "rewatches": 2,
+      "rewatches": 3,
       "seasons": [],
       "details": {
         "legacyCriteria": {
@@ -7501,12 +7669,22 @@
       "mark": "",
       "watchHistory": [
         {
-          "date": null,
-          "rating": null,
+          "date": "2018-01-12",
+          "rating": 83,
           "scale": 100,
           "source": "Архів (без дати)",
-          "estimated": true,
-          "id": "m91-v1"
+          "estimated": false,
+          "id": "m91-v1",
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 85,
+              "Реалізація": 85,
+              "Враження": 79
+            },
+            "date": "2026-11-12"
+          },
+          "note": ""
         },
         {
           "date": "2024-06-01",
@@ -7520,6 +7698,24 @@
             "value": 4,
             "scale": 5
           }
+        },
+        {
+          "id": "umwdrj9ldoqhg",
+          "date": "2026-11-12",
+          "rating": 75,
+          "scale": 100,
+          "note": "Колись здавалося, що акторська гра в Елізабет і не тільки краща...",
+          "source": "Вручну",
+          "estimated": false,
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 70,
+              "Реалізація": 81,
+              "Враження": 75
+            },
+            "date": "2026-11-12"
+          }
         }
       ],
       "wishlist": false,
@@ -7532,7 +7728,7 @@
         "scale": 5
       },
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2003,
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2024-06-01",
@@ -7544,6 +7740,35 @@
       },
       "directors": [
         "Gore Verbinski"
+      ],
+      "actors": [
+        "Johnny Depp",
+        "Geoffrey Rush",
+        "Orlando Bloom",
+        "Keira Knightley",
+        "Jack Davenport",
+        "Jonathan Pryce",
+        "Lee Arenberg",
+        "Mackenzie Crook",
+        "Damian O'Hare",
+        "Giles New",
+        "Angus Barnett",
+        "David Bailie",
+        "Michael Berry Jr.",
+        "Isaac C. Singleton Jr.",
+        "Kevin McNally",
+        "Treva Etienne",
+        "Zoe Saldaña",
+        "Guy Siner"
+      ],
+      "studios": [
+        "Walt Disney Pictures"
+      ],
+      "authors": [
+        "Ted Elliott",
+        "Terry Rossio",
+        "Stuart Beattie",
+        "Jay Wolpert"
       ]
     },
     {
@@ -10100,11 +10325,11 @@
       "rating": 60,
       "scale": 100,
       "date": "2023-08-30",
-      "genre": "Melodrama/Drama",
+      "genre": "Melodrama, Drama",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Twilight_description_full_day.svg/960px-Twilight_description_full_day.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStB5lpMQWzc1p4LH6w8cmz5E5xyC-36UgG8-ht55JudQ&s=10",
       "source": [
         "MOVIES"
       ],
@@ -10146,19 +10371,52 @@
         "scale": 5
       },
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2008,
       "posterSeason": null,
       "manualRating": null,
       "manualDate": "2023-08-30",
-      "posterSource": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Twilight_description_full_day.svg/960px-Twilight_description_full_day.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "provider": "Wikipedia",
-        "source": "https://en.wikipedia.org/wiki/Twilight",
-        "matchedTitle": "Twilight",
-        "matchedYear": null
-      },
+      "posterSource": null,
       "directors": [
         "Catherine Hardwicke"
+      ],
+      "actors": [
+        "Kristen Stewart",
+        "Sarah Clarke",
+        "Matt Bushell",
+        "Billy Burke",
+        "Gil Birmingham",
+        "Taylor Lautner",
+        "Gregory Tyree Boyce",
+        "Justin Chon",
+        "Michael Welch",
+        "Anna Kendrick",
+        "Christian Serratos",
+        "Nikki Reed",
+        "Kellan Lutz",
+        "Ashley Greene",
+        "Jackson Rathbone",
+        "Robert Pattinson",
+        "José Zúñiga",
+        "Trish Egan",
+        "Ayanna Berkshire",
+        "Ned Bellamy",
+        "Bryce Flint-Sommerville",
+        "Peter Facinelli",
+        "Solomon Trimble",
+        "Rachelle Lefevre",
+        "Cam Gigandet",
+        "Edi Gathegi",
+        "Alexander Mendeluk",
+        "Hunter Jackson",
+        "Gavin Bristol",
+        "Sean McGrath",
+        "Katie Powers",
+        "Elizabeth Reaser",
+        "Catherine Grimme"
+      ],
+      "studios": [],
+      "authors": [
+        "Melissa RosenbergStephenie Meyer"
       ]
     },
     {
@@ -13594,9 +13852,9 @@
       "title": "The Guilty",
       "category": "movie",
       "status": "done",
-      "rating": 100,
+      "rating": 80,
       "scale": 100,
-      "date": null,
+      "date": "2024-10-12",
       "genre": "Crime, Thriller",
       "notes": "",
       "tags": [
@@ -13641,12 +13899,13 @@
       "mark": "",
       "watchHistory": [
         {
-          "date": null,
-          "rating": null,
+          "date": "2024-10-12",
+          "rating": 80,
           "scale": 100,
           "source": "Архів (без дати)",
-          "estimated": true,
-          "id": "m173-v1"
+          "estimated": false,
+          "id": "m173-v1",
+          "note": ""
         }
       ],
       "wishlist": false,
@@ -17380,14 +17639,16 @@
       "title": "1917",
       "category": "movie",
       "status": "done",
-      "rating": null,
+      "rating": 80,
       "scale": 100,
-      "date": null,
-      "genre": "War/Drama",
+      "date": "2022-05-01",
+      "genre": "War, Drama",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "War"
+      ],
       "favorite": false,
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bundesarchiv_Bild_146-1977-101-36%2C_Deutsche_Soldaten_in_Jerusalem.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTScNmlKk7mnsqWNiwfpOfIhgfqd-ME9y0A8iPVK2wXrA&s=10",
       "source": [
         "MOVIES",
         "MOVIES 1",
@@ -17404,12 +17665,13 @@
       "mark": "",
       "watchHistory": [
         {
-          "date": null,
-          "rating": null,
+          "date": "2022-05-01",
+          "rating": 80,
           "scale": 100,
           "source": "Архів (без дати)",
-          "estimated": true,
-          "id": "m224-v1"
+          "estimated": false,
+          "id": "m224-v1",
+          "note": ""
         }
       ],
       "wishlist": false,
@@ -17418,19 +17680,73 @@
       "bookFormat": "read",
       "originalTags": [],
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2019,
       "posterSeason": null,
       "manualRating": null,
       "manualDate": null,
-      "posterSource": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bundesarchiv_Bild_146-1977-101-36%2C_Deutsche_Soldaten_in_Jerusalem.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "provider": "Wikipedia",
-        "source": "https://en.wikipedia.org/wiki/1917",
-        "matchedTitle": "1917",
-        "matchedYear": null
-      },
+      "posterSource": null,
       "directors": [
         "Sam Mendes"
+      ],
+      "actors": [
+        "Dean-Charles Chapman",
+        "George MacKay",
+        "Daniel Mays",
+        "Colin Firth",
+        "Pip Carter",
+        "Andy Apollo",
+        "Paul Tinto",
+        "Josef Davies",
+        "Billy Postlethwaite",
+        "Gabriel Akuwudike",
+        "Andrew Scott",
+        "Spike Leighton",
+        "Robert Maaser",
+        "Gerran Howell",
+        "Adam Hugill",
+        "Mark Strong",
+        "Richard McCabe",
+        "Ben Adams",
+        "Anson Boon",
+        "Kenny Fullwood",
+        "Tommy French",
+        "Nabhaan Rizwan",
+        "Ryan Nolan",
+        "Elliot Baxter",
+        "Bogdan Kumshatsky",
+        "Kye Mckee",
+        "Claire Duburcq",
+        "Ivy-l Macnamara",
+        "Merlin Leonhardt",
+        "Taddeo Kufus",
+        "Jos Slovick",
+        "Luke Hornsby",
+        "Jack Shalloo",
+        "Elliot Edusah",
+        "Chris Walley",
+        "Joe Anders",
+        "Jacob James Beswick",
+        "Michael Jibson",
+        "Ian Wilson",
+        "Bradley Connor",
+        "Justin Edwards",
+        "John Hollingworth",
+        "Jamie Parker",
+        "Daniel Attwell",
+        "Samson Cox-Vinell",
+        "Jonny Lavelle",
+        "Michael Rouse",
+        "Benedict Cumberbatch",
+        "Adrian Scarborough",
+        "Richard Dempsey",
+        "Phil Cheadle",
+        "Jonah Russell",
+        "Richard Madden"
+      ],
+      "studios": [],
+      "authors": [
+        "Sam Mendes",
+        "Krysty Wilson-Cairns"
       ]
     },
     {
@@ -30671,6 +30987,14 @@
         "categories": [
           "movie"
         ]
+      },
+      {
+        "name": "War",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie"
+        ]
       }
     ],
     "moods": [
@@ -30717,8 +31041,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-09T19:44:48.412Z",
-    "kind": "Відредаговано",
-    "title": "Unlocked"
+    "at": "2026-11-12T18:22:30.593Z",
+    "kind": "Змінено перегляд",
+    "title": "1917"
   }
 }
