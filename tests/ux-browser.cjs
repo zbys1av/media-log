@@ -14,7 +14,7 @@ let browser;
  await context.route('**/*',route=>{const req=route.request(),url=new URL(req.url());if(!['GET','HEAD'].includes(req.method()))writes++;
   if(url.origin!=='http://ux.test')return route.abort();
   if(url.pathname==='/data.json')return route.fulfill({json:data});
-  const name=url.pathname==='/'?'index.html':url.pathname.slice(1);if(!['index.html','atlas.js','atlas-model.js','atlas.css','cloud-config.js'].includes(name))return route.abort();
+  const name=url.pathname==='/'?'index.html':url.pathname.slice(1);if(!['index.html','taste-model.js','atlas.js','atlas-model.js','atlas.css','cloud-config.js'].includes(name))return route.abort();
   let body=fs.readFileSync(path.join(root,name),'utf8');if(name==='index.html')body=body.replace(/(<script[^>]*id="initialData"[^>]*>)[\s\S]*?(<\/script>)/,(_,a,b)=>a+JSON.stringify(data)+b);
   return route.fulfill({body,contentType:name.endsWith('.js')?'text/javascript':name.endsWith('.css')?'text/css':'text/html'});
  });

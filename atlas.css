@@ -6,3 +6,31 @@
 @media(prefers-reduced-motion:reduce){.atlas-node .node-mark{transition:none}}
 
 .atlas-layout>*{min-width:0}.atlas-columns{align-items:start}.atlas-table-wrap{max-height:580px;overflow:auto}.atlas-node text{font-size:17px}.atlas-table th{position:sticky;top:0;background:var(--panel);z-index:1}
+
+/* Quiet graph: small nodes, fine links and labels on demand. */
+.atlas-graph-wrap{background:var(--panel)}
+.atlas-edge{stroke:var(--text2);stroke-width:.65;opacity:.15}
+.atlas-edge.active{stroke:var(--accent);stroke-width:1.2;opacity:.85}
+.atlas-node .node-mark{stroke:none;opacity:.9}
+.atlas-node.hub .node-mark{stroke:none;opacity:.5}
+.atlas-node text{font-size:13px;opacity:0;transition:opacity .12s}
+.atlas-node .node-label-major{opacity:.55;font-size:12px}
+.atlas-node.hovered text,.atlas-node.selected text,.atlas-node:focus text{opacity:1;fill:var(--text);font-weight:600}
+.atlas-node.hovered .node-mark,.atlas-node.selected .node-mark,.atlas-node:focus .node-mark{opacity:1;stroke:var(--text);stroke-width:1.5}
+.atlas-node.dim{opacity:.16}.atlas-node.dim text{opacity:0}
+.atlas-prediction strong{display:block;margin:4px 0;font-size:17px}
+.atlas-prediction small{line-height:1.6}
+
+.atlas-node .node-label-major{opacity:0}
+.atlas-edge.leaf{opacity:.035}.atlas-edge.leaf.active{opacity:.85}
+.atlas-node.hub.leaf{opacity:.2}.atlas-node.hub.leaf.related,.atlas-node.hub.leaf.selected{opacity:1}
+
+.atlas-node.related text{opacity:1;fill:var(--text2);font-size:11px;font-weight:500}
+.atlas-node.selected text,.atlas-node.hovered text,.atlas-node:focus text{opacity:1;fill:var(--text);font-size:13px;font-weight:700}
+.atlas-node.hub:not(.leaf) .node-mark{opacity:.78}
+
+.atlas-node .node-hit{pointer-events:none}
+
+.atlas-quality{margin:12px 20px 20px;padding:14px;border:1px solid var(--border);border-radius:10px;background:var(--panel2)}.atlas-quality>summary{cursor:pointer;font-size:12px;font-weight:650}.atlas-taste-summary{border-bottom:1px solid var(--border);padding-bottom:10px}.atlas-taste-summary li{font-size:12px;line-height:1.8;color:var(--text2)}.atlas-taste-summary small{color:var(--muted);font-size:10px}.atlas-expected-rating strong{color:var(--text)}
+
+.atlas-rating-preview{display:block;margin-top:3px;color:var(--text2);font-size:11px;font-weight:600}

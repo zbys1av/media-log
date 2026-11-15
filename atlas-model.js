@@ -24,8 +24,8 @@
     return Number.isFinite(d.getTime()) && d.toISOString().slice(0,10) === s ? s : '';
   }
   function queuedRecord(r, seasonIndex=null) {
-    return !!(r.wishlist || r.status === 'planned' || (r.category === 'tv' && (seasonIndex == null
-      ? (r.seasons || []).some(s => s.status === 'planned') : r.seasons?.[seasonIndex]?.status === 'planned')));
+    if(r.category==='tv'&&seasonIndex!=null){const se=r.seasons?.[seasonIndex];return !!((se?.wishlist??r.wishlist)||r.status==='planned'||se?.status==='planned');}
+    return !!(r.wishlist || r.status === 'planned' || (r.category === 'tv' && (r.seasons || []).some(s => s.wishlist || s.status === 'planned')));
   }
   function seasonWatched(s) {
     return !!s && (s.status === 'done' || score(s) != null || (s.viewings || []).some(v => score(v) != null || validDate(v.endDate || v.date)));
@@ -126,41 +126,28 @@
   }
   function hash(value) {let n=2166136261;for (const c of value) n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
   function layout(network) {
-    const nodes = network.nodes.map(n => ({...n})), byId = new Map(nodes.map(n => [n.id,n]));
-    const hubs = nodes.filter(n => n.kind !== 'record').sort((a,b)=>b.count-a.count||a.id.localeCompare(b.id));
-    // Frequent shared features sit inside; rarer features fan out deterministically.
-    hubs.forEach((h,i) => {const angle=i*2.399963229728653,radius=.30+.68*Math.sqrt(i/Math.max(1,hubs.length-1));h.x=600+Math.cos(angle)*450*radius;h.y=365+Math.sin(angle)*270*radius;});
-    const neighbors = new Map();
-    for (const edge of network.edges) {if (!neighbors.has(edge.source)) neighbors.set(edge.source,[]);neighbors.get(edge.source).push(byId.get(edge.target));}
-    for (const n of nodes.filter(n => n.kind === 'record')) {
-      const links = neighbors.get(n.id) || [], seed = hash(n.id), angle = seed/4294967295*Math.PI*2;
-      // Divide each role’s pull among its names so a long cast does not dominate the map.
-      let xSum=0, ySum=0, total=0;
-      for (const hub of links) {
-        const pull=featureWeights[hub.kind]/n.record[hub.kind].length;
-        xSum+=pull*hub.x;
-        ySum+=pull*hub.y;
-        total+=pull;
-      }
-      const center=total ? {x:xSum/total,y:ySum/total} : {x:600+Math.cos(angle)*520,y:365+Math.sin(angle)*320};
-      n.x=600+(center.x-600)+Math.cos(angle)*(12+seed%38);
-      n.y=365+(center.y-365)+Math.sin(angle)*(12+seed%38);
-      n.anchor={x:n.x,y:n.y};n.linked=!!links.length;
-    }
-    // Deterministic, bounded spatial-grid relaxation; no perpetual force simulation.
-    for (let tick=0;tick<65;tick++) {
-      const grid = new Map();
-      for (const n of nodes) {const k=Math.floor(n.x/36)+','+Math.floor(n.y/36);if(!grid.has(k))grid.set(k,[]);grid.get(k).push(n);}
-      for (const n of nodes.filter(n => n.kind === 'record')) {
-        let dx=(n.anchor.x-n.x)*.025,dy=(n.anchor.y-n.y)*.025;
-        const gx=Math.floor(n.x/36),gy=Math.floor(n.y/36);
-        for(let a=-1;a<=1;a++)for(let b=-1;b<=1;b++)for(const other of grid.get((gx+a)+','+(gy+b))||[]) {
-          if(n===other)continue;let x=n.x-other.x,y=n.y-other.y;const d=Math.hypot(x,y)||.1,min=other.kind==='record'?15:27;
-          if(d<min){if(!x&&!y)x=.1;dx+=x/d*(min-d)*.14;dy+=y/d*(min-d)*.14;}
+    // All nodes move: weighted links pull related works together, local repulsion opens up space.
+    // A fixed seed and bounded iterations keep the map stable and avoid an idle animation loop.
+    const nodes=network.nodes.map((n,i)=>{const seed=hash(n.id),angle=i*2.399963229728653,radius=55+260*Math.sqrt((i+.5)/Math.max(1,network.nodes.length));return {...n,x:600+Math.cos(angle)*radius*1.5,y:365+Math.sin(angle)*radius,vx:0,vy:0};});
+    if(!nodes.length)return {...network,nodes};
+    const byId=new Map(nodes.map(n=>[n.id,n])),degree=new Map();
+    const edges=network.edges.map(e=>{degree.set(e.source,(degree.get(e.source)||0)+1);degree.set(e.target,(degree.get(e.target)||0)+1);return {a:byId.get(e.source),b:byId.get(e.target),kind:e.kind};}).filter(e=>e.a&&e.b);
+    for(let tick=0;tick<180;tick++){
+      const grid=new Map(),cool=1-tick/230;
+      for(const n of nodes){n.vx+=(600-n.x)*.0009;n.vy+=(365-n.y)*.0009;const k=Math.floor(n.x/70)+','+Math.floor(n.y/70);if(!grid.has(k))grid.set(k,[]);grid.get(k).push(n);}
+      for(const n of nodes){const gx=Math.floor(n.x/70),gy=Math.floor(n.y/70);
+        for(let a=-1;a<=1;a++)for(let b=-1;b<=1;b++)for(const other of grid.get((gx+a)+','+(gy+b))||[]){
+          if(n===other)continue;let dx=n.x-other.x,dy=n.y-other.y,d=Math.hypot(dx,dy);if(d<.01){dx=(hash(n.id)%17+1)*.01;dy=.01;d=Math.hypot(dx,dy);}
+          const force=Math.min(3.5,95/(d*d));n.vx+=dx/d*force;n.vy+=dy/d*force;
         }
-        n.x=Math.max(25,Math.min(1175,n.x+dx));n.y=Math.max(25,Math.min(705,n.y+dy));
       }
+      for(const {a,b,kind} of edges){const dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy)||1,weight=featureWeights[kind]||1,target=32+Math.min(55,Math.sqrt(degree.get(b.id)||1)*4),force=(d-target)*.012*Math.min(1.4,Math.sqrt(weight));
+        const ax=dx/d*force,ay=dy/d*force;a.vx+=ax;a.vy+=ay;b.vx-=ax;b.vy-=ay;
+      }
+      for(const n of nodes){n.vx*=.68;n.vy*=.68;n.x+=Math.max(-7,Math.min(7,n.vx))*cool;n.y+=Math.max(-7,Math.min(7,n.vy))*cool;}
     }
+    const xs=nodes.map(n=>n.x),ys=nodes.map(n=>n.y),minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys),scale=Math.min(1100/Math.max(1,maxX-minX),630/Math.max(1,maxY-minY),2);
+    for(const n of nodes){n.x=600+(n.x-(minX+maxX)/2)*scale;n.y=365+(n.y-(minY+maxY)/2)*scale;n.linked=degree.has(n.id);delete n.vx;delete n.vy;}
     return {...network,nodes};
   }
   function opinions(item) {
@@ -218,7 +205,7 @@
     return results.sort((a,b) => Number(b.rating!=null)-Number(a.rating!=null) || b.rank-a.rank || String(a.item.title).localeCompare(String(b.item.title),'uk'));
   }
 
-  function predictor(items, compare = affinity(items)) {
+  function legacyPredictor(items, compare = affinity(items)) {
     const trained=items.map(r=>{const scores=opinions(r);return {r,scores,success:scores.length?scores.filter(s=>s>=80).length/scores.length:0};}).filter(x=>x.scores.length);
     return (target, seasonIndex=null) => {
       // Exclude the target, including its own seasons/reviews: no self-prediction.
@@ -245,5 +232,9 @@
         ratingCount:pool.reduce((s,x)=>s+x.scores.length,0),effective,reason:pool.length<5?'Потрібно щонайменше 5 оцінених творів':!matches.length?'Немає спільних ознак з оціненими творами':''};
     };
   }
-  return {categories,key,score,validDate,queuedRecord,seasonWatched,records,filter,groups,genrePairs,events,journeys,graph,layout,opinions,features,eligible,affinity,related,predictor};
+  function predictor(items,compare=affinity(items),onReady=null){
+    if(typeof window!=='undefined'&&window.MediaTasteModel)return window.MediaTasteModel.createPredictor(items.map(r=>r.raw),onReady);
+    return legacyPredictor(items,compare);
+  }
+  return {categories,key,score,validDate,queuedRecord,seasonWatched,records,filter,groups,genrePairs,events,journeys,graph,layout,opinions,features,eligible,affinity,related,predictor,legacyPredictor};
 });
