@@ -30012,15 +30012,15 @@
       "id": "m558",
       "title": "1408",
       "category": "movie",
-      "status": "",
+      "status": "planned",
       "rating": null,
       "scale": 100,
       "date": null,
-      "genre": "",
+      "genre": "Horror, Fantasy",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_du_Antipape_Beno%C3%AEt_XIII_par_Joan_Reixach_XV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6-iUdKEScp6im9CTYNKmEVwvTQw_q6bVYS1j_sxmXA&s=10",
       "source": [
         "QUIE 0.5"
       ],
@@ -30040,17 +30040,65 @@
         "Черга (архів)"
       ],
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2007,
       "posterSeason": null,
       "manualRating": null,
       "manualDate": null,
-      "posterSource": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_du_Antipape_Beno%C3%AEt_XIII_par_Joan_Reixach_XV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "provider": "Wikipedia",
-        "source": "https://en.wikipedia.org/wiki/1408",
-        "matchedTitle": "1408",
-        "matchedYear": null
-      }
+      "posterSource": null,
+      "actors": [
+        "John Cusack",
+        "Tony Shalhoub",
+        "Len Cariou",
+        "Isiah Whitlock Jr.",
+        "Jasmine Jessica Anthony",
+        "Paul Birchard",
+        "Margot Leicester",
+        "Walter Lewis",
+        "Eric Meyers",
+        "David Nicholson",
+        "Holly Hayes",
+        "Alexandra Silber",
+        "Johann Urb",
+        "Andrew Lee Potts",
+        "Emily Harvey",
+        "Samuel L. Jackson",
+        "William Armstrong",
+        "Kim Thomson",
+        "Drew Powell",
+        "Noah Lee Margetts",
+        "Mary McCormack",
+        "Gil Cohen-Alloro",
+        "Benny Urquidez",
+        "Ray Nicholas",
+        "Tina Maskell",
+        "Paul Kasey",
+        "George Cottle",
+        "Julian Spencer",
+        "William Willoughby",
+        "Angel Oquendo",
+        "Thomas A. McMahon",
+        "Anthony C. Mazza",
+        "Chris Carey",
+        "Kevin Dobson",
+        "Lily Grace Alexander",
+        "Peter Conboy",
+        "Georgie Lee-Robinson",
+        "Bernadette Lords",
+        "Rob McGillivray",
+        "Mike Quinn",
+        "Steve Somers",
+        "Kate Walsh",
+        "Jacob White"
+      ],
+      "directors": [
+        "Mikael Håfström"
+      ],
+      "studios": [],
+      "authors": [
+        "Matt Greenberg",
+        "Scott Alexander",
+        "Larry Karaszewski"
+      ]
     },
     {
       "id": "m559",
@@ -31829,8 +31877,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-15T19:35:59.076Z",
-    "kind": "Оновлено оцінку",
-    "title": "Knives out"
+    "at": "2026-11-15T19:44:16.037Z",
+    "kind": "Відредаговано",
+    "title": "1408"
   }
 }
