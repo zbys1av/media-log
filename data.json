@@ -101,7 +101,9 @@
           "notes": "",
           "episodes": [],
           "viewings": [],
-          "posterSource": null
+          "posterSource": null,
+          "rating": null,
+          "scale": 100
         }
       ],
       "details": {},
@@ -119,7 +121,14 @@
       "authors": [],
       "genre": "",
       "notes": "",
-      "actors": []
+      "actors": [],
+      "releaseYear": null,
+      "posterSeason": null,
+      "originalTags": [
+        "Netflix"
+      ],
+      "manualScale": 100,
+      "bookFormat": "read"
     },
     {
       "id": "umwhkz7xe2z7s",
