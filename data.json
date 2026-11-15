@@ -3,6 +3,75 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umwhjb7xiq78z",
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "favorite": false,
+      "mark": "",
+      "actors": [],
+      "publishers": [
+        "Motion Twin"
+      ],
+      "title": "Dead Cells",
+      "category": "game",
+      "status": "endless",
+      "releaseYear": 2018,
+      "posterSeason": null,
+      "date": "2026-11-15",
+      "startDate": null,
+      "endDate": null,
+      "bookFormat": "read",
+      "rating": 87,
+      "scale": 100,
+      "genre": "",
+      "creator": "Motion Twin",
+      "platform": "",
+      "gameType": "",
+      "tags": [
+        "PC",
+        "PlayStation",
+        "Steam",
+        "Pirated"
+      ],
+      "notes": "Оцінку ставлю на основі PS версії, оскільки PC грав надто давно",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1vSkhkyFdhH4DZaxeoHZ6379kOG-mkJopc81MUcPR6Q&s=10",
+      "posterSource": null,
+      "wishlist": false,
+      "earlyAccessDate": null,
+      "fullReleaseDate": "2018-08-06",
+      "accessStage": "full",
+      "gameEvents": [
+        {
+          "id": "umwhjb7xogdip",
+          "kind": "review",
+          "date": "2026-11-15",
+          "startDate": null,
+          "endDate": null,
+          "rating": 87,
+          "scale": 100,
+          "accessStage": "full",
+          "note": "",
+          "source": "Перше внесення",
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Геймплей": 82,
+              "Виконання": 93,
+              "Залученість": 91
+            },
+            "date": "2026-11-15"
+          }
+        }
+      ],
+      "gameHistoryInitialized": true
+    },
+    {
       "id": "umw8zwlk65ezx",
       "source": [
         "Додано вручну"
@@ -7410,11 +7479,13 @@
       "rating": 80,
       "scale": 100,
       "date": "2024-07-15",
-      "genre": "Adventure/Action",
+      "genre": "Adventure, Action",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Pirates"
+      ],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdoSYUUxopNm2gyAei8uWRYlyyNpZ4rPDFsV4WLupqpQ&s=10",
       "source": [
         "MOVIES"
       ],
@@ -7459,7 +7530,12 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-07-15"
+      "manualDate": "2024-07-15",
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": [],
+      "posterSource": null
     },
     {
       "id": "m89",
@@ -7469,11 +7545,11 @@
       "rating": 60,
       "scale": 100,
       "date": "2024-07-15",
-      "genre": "Adventure/Action",
+      "genre": "Adventure, Action",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8o_qEzYJK-UjIZbhaZHOkCN5BX0lvJMSmxuXGIccHw&s=10",
       "source": [
         "MOVIES"
       ],
@@ -7518,21 +7594,28 @@
       "releaseYear": null,
       "posterSeason": null,
       "manualRating": null,
-      "manualDate": "2024-07-15"
+      "manualDate": "2024-07-15",
+      "actors": [],
+      "directors": [],
+      "studios": [],
+      "authors": [],
+      "posterSource": null
     },
     {
       "id": "m90",
       "title": "Pirates of the Caribbean: Dead Man's Chest",
       "category": "movie",
       "status": "done",
-      "rating": 80,
+      "rating": 72,
       "scale": 100,
-      "date": "2024-06-01",
-      "genre": "Adventure/Action",
+      "date": "2026-11-14",
+      "genre": "Adventure, Action",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Pirates"
+      ],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqgedZ7mb7gCfj87CoBJTWcOlIf9ZVmD9431CLohYFnA&s=10",
       "source": [
         "MOVIES",
         "MOVIES 1",
@@ -7560,7 +7643,7 @@
           "scale": 5
         }
       ],
-      "rewatches": 2,
+      "rewatches": 3,
       "seasons": [],
       "details": {
         "legacyCriteria": {
@@ -7594,6 +7677,24 @@
             "value": 4,
             "scale": 5
           }
+        },
+        {
+          "id": "umwhivg9kfl07",
+          "date": "2026-11-14",
+          "rating": 72,
+          "scale": 100,
+          "note": "",
+          "source": "Вручну",
+          "estimated": false,
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 71,
+              "Реалізація": 85,
+              "Враження": 60
+            },
+            "date": "2026-11-15"
+          }
         }
       ],
       "wishlist": false,
@@ -7612,7 +7713,88 @@
       "manualDate": "2024-06-01",
       "directors": [
         "Gore Verbinski"
-      ]
+      ],
+      "actors": [
+        "Johnny Depp",
+        "Orlando Bloom",
+        "Keira Knightley",
+        "Jack Davenport",
+        "Bill Nighy",
+        "Jonathan Pryce",
+        "Lee Arenberg",
+        "Mackenzie Crook",
+        "Kevin McNally",
+        "David Bailie",
+        "Stellan Skarsgård",
+        "Tom Hollander",
+        "Naomie Harris",
+        "Martin Klebba",
+        "David Schofield",
+        "Alex Norton",
+        "Lauren Maher",
+        "Nej Adamson",
+        "Jimmy Roussounis",
+        "Moray Treadwell",
+        "San Shella",
+        "Jim Cody Williams",
+        "Michael Miranda",
+        "Luke de Woolfson",
+        "Derrick O'Connor",
+        "Georges Trillat",
+        "Israel Oyelumade",
+        "Gerry O'Brien",
+        "Dermot Keaney",
+        "Clive Ashborn",
+        "Robbie Gee",
+        "Neil Panlasigui",
+        "Matthew Bower",
+        "Max Baker",
+        "Steve Speirs",
+        "John Boswall",
+        "Winston Ellis",
+        "Christopher Adamson",
+        "Andy Beckwith",
+        "Jonathan Linsley",
+        "Sylver",
+        "Simon Meacock",
+        "Natsuko Ohama",
+        "Josie Dapar",
+        "Vanessa Branch",
+        "David Sterne",
+        "David Keyes",
+        "Anthony Patricio",
+        "Barry McEvoy",
+        "Michael Enright",
+        "Hernando Molina",
+        "John Mackie",
+        "Spider Madison",
+        "Bud Mathis",
+        "Marco Khan",
+        "David Zahedian",
+        "Faouzi Brahimi",
+        "Jonathan Limbo",
+        "Alex Cong",
+        "Ho-Kwan Tse",
+        "Reggie Lee",
+        "LeJon Stewart",
+        "Christopher S. Capp",
+        "Félix Castro",
+        "Mike Haberecht",
+        "Rudy McCollum",
+        "Gerard J. Reyes",
+        "M. Scott Shields",
+        "Christopher Sullivan",
+        "Craig Thomson",
+        "Fred Toft"
+      ],
+      "studios": [
+        "Walt Disney Pictures"
+      ],
+      "authors": [
+        "Ted Elliott",
+        "Terry Rossio"
+      ],
+      "posterSource": null
     },
     {
       "id": "m91",
@@ -7624,7 +7806,9 @@
       "date": "2026-11-12",
       "genre": "Adventure, Action",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Pirates"
+      ],
       "favorite": false,
       "poster": "https://famousmovieposters.co.uk/cdn/shop/files/pirates_of_the_caribbean_advance_intl_WC45488_B.jpg?v=1742838192",
       "source": [
@@ -17588,17 +17772,19 @@
     },
     {
       "id": "m223",
-      "title": "Pirates of the Caribbean",
+      "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
       "category": "movie",
       "status": "done",
-      "rating": null,
+      "rating": 65,
       "scale": 100,
-      "date": null,
+      "date": "2017-06-01",
       "genre": "",
       "notes": "",
-      "tags": [],
+      "tags": [
+        "Pirates"
+      ],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlekmKPITceTzRtmPixU70yR0EZrWDPksbjh2M8RjYFw&s=10",
       "source": [
         "MOVIES",
         "MOVIES 1",
@@ -17629,10 +17815,17 @@
       "bookFormat": "read",
       "originalTags": [],
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2017,
       "posterSeason": null,
-      "manualRating": null,
-      "manualDate": null
+      "manualRating": 65,
+      "manualDate": "2017-06-01",
+      "actors": [],
+      "directors": [],
+      "studios": [
+        "Walt Disney Pictures"
+      ],
+      "authors": [],
+      "posterSource": null
     },
     {
       "id": "m224",
@@ -28373,7 +28566,7 @@
       "title": "Дилер реальності",
       "category": "book",
       "status": "done",
-      "rating": null,
+      "rating": 80,
       "scale": 100,
       "date": "2025-09-30",
       "genre": "Fantasy",
@@ -28396,7 +28589,7 @@
       "mark": "GOOD",
       "watchHistory": [],
       "wishlist": false,
-      "startDate": null,
+      "startDate": "2025-09-01",
       "endDate": "2025-09-30",
       "bookFormat": "read",
       "originalTags": [],
@@ -28408,7 +28601,7 @@
         {
           "id": "legacy-book-m539",
           "date": "2025-09-30",
-          "startDate": null,
+          "startDate": "2025-09-01",
           "endDate": "2025-09-30",
           "rating": null,
           "scale": 100,
@@ -28416,7 +28609,16 @@
           "source": "Перенесено з попередньої версії"
         }
       ],
-      "bookHistoryInitialized": true
+      "bookHistoryInitialized": true,
+      "rubric": {
+        "method": "3 критерії · зважене середнє",
+        "scores": {
+          "Зміст": 83,
+          "Стиль": 75,
+          "Післясмак": 80
+        },
+        "date": "2026-11-15"
+      }
     },
     {
       "id": "m540",
@@ -30995,6 +31197,14 @@
         "categories": [
           "movie"
         ]
+      },
+      {
+        "name": "Pirates",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie"
+        ]
       }
     ],
     "moods": [
@@ -31041,8 +31251,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-12T18:22:30.593Z",
-    "kind": "Змінено перегляд",
-    "title": "1917"
+    "at": "2026-11-15T07:52:36.574Z",
+    "kind": "Оновлено оцінку",
+    "title": "Дилер реальності"
   }
 }
