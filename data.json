@@ -15578,14 +15578,14 @@
       "title": "Knives out",
       "category": "movie",
       "status": "done",
-      "rating": 80,
+      "rating": 86,
       "scale": 100,
-      "date": null,
-      "genre": "Mystery/Comedy",
+      "date": "2026-11-15",
+      "genre": "Mystery, Comedy, Thriller",
       "notes": "",
       "tags": [],
       "favorite": false,
-      "poster": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ2jp2k4hSvAyRCprVfBeAAzh1P1_QqH_pl6thQveugA&s=10",
       "source": [
         "MOVIES",
         "MOVIES 1",
@@ -15608,7 +15608,7 @@
           "scale": 5
         }
       ],
-      "rewatches": 1,
+      "rewatches": 2,
       "seasons": [],
       "details": {
         "legacyCriteria": {
@@ -15623,12 +15623,40 @@
       "mark": "",
       "watchHistory": [
         {
-          "date": null,
-          "rating": null,
+          "date": "2020-01-01",
+          "rating": 80,
           "scale": 100,
           "source": "Архів (без дати)",
-          "estimated": true,
-          "id": "m186-v1"
+          "estimated": false,
+          "id": "m186-v1",
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 80,
+              "Реалізація": 80,
+              "Враження": 80
+            },
+            "date": "2026-11-15"
+          },
+          "note": ""
+        },
+        {
+          "id": "umwi8bg4gsu2x",
+          "date": "2026-11-15",
+          "rating": 86,
+          "scale": 100,
+          "note": "",
+          "source": "Вручну",
+          "estimated": false,
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія й персонажі": 96,
+              "Реалізація": 81,
+              "Враження": 78
+            },
+            "date": "2026-11-15"
+          }
         }
       ],
       "wishlist": false,
@@ -15641,13 +15669,44 @@
         "scale": 5
       },
       "manualScale": 100,
-      "releaseYear": null,
+      "releaseYear": 2019,
       "posterSeason": null,
       "manualRating": 80,
-      "manualDate": null,
+      "manualDate": "2026-11-15",
       "directors": [
         "Rian Johnson"
-      ]
+      ],
+      "actors": [
+        "Daniel Craig",
+        "Chris Evans",
+        "Ana de Armas",
+        "Jamie Lee Curtis",
+        "Michael Shannon",
+        "Don Johnson",
+        "Toni Collette",
+        "LaKeith Stanfield",
+        "Christopher Plummer",
+        "Katherine Langford",
+        "Jaeden Martell",
+        "Riki Lindhome",
+        "Edi Patterson",
+        "Frank Oz",
+        "K Callan",
+        "Noah Segan",
+        "M. Emmet Walsh",
+        "Marlene Forte",
+        "Raúl Castillo",
+        "Shyrley Rodriguez",
+        "Kerry Frances",
+        "Gary Tanguay",
+        "Octavia Chavez-Richmond",
+        "Joseph Gordon-Levitt"
+      ],
+      "studios": [],
+      "authors": [
+        "Rian Johnson"
+      ],
+      "posterSource": null
     },
     {
       "id": "m187",
@@ -31770,8 +31829,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-15T08:39:32.892Z",
-    "kind": "Відредаговано сезон",
-    "title": "Phony"
+    "at": "2026-11-15T19:35:59.076Z",
+    "kind": "Оновлено оцінку",
+    "title": "Knives out"
   }
 }
