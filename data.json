@@ -69,7 +69,14 @@
           }
         }
       ],
-      "gameHistoryInitialized": true
+      "gameHistoryInitialized": true,
+      "originalTags": [
+        "PC",
+        "PlayStation",
+        "Steam",
+        "Pirated"
+      ],
+      "manualScale": 100
     },
     {
       "id": "umw8zwlk65ezx",
