@@ -3,6 +3,56 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umwiuc1i37rdn",
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "favorite": false,
+      "mark": "",
+      "actors": [
+        "Seth Rogen",
+        "Olivia Wilde",
+        "Penélope Cruz",
+        "Edward Norton"
+      ],
+      "directors": [
+        "Olivia Wilde"
+      ],
+      "studios": [],
+      "authors": [
+        "Cesc Gay",
+        "Will McCormack",
+        "Rashida Jones"
+      ],
+      "title": "The Invite",
+      "category": "movie",
+      "status": "planned",
+      "releaseYear": 2026,
+      "posterSeason": null,
+      "date": null,
+      "startDate": null,
+      "endDate": null,
+      "bookFormat": "read",
+      "rating": null,
+      "scale": 100,
+      "genre": "Raunchy Comedy, Dark Comedy, Comedy",
+      "platform": "",
+      "gameType": "",
+      "tags": [],
+      "notes": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsIQ9PE6hDn1ZqT480QRfa23lWM4rV2J_jK7lJ9iKGzQ&s=10",
+      "posterSource": null,
+      "wishlist": true,
+      "manualRating": null,
+      "manualScale": 100,
+      "manualDate": null
+    },
+    {
       "id": "umwi8vjfwpodj",
       "title": "The Body",
       "category": "tv",
@@ -32005,8 +32055,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-15T19:47:28.138Z",
-    "kind": "Відредаговано серіал",
-    "title": "The Body"
+    "at": "2026-11-16T05:46:26.335Z",
+    "kind": "Додано",
+    "title": "The Invite"
   }
 }
