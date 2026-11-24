@@ -3,6 +3,116 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umwue48hkmgpr",
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "favorite": false,
+      "mark": "",
+      "actors": [
+        "Johnny Depp",
+        "Rupert Grint",
+        "Ian McKellen",
+        "Andrea Riseborough",
+        "Sam Claflin",
+        "Daisy Ridley",
+        "Tramell Tillman",
+        "Arthur Conti",
+        "Ellie Bamber",
+        "Henry Lloyd-Hughes",
+        "Charlie Murphy",
+        "Freddie Lee-Grey",
+        "Alfie Buck",
+        "Imogen Turner",
+        "Richard McCabe",
+        "Michael Culkin",
+        "Clare Higgins",
+        "Franc Ashman",
+        "Sara Galvin",
+        "Zac Wishart",
+        "Eva Wishart",
+        "Scott Reid",
+        "Trevor Laird",
+        "Rose Williams",
+        "Olivia D'Lima",
+        "Jax James",
+        "Tom Page-Turner",
+        "Harry Redding",
+        "Richard James",
+        "Mark Oxtoby",
+        "Nicholas Day",
+        "Ian Midlane",
+        "Lisa Davina Phillip",
+        "Samuel Kolonko",
+        "Mia Tormey",
+        "Matt Brewer",
+        "Christopher Fairbank",
+        "Joshua J Parker",
+        "Robert Strange",
+        "Bryony Miller",
+        "Tia Dutt",
+        "Nick Waring",
+        "Ben Daniels",
+        "Mark Collier",
+        "Nick David",
+        "Jane Eve",
+        "Caroline Fitzgerald",
+        "Tara Mohatta"
+      ],
+      "directors": [
+        "Ti West"
+      ],
+      "studios": [
+        "Paramount Pictures"
+      ],
+      "authors": [
+        "Nathaniel Halpern",
+        "Charles Dickens"
+      ],
+      "title": "Ebenezer",
+      "category": "movie",
+      "status": "done",
+      "releaseYear": 2026,
+      "posterSeason": null,
+      "date": "2026-11-23",
+      "startDate": null,
+      "endDate": null,
+      "bookFormat": "read",
+      "rating": 70,
+      "scale": 100,
+      "genre": "Fantasy, Adventure",
+      "platform": "",
+      "gameType": "",
+      "tags": [
+        "Christmas",
+        "Adult",
+        "Screamer",
+        "Monster",
+        "Carol"
+      ],
+      "notes": "Трішки надмірно сильні переходи між спокоєм і \"різдвяною казкою\" до майже хорор сегментів. Озвучка не надто хороша, тому в оригіналі навіть самі духи можуть видавати кращий настрій. Візуально фільм досить класно знятий\n\n(ходили в Echo Cinema)",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREne_qEzxrgAWGr0vlqeWgj9Ekl3lJ8ij-8fLs2dKekQ&s=10",
+      "posterSource": null,
+      "wishlist": false,
+      "manualRating": 70,
+      "manualScale": 100,
+      "manualDate": "2026-11-23",
+      "rubric": {
+        "method": "3 критерії · зважене середнє",
+        "scores": {
+          "Історія й персонажі": 57,
+          "Реалізація": 85,
+          "Враження": 71
+        },
+        "date": "2026-11-24"
+      }
+    },
+    {
       "id": "umwiuc1i37rdn",
       "source": [
         "Додано вручну"
@@ -1220,7 +1330,7 @@
       "title": "Кухня",
       "category": "tv",
       "status": "",
-      "rating": 78,
+      "rating": 73.33,
       "scale": 100,
       "source": [
         "Додано вручну"
@@ -1318,7 +1428,7 @@
         {
           "name": "Season 3",
           "releaseYear": 2014,
-          "status": "watching",
+          "status": "done",
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/277/692966.jpg",
           "genre": "",
@@ -1328,12 +1438,21 @@
             {
               "id": "umw7srhzoq28v",
               "startDate": "2026-11-08",
-              "endDate": null,
-              "date": "2026-11-08",
-              "rating": null,
+              "endDate": "2026-11-18",
+              "date": "2026-11-18",
+              "rating": 64,
               "scale": 100,
               "note": "",
-              "source": "Повторний перегляд"
+              "source": "Повторний перегляд",
+              "rubric": {
+                "method": "3 критерії · зважене середнє",
+                "scores": {
+                  "Історія": 55,
+                  "Персонажі": 70,
+                  "Захоплення": 70
+                },
+                "date": "2026-11-24"
+              }
             }
           ],
           "posterSource": {
@@ -1344,25 +1463,45 @@
             "matchedYear": "2012"
           },
           "scale": 100,
-          "rating": null,
+          "rating": 64,
           "startDate": "2026-11-08",
-          "endDate": "2026-11-08",
-          "date": "2026-11-08",
+          "endDate": "2026-11-18",
+          "date": "2026-11-18",
           "directors": [],
           "studios": [],
           "authors": [],
-          "actors": []
+          "actors": [],
+          "rubric": {
+            "method": "3 критерії · зважене середнє",
+            "scores": {
+              "Історія": 55,
+              "Персонажі": 70,
+              "Захоплення": 70
+            },
+            "date": "2026-11-24"
+          }
         },
         {
           "name": "Сезон 4",
           "releaseYear": null,
-          "status": "planned",
+          "status": "watching",
           "droppedAtEpisode": null,
           "poster": "https://static.tvmaze.com/uploads/images/original_untouched/277/692967.jpg",
           "genre": "",
           "notes": "",
           "episodes": [],
-          "viewings": [],
+          "viewings": [
+            {
+              "id": "umwuehwbzfd0t",
+              "startDate": "2026-11-18",
+              "endDate": "2026-11-18",
+              "date": "2026-11-18",
+              "rating": null,
+              "scale": 100,
+              "note": "",
+              "source": "Повторний перегляд"
+            }
+          ],
           "posterSource": {
             "url": "https://static.tvmaze.com/uploads/images/original_untouched/277/692967.jpg",
             "provider": "TVmaze",
@@ -1371,7 +1510,14 @@
             "matchedYear": "2012"
           },
           "scale": 100,
-          "rating": null
+          "rating": null,
+          "directors": [],
+          "studios": [],
+          "authors": [],
+          "actors": [],
+          "startDate": "2026-11-18",
+          "endDate": "2026-11-18",
+          "date": "2026-11-18"
         },
         {
           "name": "Сезон 5",
@@ -1421,7 +1567,7 @@
       "favorite": false,
       "wishlist": false,
       "poster": "https://static.tvmaze.com/uploads/images/original_untouched/17/44266.jpg",
-      "date": "2026-11-08",
+      "date": "2026-11-18",
       "startDate": null,
       "endDate": null,
       "posterSource": {
@@ -31888,9 +32034,7 @@
         "group": "custom",
         "categories": [
           "movie",
-          "tv",
-          "game",
-          "book"
+          "tv"
         ]
       },
       {
@@ -31910,9 +32054,7 @@
         "group": "custom",
         "categories": [
           "movie",
-          "tv",
-          "game",
-          "book"
+          "tv"
         ]
       },
       {
@@ -31928,6 +32070,7 @@
         "color": "#a5b4c7",
         "group": "custom",
         "categories": [
+          "movie",
           "tv"
         ]
       },
@@ -31952,7 +32095,10 @@
         "color": "#a5b4c7",
         "group": "custom",
         "categories": [
-          "movie"
+          "movie",
+          "tv",
+          "game",
+          "book"
         ]
       },
       {
@@ -31960,14 +32106,18 @@
         "color": "#a5b4c7",
         "group": "custom",
         "categories": [
-          "movie"
+          "movie",
+          "tv",
+          "game",
+          "book"
         ]
       },
       {
         "name": "Apple TV",
-        "color": "#a5b4c7",
+        "color": "#cccccc",
         "group": "custom",
         "categories": [
+          "movie",
           "tv"
         ]
       },
@@ -31976,15 +32126,21 @@
         "color": "#a5b4c7",
         "group": "custom",
         "categories": [
-          "movie"
+          "movie",
+          "tv",
+          "game",
+          "book"
         ]
       },
       {
         "name": "War",
-        "color": "#a5b4c7",
+        "color": "#9e9295",
         "group": "custom",
         "categories": [
-          "movie"
+          "movie",
+          "tv",
+          "game",
+          "book"
         ]
       },
       {
@@ -31992,15 +32148,19 @@
         "color": "#a5b4c7",
         "group": "custom",
         "categories": [
-          "movie"
+          "movie",
+          "tv",
+          "game",
+          "book"
         ]
       },
       {
         "name": "Christmas",
-        "color": "#a5b4c7",
+        "color": "#cc4648",
         "group": "custom",
         "categories": [
-          "movie"
+          "movie",
+          "tv"
         ]
       },
       {
@@ -32008,6 +32168,46 @@
         "color": "#a5b4c7",
         "group": "custom",
         "categories": [
+          "movie",
+          "tv"
+        ]
+      },
+      {
+        "name": "Adult",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie",
+          "tv"
+        ]
+      },
+      {
+        "name": "Screamer",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "movie",
+          "tv",
+          "game"
+        ]
+      },
+      {
+        "name": "Monster",
+        "color": "#77965e",
+        "group": "custom",
+        "categories": [
+          "movie",
+          "tv",
+          "game",
+          "book"
+        ]
+      },
+      {
+        "name": "Carol",
+        "color": "#CC4648",
+        "group": "custom",
+        "categories": [
+          "movie",
           "tv"
         ]
       }
@@ -32056,8 +32256,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-16T05:46:26.335Z",
-    "kind": "Додано",
-    "title": "The Invite"
+    "at": "2026-11-24T07:56:19.823Z",
+    "kind": "Додано повторний перегляд сезону",
+    "title": "Кухня"
   }
 }
