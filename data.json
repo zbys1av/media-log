@@ -3,6 +3,68 @@
   "created": "2026-10-24",
   "records": [
     {
+      "id": "umwufmhtut4x1",
+      "source": [
+        "Додано вручну"
+      ],
+      "history": [],
+      "watchHistory": [],
+      "rewatches": 0,
+      "seasons": [],
+      "details": {},
+      "favorite": false,
+      "mark": "",
+      "actors": [
+        "Dylan Rourke",
+        "Manni L. Perez"
+      ],
+      "publishers": [
+        "Take-Two Interactive",
+        "Rockstar Games"
+      ],
+      "title": "Grand Theft Auto VI",
+      "category": "game",
+      "status": "playing",
+      "releaseYear": 2026,
+      "posterSeason": null,
+      "date": "2026-11-19",
+      "startDate": "2026-11-19",
+      "endDate": null,
+      "bookFormat": "read",
+      "rating": null,
+      "scale": 100,
+      "genre": "",
+      "creator": "Rockstar Games",
+      "platform": "",
+      "gameType": "",
+      "tags": [
+        "PlayStation",
+        "Crime"
+      ],
+      "notes": "",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdElUJ4X70nHtX55ERwa_POc_vuV6XKJkZVzReJVXJA&s=10",
+      "posterSource": null,
+      "wishlist": false,
+      "earlyAccessDate": null,
+      "fullReleaseDate": "2026-11-19",
+      "accessStage": "auto",
+      "gameEvents": [
+        {
+          "id": "umwufmhtx2fgk",
+          "kind": "playthrough",
+          "date": "2026-11-19",
+          "startDate": "2026-11-19",
+          "endDate": null,
+          "rating": null,
+          "scale": 100,
+          "accessStage": "auto",
+          "note": "",
+          "source": "Перше внесення"
+        }
+      ],
+      "gameHistoryInitialized": true
+    },
+    {
       "id": "umwue48hkmgpr",
       "source": [
         "Додано вручну"
@@ -110,7 +172,14 @@
           "Враження": 71
         },
         "date": "2026-11-24"
-      }
+      },
+      "originalTags": [
+        "Christmas",
+        "Adult",
+        "Screamer",
+        "Monster",
+        "Carol"
+      ]
     },
     {
       "id": "umwiuc1i37rdn",
@@ -32210,6 +32279,14 @@
           "movie",
           "tv"
         ]
+      },
+      {
+        "name": "Crime",
+        "color": "#a5b4c7",
+        "group": "custom",
+        "categories": [
+          "game"
+        ]
       }
     ],
     "moods": [
@@ -32256,8 +32333,8 @@
     }
   },
   "lastManualEdit": {
-    "at": "2026-11-24T07:56:19.823Z",
-    "kind": "Додано повторний перегляд сезону",
-    "title": "Кухня"
+    "at": "2026-11-24T08:27:53.925Z",
+    "kind": "Додано",
+    "title": "Grand Theft Auto VI"
   }
 }
